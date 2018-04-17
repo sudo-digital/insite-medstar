@@ -2,11 +2,12 @@ import React from 'react';
 
 class Header extends React.Component {
 
-  navClick = (value) => {    
+  navClick = (value) => {
     this.props.navigationChange(value)
   }
 
   render() {
+    const active = this.props.active
     return (
       <header>
         <div className='container'>
@@ -16,10 +17,30 @@ class Header extends React.Component {
             </div>
             <div className='col-md-9 col-xs-12 end-xs'>
               <nav className='center-text-xs'>
-                <a onClick={ () => this.navClick('home') }>Home</a>
-                <a onClick={ () => this.navClick('ourWork') }>Our Work</a>
-                <a onClick={ () => this.navClick('team') }>Team</a>
-                <a onClick={ () => this.navClick('contact') }>Contact Us</a>
+                <a
+                  onClick={ () => this.navClick('home') }
+                  href='/home'
+                  className={active === 'home'? 'active' : null}>
+                  Home
+                </a>
+                <a
+                  onClick={ () => this.navClick('ourWork') }
+                  href='/our-work'
+                  className={active === 'ourWork'? 'active' : null}>
+                  Our Work
+                </a>
+                <a
+                  onClick={ () => this.navClick('team') }
+                  href='/team'
+                  className={active === 'team'? 'active' : null}>
+                  Team
+                </a>
+                <a
+                  onClick={ () => this.navClick('contact') }
+                  href='/contact'
+                  className={active === 'contact'? 'active' : null}>
+                  Contact Us
+                </a>
               </nav>
             </div>
           </div>
