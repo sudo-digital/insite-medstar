@@ -23,8 +23,13 @@ gulp.task('sass', function() {
     .pipe(browserSync.stream());
 });
 
+gulp.task('images', function() {
+  gulp.src('./src/images/**/*')
+  .pipe(gulp.dest('./public/images'))
+});
+
 gulp.task('watch', function() {
   gulp.watch('./src/sass/**/*.sass', ['sass']);
 });
 
-gulp.task('default', [ 'sass', 'watch' ]);
+gulp.task('default', [ 'sass', 'images', 'watch' ]);

@@ -18,11 +18,11 @@ class App extends Component {
                   <NavLink
                     to='/'
                     activeClassName='active'>
-                    <h6 className='m-b-0'>Home</h6>
+                    <h6 className='m-b-0'>LOGO</h6>
                   </NavLink>
                 </div>
                 <div className='col-md-9 col-xs-12 end-xs'>
-                  <nav className='center-text-xs'>
+                  <nav className='center-text-xs right-text-md'>
                     <NavLink
                       exact to='/'>Home
                     </NavLink>

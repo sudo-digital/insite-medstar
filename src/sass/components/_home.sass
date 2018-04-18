@@ -1,0 +1,40 @@
+.home-hero
+  overflow: hidden
+  position: relative
+  .img-bg
+    z-index: 10
+    position: absolute
+    top: 50%
+    left: 50%
+    width: auto
+    height: auto
+    min-width: 100%
+    min-height: 100%
+    transform: translate(-50%,-50%)
+  .overlay
+    background: rgba($secondary-pop, 0.5)
+    position: absolute
+    display: block
+    height: 100%
+    width: 100%
+    z-index: 20
+  .container
+    z-index: 40
+    position: relative
+.our-work-toggle
+  .toggle-switch
+    padding: ms(0)
+    border-radius: $border-radius
+    transition: all 400ms
+    img
+      margin-right: ms(0)
+    &:hover
+      cursor: pointer
+      background: rgba($secondary, 0.3)
+    &.active
+      background: rgba($secondary, 0.3)
+      p
+        font-weight: 600
+        color: $secondary-pop
+    p
+      margin-bottom: 0

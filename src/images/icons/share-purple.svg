@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="29px" height="32px" viewBox="0 0 29 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>share-purple</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="share-purple" transform="translate(2.000000, 2.000000)" stroke="#1A237E" stroke-width="2.77777778">
+            <ellipse id="Oval" cx="20.8333333" cy="4.2" rx="4.16666667" ry="4.2"></ellipse>
+            <ellipse id="Oval" cx="4.16666667" cy="14" rx="4.16666667" ry="4.2"></ellipse>
+            <ellipse id="Oval" cx="20.8333333" cy="23.8" rx="4.16666667" ry="4.2"></ellipse>
+            <path d="M7.76388889,16.114 L17.25,21.686" id="Shape"></path>
+            <path d="M17.2361111,6.314 L7.76388889,11.886" id="Shape"></path>
+        </g>
+    </g>
+</svg>
