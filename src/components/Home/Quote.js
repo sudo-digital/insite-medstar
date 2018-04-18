@@ -4,7 +4,7 @@ class Quote extends React.Component {
 
   render() {
     return (
-      <div className='row middle-xs'>
+      <div className='row middle-xs grab'>
 
         <div className='col-md-2 col-xs-8'>
           <img
@@ -14,7 +14,7 @@ class Quote extends React.Component {
         </div>
 
         <div className='col-md-3 col-xs-12'>
-          <h4 className='m-b-0'>{this.props.name}</h4>
+          <h4 className='m-b-0 type-purple'>{this.props.name}</h4>
           <p className='small'>{this.props.title}<br/>{this.props.location}</p>
         </div>
 
