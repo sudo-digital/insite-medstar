@@ -4,6 +4,7 @@ import Home from './components/Home';
 import OurWork from './components/OurWork';
 import Team from './components/Team';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 class App extends Component {
 
@@ -47,6 +48,7 @@ class App extends Component {
           <Route exact path={'/our-work'} component={OurWork} />
           <Route exact path={'/team'} component={Team} />
           <Route exact path={'/contact'} component={Contact} />
+          <Footer />
         </div>
       </Router>
     );
