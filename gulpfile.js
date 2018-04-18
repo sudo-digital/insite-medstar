@@ -32,4 +32,5 @@ gulp.task('watch', function() {
   gulp.watch('./src/sass/**/*.sass', ['sass']);
 });
 
-gulp.task('default', [ 'sass', 'images', 'watch' ]);
+gulp.task('default', ['sass','images','watch']);
+gulp.task('production', ['sass','images',]);
