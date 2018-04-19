@@ -13,12 +13,16 @@ class App extends Component {
         <div className='body'>
           <header>
             <div className='container'>
-              <div className='row'>
+              <div className='row middle-xs'>
                 <div className='col-md-3 col-xs-12'>
                   <NavLink
                     to='/'
                     activeClassName='active'>
-                    <h6 className='m-b-0'>LOGO</h6>
+                    <img
+                      src='/images/logo/csw-logo-light.svg'
+                      className='logo'
+                      alt='Center for Wellbeing Logo'
+                      />
                   </NavLink>
                 </div>
                 <div className='col-md-9 col-xs-12 end-xs'>
@@ -50,20 +54,23 @@ class App extends Component {
             <div className='purple-bg footer'>
               <div className='container'>
                 <div className='pad-container-sm'>
-                  <div className='row'>
-                    <div className='col-xs-12'>
-                      <h6>LOGO</h6>
-                    </div>
-                  </div>
-                  <div className='space-2' />
+
                   <div className='row top-xs'>
-                    <div className='col-md-4 col-xs-12'>
+                    <div className='col-md-3 col-xs-12'>
+                      <img
+                        src='/images/logo/csw-logo-light.svg'
+                        className='logo'
+                        alt='Center for Wellbeing Logo' />
+                    </div>
+
+                    <div className='col-md-3 col-xs-12'>
                       <Link to="/our-work">Our Work</Link>
                       <Link to="/team">Team</Link>
                       <Link to="/careers">Hiring! Join our team</Link>
                       <Link to="/conctact">Contact</Link>
                     </div>
-                    <div className='col-md-4 col-xs-12'>
+
+                    <div className='col-md-3 col-xs-12'>
                       <a
                         href='https://www.facebook.com/'
                         target='_blank'
@@ -80,7 +87,8 @@ class App extends Component {
                         rel='noopener noreferrer'>LinkedIn
                       </a>
                     </div>
-                    <div className='col-md-4 col-xs-12'>
+
+                    <div className='col-md-3 col-xs-12'>
                       <a
                         href='https://www.medstarhealth.org/'
                         target='_blank'
@@ -88,8 +96,7 @@ class App extends Component {
                         <img
                           src='/images/medstar-logo.png'
                           alt='medstar logo'
-                          className='medstar'
-                          />
+                          className='medstar' />
                       </a>
                       <a
                         href='https://www.medstarhealth.org/mhs/our-services/behavioral-health/'
@@ -97,6 +104,7 @@ class App extends Component {
                         rel='noopener noreferrer'>MedStar Psychiatry
                       </a>
                     </div>
+
                   </div>
                 </div>
               </div>
