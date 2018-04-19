@@ -34,6 +34,14 @@ class Team extends React.Component {
       </div>
     )
 
+    const matthew = (
+      <div>
+        <p>Matthew Biel, MD, MSc, is the chief of CAPD at MGUH and associate professor of clinical psychiatry and pediatrics at Georgetown University School of Medicine. He is also the training director for the child and adolescent psychiatry fellowship at Georgetown</p>
+        <p>Dr. Biel’s expertise is in child development, trauma and resilience, mood and anxiety disorders, autism spectrum disorders, and psychiatric care of children with medical illnesses.</p>
+        <p>His research focuses on access to mental health care for underserved populations, trauma and resilience, and family factors in mood and anxiety disorders.</p>
+      </div>
+    )
+
     switch(this.state.bio) {
       case 'aaron':
         title = 'Dr. Aaron Rakow'
@@ -43,9 +51,9 @@ class Team extends React.Component {
         title = 'Dr. Megan McCormick'
         bio = megan
         break;
-      case 'team2':
-        title = 'title'
-        bio = 'bio'
+      case 'matthew':
+        title = 'Dr. Matthew Biel'
+        bio = matthew
         break;
       case 'team3':
         title = 'title'
@@ -65,12 +73,7 @@ class Team extends React.Component {
     }
 
     if(this.state.showModal) {
-      return (
-        <Modal
-          title={title}
-          body={bio}
-          close={this.closeModal} />
-      )
+      return <Modal title={title} body={bio} close={this.closeModal} />
     } else {
       return null
     }
@@ -105,12 +108,30 @@ class Team extends React.Component {
           </div>
           <div className='space-3' />
           <div className='row'>
-            <TeamMember modal={(name) => this.openModal(name)} name={'aaron'} title={'Dr. Aaron Rakow'} />
-            <TeamMember modal={(name) => this.openModal(name)} name={'megan'} title={'Dr. Megan McCormick'} />
-            <TeamMember modal={(name) => this.openModal(name)} name={'team2'} title={'Dr. ?'} />
-            <TeamMember modal={(name) => this.openModal(name)} name={'team3'} title={'Dr. ?'} />
-            <TeamMember modal={(name) => this.openModal(name)} name={'team4'} title={'Dr. ?'} />
-            <TeamMember modal={(name) => this.openModal(name)} name={'team6'} title={'Dr. ?'} />
+            <TeamMember
+              modal={ (name) => this.openModal(name) }
+              name={'aaron'}
+              title={'Dr. Aaron Rakow'} />
+            <TeamMember
+              modal={ (name) => this.openModal(name) }
+              name={'megan'}
+              title={'Dr. Megan McCormick'} />
+            <TeamMember
+              modal={ (name) => this.openModal(name) }
+              name={'matthew'}
+              title={'Dr. Matthew Biel'} />
+            <TeamMember
+              modal={ (name) => this.openModal(name) }
+              name={'team3'}
+              title={'Dr. ?'} />
+            <TeamMember
+              modal={ (name) => this.openModal(name) }
+              name={'team2'}
+              title={'Dr. ?'} />
+            <TeamMember
+              modal={ (name) => this.openModal(name) }
+              name={'team6'}
+              title={'Dr. ?'} />
           </div>
         </div>
       </div>

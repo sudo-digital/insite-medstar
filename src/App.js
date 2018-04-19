@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, NavLink } from 'react-router-dom';
+import { BrowserRouter as Router, Route, NavLink, Link } from 'react-router-dom';
 import Home from './components/Home';
 import OurWork from './components/OurWork';
 import Team from './components/Team';
 import Contact from './components/Contact';
-import Footer from './components/Footer';
 
 class App extends Component {
 
@@ -48,7 +47,60 @@ class App extends Component {
           <Route exact path={'/our-work'} component={OurWork} />
           <Route exact path={'/team'} component={Team} />
           <Route exact path={'/contact'} component={Contact} />
-          <Footer />
+            <div className='purple-bg footer'>
+              <div className='container'>
+                <div className='pad-container-sm'>
+                  <div className='row'>
+                    <div className='col-xs-12'>
+                      <h6>LOGO</h6>
+                    </div>
+                  </div>
+                  <div className='space-2' />
+                  <div className='row top-xs'>
+                    <div className='col-md-4 col-xs-12'>
+                      <Link to="/our-work">Our Work</Link>
+                      <Link to="/team">Team</Link>
+                      <Link to="/careers">Hiring! Join our team</Link>
+                      <Link to="/conctact">Contact</Link>
+                    </div>
+                    <div className='col-md-4 col-xs-12'>
+                      <a
+                        href='https://www.facebook.com/'
+                        target='_blank'
+                        rel='noopener noreferrer'>Facebook
+                      </a>
+                      <a
+                        href='https://twitter.com/'
+                        target='_blank'
+                        rel='noopener noreferrer'>Twitter
+                      </a>
+                      <a
+                        href='https://www.linkedin.com/'
+                        target='_blank'
+                        rel='noopener noreferrer'>LinkedIn
+                      </a>
+                    </div>
+                    <div className='col-md-4 col-xs-12'>
+                      <a
+                        href='https://www.medstarhealth.org/'
+                        target='_blank'
+                        rel='noopener noreferrer'>
+                        <img
+                          src='/images/medstar-logo.png'
+                          alt='medstar logo'
+                          className='medstar'
+                          />
+                      </a>
+                      <a
+                        href='https://www.medstarhealth.org/mhs/our-services/behavioral-health/'
+                        target='_blank'
+                        rel='noopener noreferrer'>MedStar Psychiatry
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
         </div>
       </Router>
     );

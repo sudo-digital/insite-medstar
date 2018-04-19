@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="24px" viewBox="0 0 23 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>school-0</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-2" transform="translate(-74.000000, -24.000000)">
+            <g id="school-0" transform="translate(74.000000, 24.000000)">
+                <polygon id="Fill-97" fill="#FFFFFF" points="20.5 2 18.5 5.5 18.5 20.5 22.5 20.5 22.5 5.5"></polygon>
+                <polygon id="Fill-98" fill="#FFFFFF" points="15.5 23.5 0.5 23.5 0.5 1.5 13.5 1.5 15.5 3.5"></polygon>
+                <polygon id="Fill-237" fill-opacity="0.200000018" fill="#EF5956" points="18.5 20.5 18.5 22.5 20.5 23.5 22.5 22.5 22.5 20.5"></polygon>
+                <polygon id="Fill-238" fill-opacity="0.200000018" fill="#EF5956" points="0.5 19.5 15.5 19.5 15.5 16.5 0.5 16.5"></polygon>
+                <path d="M20.5,0.5 L20.5,2" id="Stroke-449" stroke="#EF5956" stroke-linecap="round" stroke-linejoin="round"></path>
+                <polygon id="Stroke-450" stroke="#EF5956" stroke-linecap="round" stroke-linejoin="round" points="20.5 2 18.5 5.501 20.5 7.5 22.5 5.501"></polygon>
+                <polyline id="Stroke-451" stroke="#EF5956" stroke-linecap="round" stroke-linejoin="round" points="18.5 5.501 18.5 20.5 22.5 20.5 22.5 5.501"></polyline>
+                <path d="M20.5,7.5 L20.5,18.5" id="Stroke-452" stroke="#EF5956" stroke-linecap="round" stroke-linejoin="round"></path>
+                <polygon id="Stroke-453" stroke="#EF5956" stroke-linecap="round" stroke-linejoin="round" points="18.5 20.5 18.5 22.5 20.5 23.5 22.5 22.5 22.5 20.5"></polygon>
+                <path d="M0.5,16.5 L15.5,16.5" id="Stroke-454" stroke="#EF5956" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M0.5,19.5 L15.5,19.5" id="Stroke-455" stroke="#EF5956" stroke-linecap="round" stroke-linejoin="round"></path>
+                <polygon id="Stroke-456" stroke="#EF5956" stroke-linecap="round" stroke-linejoin="round" points="11.5 10.5 8 12.5 4.5 10.5 4.5 6.5 8 4.5 11.5 6.5"></polygon>
+                <polygon id="Stroke-457" stroke="#EF5956" stroke-linecap="round" stroke-linejoin="round" points="15.5 23.5 0.5 23.5 0.5 1.5 13.5 1.5 15.5 3.5"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
