@@ -1,0 +1,27 @@
+.team-member
+  position: relative
+  z-index: 500
+  &:hover
+    cursor: pointer
+  img
+    position: relative
+    z-index: 100
+  .title
+    position: absolute
+    z-index: 300
+    bottom: ms(0)
+    left: ms(1)
+    color: $white
+    font-weight: 400
+  .team-overlay
+    background: rgba($secondary-pop, 0.3)
+    position: absolute
+    display: block
+    height: 100%
+    width: 100%
+    z-index: 200
+    top: 0
+    left: 0
+    transition: all 400ms
+    &:hover
+      background: none

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>x-circle</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Mockups" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="x-circle" transform="translate(2.000000, 2.000000)" stroke="#3F51B5" stroke-width="4">
+            <circle id="Oval" cx="20" cy="20" r="20"></circle>
+            <path d="M26,14 L14,26" id="Shape"></path>
+            <path d="M14,14 L26,26" id="Shape"></path>
+        </g>
+    </g>
+</svg>
