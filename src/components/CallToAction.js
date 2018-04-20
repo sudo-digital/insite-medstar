@@ -16,9 +16,6 @@ class CallToAction extends React.Component {
 
   toggleSection = (section) => {
     let headline;
-    let child;
-    let school;
-    let teacher;
     switch(section) {
       case 0:
         headline = 'Schools are not equipped with developmental expertise for mental wellness, which contributes to low academic outcomes.'

@@ -27,6 +27,12 @@ class OurWorkSeciton extends React.Component {
         t = 'Provide teachers skills for self-care and for developmentally responsive pedagogy.'
         o = 'Improved student academic outcomes + mental wellness.'
         break;
+      default:
+        c = 'Students enter school with trauma and ACEs.'
+        s = 'School culture and systems are not optimized for mental health.'
+        t = 'Teachers experience secondary trauma and may not be equipped with supportive practices.'
+        o = 'Low academic outcomes and unmet mental health needs.'
+
     }
     return {
       child: c,
