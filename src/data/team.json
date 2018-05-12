@@ -1,0 +1,74 @@
+[
+  {
+    "id": 0,
+    "name": "Dr. Aaron Rakow, PhD",
+    "bio": "Dr. Aaron Rakow is a founding partner of and supervising psychologist for InSite Solutions. Much of Dr. Rakow’s professional background focuses on improving access to empirically supported mental health treatments via training and dissemination efforts within school systems and primary care offices.  Dr. Rakow has previously been involved in the successful launch of a statewide mental health training and dissemination effort with the Departments of Health and Mental Health in the State of Vermont. In addition to his role at InSite Solutions, Dr. Rakow is also a faculty member within the Department of Psychiatry at MedStar Georgetown University Hospital. Collectively, Dr. Rakow has fifteen years of experience working within the behavioral health field including at the National Institutes of Mental Health, Children's National Health System, The Medical University of South Carolina and the University of Vermont. Dr. Rakow is a Child Psychologist in Washington, DC.",
+    "img": "aaron-rakow.png"
+  },
+  {
+    "id": 1,
+    "name": "Megan McCormick, PhD",
+    "bio": "Dr. McCormick is a founding partner of InSite Solutions and supervising psychologist. Her interests include large-scale program development and implementation aimed at improving public health outcomes for youth. She has worked extensively within community-based organizations on improving public health causes and advocating for youth mental health issues within the Washington DC metro area. Her research background has focused on psychological factors that impact health outcomes, such as pain management and medication adherence, as well as the design, implementation, and evaluation of behavioral interventions to improve access to mental healthcare in primary healthcare settings and prevent negative medical outcomes in pediatric chronic illness populations. In addition to her role at InSite Solutions, Dr. McCormick is also a faculty member within the Department of Psychiatry at MedStar Georgetown University Hospital. Dr. McCormick is a Child Psychologist in Washington, DC.",
+    "img": "megan-mcCormick.png"
+  },
+  {
+    "id": 2,
+    "name": "Matthew Biel, MD, MSc",
+    "bio": "Matthew Biel, MD, MSc is Chief of the Division of Child and Adolescent Psychiatry at Georgetown University Hospital and Associate Professor of Clinical Psychiatry and Pediatrics at Georgetown University School of Medicine. He co-directs the Early Childhood Innovation Network, a citywide effort to improve developmental outcomes for children and families living in underserved communities in Washington, DC. Dr. Biel’s work addresses the impact of adversity and stress upon children and families. His clinical efforts focus on children and adolescents with anxiety and stress disorders, trauma-related conditions, autism spectrum disorders, and complex medical illnesses. His research has centered on reducing health disparities, improving access to mental health care for underserved children and families through projects based in primary care and school settings, and clinical interventions focusing on trauma and resilience, anxiety, and autism. He has published numerous articles and book chapters and is involved nationally in psychiatric education and advocacy for children’s mental health. Dr. Biel received his medical degree and a master’s degree in Community Medicine at Mount Sinai School of Medicine. He trained in general psychiatry and in child and adolescent psychiatry at New York University School of Medicine.Erin Mathis, Ph.D. is an Assistant Professor in the Department of Psychiatry at Georgetown University located in the Center for Child and Human Development and the Assistant Director of Research and Innovation of the Early Childhood Innovation Network (ECIN). ECIN is a citywide effort to improve developmental outcomes for children and families living in under-served communities in Washington, DC. Dr. Mathis's research interests center on child social-emotional development, self-regulation and academic success and the design and evaluation of  both child- and parent-focused prevention programs that are implemented in school and community settings. In particular, Dr. Mathis has focused on school readiness interventions, mindfulness and early childhood mental health consultation. Dr. Mathis received her doctoral degree in Clinical Psychology at the Pennsylvania State University and received training in school-based mental health at the University of Maryland-Baltimore.",
+    "img": "matthew-biel.png"
+  },
+  {
+    "id": 3,
+    "name": "Karyn Hartz-Mandell, PhD",
+    "bio": "Dr. Hartz-Mandell is a clinical psychologist with a strong background in mental health consultation in school settings as well as mental health assessment and treatment for children. Her areas of professional focus include early childhood development and mental health, classroom management, parenting support, and implementation of evidence-based practices. Dr. Hartz-Mandell's research interests include teacher-child relationships, classroom interactions, and the implementation of prevention and intervention programs to support children's social, emotional and behavioral health. Dr. Hartz-Mandell completed her Ph.D. in clinical psychology at the University of Virginia Curry School of Education.",
+    "img": "team-placeholder.png"
+  },
+  {
+    "id": 4,
+    "name": "Emily Aron, MD",
+    "bio": "Dr. Emily Aron is a licensed Child Psychiatrist for InSite Solutions. Dr. Aron completed her Child & Adolescent Psychiatry Fellowship at New York University's Child Study Center and Bellevue Hospital Center at The New York University School of Medicine. Throughout her career, Dr. Aron has emphasized her passion for supporting the needs of traditionally underserved populations and has a strong interest in evidence-based interventions and integrated mental health within school systems. In addition to her role at InSite Solutions, Dr. Aron is also a faculty member within the Department of Psychiatry at MedStar Georgetown University Hospital. Dr. Aron is a board certified Child Psychiatrist in Washington, DC.",
+    "img": "team-placeholder.png"
+  },
+  {
+    "id": 5,
+    "name": "Cathy South, MD",
+    "bio": "Dr. Cathy Southammakosane (Dr. South) is board-certified and licensed in both Child Psychiatry and Pediatrics. She attended The George Washington University for both undergraduate and medical studies and completed her combined Psychiatry/Child Psychiatry and Pediatric residency training at Cincinnati Children's Hospital Medical Center. Dr. South's experience included medical directorship of a Pediatric Anxiety Program, psychiatry consultation in both pediatric and school settings and general pediatric outpatient practice.",
+    "img": "team-placeholder.png"
+  },
+  {
+    "id": 6,
+    "name": "Katie Pietris, MS, SYC",
+    "bio": "Ms. Pietris is a Nationally Certified School Psychologist (NCSP) and a certified school psychologist in the States of Maryland, Connecticut and South Carolina. Ms. Pietris completed her Masters of Science in School Psychology from Southern Connecticut State University. Ms. Pietris is research reliable in the Autism Diagnostic Observation Schedule-2 (ADOS) and is highly trained in the administration and interpretation of an extensive range of psychoeducational assessment tools. Ms. Pietris has prior experience working for the Medical University of South Carolina, Clinton Public Schools, Longview School for Children, West Suburban Special Recreation Association, and Southern Connecticut State University.",
+    "img": "team-placeholder.png"
+  },
+  {
+    "id": 7,
+    "name": "Denisha Carter, PsyD",
+    "bio": "Dr. Carter is a Child Clinical Psychologist with extensive background in assessing and treating the impact of traumatic stress on children, adolescents, and families. Much of Dr. Carter’s research to date has focused on the impact of child sexual abuse of family relationships. Dr. Carter was previously the Director of Clinical Operations and also Director of Training for COMPASS Mental Health Consultants and also previously served as Program Coordinator of Odyssey Family Counseling Center. Dr. Carter brings to InSite Solutions extensive experience working with children, adolescents and families with a diverse array of complex clinical needs.",
+    "img": "team-placeholder.png"
+  },
+  {
+    "id": 8,
+    "name": "Karimah Ware, PsyD",
+    "bio": "Karimah Ware is a Licensed Clinical Psychologist practicing in the Washington, DC Metropolitan Area. She has a particular interest in working with youth, whom research has indicated, as being at an increased risk for development of mental disorders. Her areas of specialty are school mental health; conducting various psychological assessments; facilitating individual, group, and family therapy; providing supervision; crisis management; and teacher, psychiatric, and parent consultation. Dr. Ware has worked with patients diagnosed with disorders such as anxiety, depression, bereavement, trauma, Oppositional Defiant Disorder, and Attention Deficit/Hyperactivity Disorder. Dr. Ware, who holds a Psy.D. from the American School of Professional Psychology, has worked in settings ranging from schools to community mental health centers to psychiatric and traditional hospital settings. She has been afforded the opportunity to serve as an administrator of a public charter school in DC as well as serve on the board of directors of a public charter school in DC. Dr. Ware's school service extends from 2002, having over 15 years of providing support to DC students, teachers, and faculty. In addition, Dr. Ware has facilitated various workshops, to include effective classroom management, trauma informed care, and parenting trainings. She successfully completed advanced training at the Washington School of Psychiatry in its two-year child and adolescent psychodynamic psychotherapy training program.",
+    "img": "team-placeholder.png"
+  },
+  {
+    "id": 9,
+    "name": "Jenya Gaskin, PsyD",
+    "bio": "Dr. Gaskin is a School Psychologist with an impressive background in the mental health assessment and treatment of school age youth. Her primary areas of expertise are classroom-based behavioral consultation and neuropsychological assessment. Dr. Gaskin, who holds a Psy.D. from the American School of Professional Psychology, and was previously a school psychologist for the Charlotte Mecklenburg Schools in Charlotte, NC as well as an intern for the Prince William County Public Schools in Manassas, VA. Dr. Gaskin is a graduate of Rutgers University with a PsyD in School Psychology.  Dr. Gaskin is a board certified School Psychologist in Washington, DC and the North Carolina.",
+    "img": "team-placeholder.png"
+  },
+  {
+    "id": 10,
+    "name": "Jeff Bostic, MD, EdD",
+    "bio": "Jeff Bostic, MD, EdD is a child and adolescent psychiatrist with clinical, research, and teaching interests in school-based mental health and models of mental health consultation to primary care and other professionals who work with children and adolescents. He is the former director of the School Psychiatry Program (www.schoolpsychiatry.org) of the Department of Psychiatry at Massachusetts General Hospital",
+    "img": "team-placeholder.png"
+  },
+  {
+    "id": 11,
+    "name": "Celene E. Domitrovich, PhD",
+    "bio": "Celene E. Domitrovich, PhD is a member of the faculty in the Department of Psychiatry at Georgetown University located in the Center for Child and Human Development and a Senior Scientist at the Collaborative for Academic, Social, and Emotional Learning (CASEL). She maintains professional affiliations with the Prevention Research Center at Penn State University and the Johns Hopkins School of Public Health. Dr. Domitrovich is a prevention scientist who is interested in the development and evaluation of interventions that promote children’s adjustment and reduce the negative effects of exposure to risk. Her area of specialty is social and emotional learning. Dr. Domitrovich is interested in creating systemic intervention approaches that include the necessary supports to ensure the high quality implementation of evidence-based interventions at scale.",
+    "img": "team-placeholder.png"
+  }
+]

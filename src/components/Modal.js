@@ -17,8 +17,8 @@ class Modal extends React.Component {
                     />
                 </a>
                 <div className='modal-body'>
-                  <h4>{this.props.title}</h4>
-                  {this.props.body}
+                  <h4>{this.props.name}</h4>
+                  <p className='small'>{this.props.bio}</p>
                 </div>
               </div>
             </div>
