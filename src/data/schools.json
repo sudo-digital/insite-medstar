@@ -1,0 +1,140 @@
+[
+  {
+    "name": "Thurgood Marshall Academy",
+    "address": "2427 Martin Luther King Jr Ave SE, Washington, DC 20020"
+  },
+  {
+    "name": "Ingenuity Pep",
+    "address": "4600 Livingston Rd SE, Washington, DC 20032"
+  },
+  {
+    "name": "E.L. Haynes",
+    "address": "3600 Georgia Avenue, NW, Washington, DC 20010"
+  },
+  {
+    "name": "AppleTree Public Charter School @ Achievement Preparatory Academy",
+    "address": "908 Wahler Pl SE Washington, DC 20032"
+  },
+  {
+    "name": "AppleTree Early Learning Oklahoma Avenue campus",
+    "address": "330 21st Street NE Washington, DC 20002"
+  },
+  {
+    "name": "AppleTree Early Learning Public Charter School Parklands campus",
+    "address": "2011 Savannah Street SE Washington, DC 20020"
+  },
+  {
+    "name": "AppleTree Early Learning Douglas Knoll",
+    "address": "2017 Savannah Terrace SE Washington, DC 20020"
+  },
+  {
+    "name": "AppleTree Public Charter School @ Rocketship Public Charter School",
+    "address": "2335 Raynolds Place SE Washington, DC 20020"
+  },
+  {
+    "name": "AppleTree Early Learning Lincoln Park",
+    "address": "138 12th Street NE Washington, DC 20002"
+  },
+  {
+    "name": "Van Ness Elementary School",
+    "address": "1150 5th St SE, Washington, DC 20003"
+  },
+  {
+    "name": "Monument Academy Public Charter School",
+    "address": "500 19th St NE, Washington, DC 20002"
+  },
+  {
+    "name": "Washington Jesuit Academy",
+    "address": "900 Varnum St NE, Washington, DC 20017"
+  },
+  {
+    "name": "Leap Academy",
+    "name2": "KIPP DC Benning Campus",
+    "address": "4801 Benning Road SE, Washington, D.C. 20019"
+  },
+  {
+    "name": "Promise Academy",
+    "name2": "KIPP DC Benning Campus",
+    "address": "4801 Benning Road SE, Washington, D.C. 20019"
+  },
+  {
+    "name": "Key Academy",
+    "name2": "KIPP DC Benning Campus",
+    "address": "4801 Benning Road SE, Washington, D.C. 20019"
+  },
+  {
+    "name": "Discover Academy",
+    "name2": "KIPP DC Douglass Campus",
+    "address": "2600 Douglass Rd SE, Washington, DC 20020"
+  },
+  {
+    "name": "Heights Academy ",
+    "name2": "KIPP DC Douglass Campus",
+    "address": "2600 Douglass Rd SE, Washington, DC 20020"
+  },
+  {
+    "name": "Aim Academy",
+    "name2": "KIPP DC Douglass Campus",
+    "address": "2600 Douglass Rd SE, Washington, DC 20020"
+  },
+  {
+    "name": "The Learning Center",
+    "name2": "KIPP DC Douglass Campus",
+    "address": "2600 Douglass Rd SE, Washington, DC 20020"
+  },
+  {
+    "name": "Grow Academy",
+    "name2": "KIPP DC Shaw Campus",
+    "address": "421 P St NW, Washington, DC 20001"
+  },
+  {
+    "name": "Lead Academy",
+    "name2": "KIPP DC Shaw Campus",
+    "address": "421 P St NW, Washington, DC 20001"
+  },
+  {
+    "name": "Will Academy",
+    "name2": "KIPP DC Shaw Campus",
+    "address": "421 P St NW, Washington, DC 20001"
+  },
+  {
+    "name": "KIPP College Prep",
+    "name2": "KIPP DC Shaw Campus",
+    "address": "1405 Brentwood Pkwy NE, Washington, DC 20002"
+  },
+  {
+    "name": "KIPP Through College",
+    "name2": "KIPP DC Shaw Campus",
+    "address": "1405 Brentwood Pkwy NE, Washington, DC 20002"
+  },
+  {
+    "name": "Connect Academy",
+    "name2": "KIPP DC Webb Campus",
+    "address": "1375 Mt Olivet Rd NE, Washington, DC 20002"
+  },
+  {
+    "name": "Spring Academy",
+    "name2": "KIPP DC Webb Campus",
+    "address": "1375 Mt Olivet Rd NE, Washington, DC 20002"
+  },
+  {
+    "name": "Northeast Academy",
+    "name2": "KIPP DC Webb Campus",
+    "address": "1375 Mt Olivet Rd NE, Washington, DC 20002"
+  },
+  {
+    "name": "Arts & Technology Academy",
+    "name2": "KIPP DC Smilow Campus",
+    "address": "5300 Blaine St NE, Washington, DC 20019"
+  },
+  {
+    "name": "Quest Academy",
+    "name2": "KIPP DC Smilow Campus",
+    "address": "5300 Blaine St NE, Washington, DC 20019"
+  },
+  {
+    "name": "Valor Academy",
+    "name2": "KIPP DC Smilow Campus",
+    "address": "5300 Blaine St NE, Washington, DC 20019"
+  }
+]

@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route, NavLink, Link } from 'react-router-dom'
 import Home from './components/Home';
 import OurWork from './components/OurWork';
 import Team from './components/Team';
-import TeamTwo from './components/TeamTwo';
 import Contact from './components/Contact';
 
 class App extends Component {
@@ -50,7 +49,7 @@ class App extends Component {
           </header>
           <Route exact path={'/'} component={Home} />
           <Route exact path={'/our-work'} component={OurWork} />
-          <Route exact path={'/team'} component={TeamTwo} />
+          <Route exact path={'/team'} component={Team} />
           <Route exact path={'/contact'} component={Contact} />
             <div className='purple-bg footer'>
               <div className='container'>

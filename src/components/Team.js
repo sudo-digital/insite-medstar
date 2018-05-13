@@ -1,5 +1,6 @@
 import React from 'react';
-import TeamMember from './TeamMember';
+import teamMembers from '../data/team.json'
+import TeamMember from './TeamMember'
 import Modal from './Modal';
 
 class Team extends React.Component {
@@ -8,91 +9,53 @@ class Team extends React.Component {
     super(props);
     this.state = {
       showModal: false,
+      name: '',
       bio: ''
     };
   }
 
-  renderModal = () => {
-    let title;
-    let bio;
+  renderTeamMembers = () => {
+    let eachMember = teamMembers.map((member) => {
+      return member
+    });
 
-    const aaron = (
-      <div>
-        <p>Dr. Aaron Rakow, PhD  is a founding partner of and clinical psychologist for InSite Solutions. Collectively, Dr. Rakow has fifteen years of experience working within the behavioral health field including at the National Institutes of Mental Health, Children's National Health System, The Medical University of South Carolina and the University of Vermont.</p>
-
-        <p>Much of Dr. Rakow’s professional background focuses on improving access to empirically supported mental health treatments via training and dissemination efforts within school systems and primary care offices.</p>
-
-        <p>Dr. Rakow has previously been involved in the successful launch of a statewide mental health training and dissemination efforts with the Departments of Health and Mental Health in Vermont.</p>
-      </div>
+    return (
+      eachMember.map((member) => {
+        return (
+          <TeamMember
+            key={member.id}
+            name={member.name}
+            bio={member.bio}
+            img={member.img}
+            modal={ (name, bio) => this.openModal(name, bio) } />
+        );
+      })
     )
-
-    const megan = (
-      <div>
-        <p>Dr. Megan McCormick, PhD is a founding partner of InSite Solutions and clinical psychologist. She has worked extensively within community-based organizations on improving public health causes and advocating for youth mental health issues within the Washington DC metro area.</p>
-
-        <p>Her research background has focused on psychological factors that impact health outcomes, such as pain management and medication adherence, as well as the design, implementation, and evaluation of behavioral interventions to improve access to mental healthcare in primary healthcare settings and prevent negative medical outcomes in pediatric chronic illness populations.</p>
-      </div>
-    )
-
-    const matthew = (
-      <div>
-        <p>Matthew Biel, MD, MSc, is the chief of CAPD at MGUH and associate professor of clinical psychiatry and pediatrics at Georgetown University School of Medicine. He is also the training director for the child and adolescent psychiatry fellowship at Georgetown</p>
-        <p>Dr. Biel’s expertise is in child development, trauma and resilience, mood and anxiety disorders, autism spectrum disorders, and psychiatric care of children with medical illnesses.</p>
-        <p>His research focuses on access to mental health care for underserved populations, trauma and resilience, and family factors in mood and anxiety disorders.</p>
-      </div>
-    )
-
-    switch(this.state.bio) {
-      case 'aaron':
-        title = 'Dr. Aaron Rakow'
-        bio = aaron
-        break;
-      case 'megan':
-        title = 'Dr. Megan McCormick'
-        bio = megan
-        break;
-      case 'matthew':
-        title = 'Dr. Matthew Biel'
-        bio = matthew
-        break;
-      case 'team3':
-        title = 'title'
-        bio = 'bio'
-        break;
-      case 'team4':
-        title = 'title'
-        bio = 'bio'
-        break;
-      case 'team6':
-        title = 'title'
-        bio = 'bio'
-        break;
-      default:
-        title = ''
-        bio = ''
-    }
-
-    if(this.state.showModal) {
-      return <Modal title={title} body={bio} close={this.closeModal} />
-    } else {
-      return null
-    }
   }
 
-  openModal = (name) => {
-    console.log('boom ' + name);
+  openModal = (name, bio) => {
     this.setState({
       showModal: true,
-      bio: name
+      name: name,
+      bio: bio
     })
   }
 
   closeModal = () => {
-    this.setState({ showModal:false })
+    this.setState({ showModal: false })
   }
 
-  helloWorld = () => {
-    console.log('poops');
+  renderModal = () => {
+    if(this.state.showModal) {
+      return (
+        <Modal
+          name={this.state.name}
+          bio={this.state.bio}
+          close={this.closeModal} />
+      )
+    } else {
+      return null
+    }
   }
 
   render() {
@@ -108,30 +71,7 @@ class Team extends React.Component {
           </div>
           <div className='space-3' />
           <div className='row'>
-            <TeamMember
-              modal={ (name) => this.openModal(name) }
-              name={'aaron'}
-              title={'Dr. Aaron Rakow'} />
-            <TeamMember
-              modal={ (name) => this.openModal(name) }
-              name={'megan'}
-              title={'Dr. Megan McCormick'} />
-            <TeamMember
-              modal={ (name) => this.openModal(name) }
-              name={'matthew'}
-              title={'Dr. Matthew Biel'} />
-            <TeamMember
-              modal={ (name) => this.openModal(name) }
-              name={'team3'}
-              title={'Dr. ?'} />
-            <TeamMember
-              modal={ (name) => this.openModal(name) }
-              name={'team2'}
-              title={'Dr. ?'} />
-            <TeamMember
-              modal={ (name) => this.openModal(name) }
-              name={'team6'}
-              title={'Dr. ?'} />
+            { this.renderTeamMembers() }
           </div>
         </div>
       </div>

@@ -15,7 +15,7 @@ class Contact extends React.Component {
           <div className='space-2' />
           <div className='row'>
             <div className='col-md-10 col-md-offset-1 col-xs-12'>
-              <form action="https://formspree.io/paul@sudodigital.com" method='POST'>
+              <form action="https://formspree.io/aaron@insitesolutions.org" method='POST'>
                 <div className='row'>
                   <div className='col-md-6 col-xs-12'>
                     <div className='form-item'>

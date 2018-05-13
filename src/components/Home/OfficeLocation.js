@@ -10,8 +10,9 @@ class OfficeLocation extends React.Component {
           className='icon-sm'
           alt='Map Pin'/>
         <div>
-          <h4 className='m-b-0'>{this.props.office}</h4>
-          <p className='small m-b-0'>{this.props.address}</p>
+          <p className='small m-b-0'><b>{this.props.office}</b></p>
+          <p className='xs m-b-0'><i>{this.props.office2}</i></p>
+          <p className='xs m-b-0'>{this.props.address}</p>
         </div>
       </div>
     )

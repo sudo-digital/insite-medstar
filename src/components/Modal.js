@@ -13,8 +13,7 @@ class Modal extends React.Component {
                   <img
                     src='/images/icons/x-circle.svg'
                     className='icon-sm'
-                    alt='close'
-                    />
+                    alt='close' />
                 </a>
                 <div className='modal-body'>
                   <h4>{this.props.name}</h4>

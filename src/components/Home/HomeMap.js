@@ -1,5 +1,6 @@
 import React from 'react';
 import mapboxgl from 'mapbox-gl';
+import locations from '../../data/schools.json'
 import OfficeLocation from './OfficeLocation'
 
 class HomeMap extends React.Component {
@@ -14,23 +15,33 @@ class HomeMap extends React.Component {
     });
   }
 
+  renderLocations = () => {
+    let eachLocation = locations.map((office) => {
+      return office
+    })
+
+    return (
+      eachLocation.map((office) => {
+        return (
+          <OfficeLocation
+            key={office.name}
+            office={office.name}
+            office2={office.name2? office.name2 : null}
+            address={office.address} />
+        );
+      })
+    )
+  }
+
   render() {
     return (
-      <div className='container full'>
+      <div className='container'>
         <div className='row top-xs'>
-          <div className='col-md-7 col-xs-12'>
+          <div className='col-md-8 col-xs-12'>
             <div id='locations' className='map' />
           </div>
-          <div className='col-md-5 col-xs-12'>
-            <OfficeLocation
-              office={'Name of the office'}
-              address={'2021 L St NW, Washington, DC 20036'} />
-            <OfficeLocation
-              office={'Name of the office'}
-              address={'2021 L St NW, Washington, DC 20036'} />
-            <OfficeLocation
-              office={'Name of the office'}
-              address={'2021 L St NW, Washington, DC 20036'} />
+          <div className='col-md-4 col-xs-12 office-locaitons'>
+            { this.renderLocations() }
           </div>
         </div>
       </div>
