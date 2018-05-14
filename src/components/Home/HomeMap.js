@@ -2,16 +2,32 @@ import React from 'react';
 import mapboxgl from 'mapbox-gl';
 import locations from '../../data/schools.json'
 import OfficeLocation from './OfficeLocation'
+import schools from '../../data/sweetgreen.geojson'
 
 class HomeMap extends React.Component {
 
   componentDidMount() {
     mapboxgl.accessToken = 'pk.eyJ1Ijoic3Vkb2RpZ2l0YWwiLCJhIjoiY2pnNTdmN25xNzRpbjJ3bnY0MHR2eHdvZyJ9.-XVfhFTGnfiQHMCIqZd9ng';
-    new mapboxgl.Map({
+    let map = new mapboxgl.Map({
       container: 'locations',
-      style: 'mapbox://styles/sudodigital/cjg589p0804aw2rp68jaex9ja',
-      zoom: 14,
-      center: [-77.046,38.904]
+      style: 'mapbox://styles/mapbox/light-v9',
+      center: [-77.034084, 38.909671],
+      zoom: 14
+    });
+
+    map.on('load', e => {
+      map.addLayer({
+        id: 'locations',
+        type: 'symbol',
+        source: {
+          type: 'geojson',
+          data: schools
+        },
+        layout: {
+          'icon-image': 'marker-15',
+          'icon-allow-overlap': true,
+        }
+      });
     });
   }
 
