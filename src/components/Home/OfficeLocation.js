@@ -2,9 +2,13 @@ import React from 'react';
 
 class OfficeLocation extends React.Component {
 
+  handleClick = (newCoordinates) => {
+    this.props.fly(newCoordinates)
+  }
+
   render() {
     return (
-      <div className='flex top map-location'>
+      <div className='flex top map-location' onClick={() => this.handleClick(this.props.coordinates)}>
         <img
           src='/images/icons/pin-purple.svg'
           className='icon-sm'
