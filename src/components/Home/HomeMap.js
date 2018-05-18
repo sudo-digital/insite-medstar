@@ -39,6 +39,7 @@ class HomeMap extends React.Component {
           <OfficeLocation
             key={so.id}
             name={so.text}
+            name2={so.text2}
             address={so.properties.address} />
         );
       })
@@ -47,7 +48,7 @@ class HomeMap extends React.Component {
 
   render() {
     return (
-      <div className='container'>  
+      <div className='container'>
         <div className='row top-xs'>
           <div className='col-md-8 col-xs-12'>
             <div id='locations' className='map' />

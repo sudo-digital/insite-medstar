@@ -55,6 +55,1575 @@
           "text": "United States"
         }
       ]
-    }    
+    },
+    {
+      "id": "poi.666447918694200",
+      "type": "Feature",
+      "place_type": [
+        "poi"
+      ],
+      "relevance": 1,
+      "properties": {
+        "landmark": true,
+        "tel": "(202) 562-0391",
+        "category": "education, elementary, highschool, high school, middle school, primary school, school, secondary school",
+        "address": "4600 Livingston Rd SE"
+      },
+      "text": "Ingenuity Prep Pubc Charter",
+      "place_name": "Ingenuity Prep Pubc Charter, 4600 Livingston Rd SE, Washington, District of Columbia 20032, United States",
+      "center": [
+        -77.003332,
+        38.823959
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.003332,
+          38.823959
+        ]
+      },
+      "context": [
+        {
+          "id": "neighborhood.295380",
+          "text": "Washington Highlands"
+        },
+        {
+          "id": "postcode.1630415507093520",
+          "text": "20032"
+        },
+        {
+          "id": "place.7673410831246050",
+          "wikidata": "Q61",
+          "text": "Washington"
+        },
+        {
+          "id": "region.3403",
+          "short_code": "US-DC",
+          "wikidata": "Q61",
+          "text": "District of Columbia"
+        },
+        {
+          "id": "country.3145",
+          "short_code": "us",
+          "wikidata": "Q30",
+          "text": "United States"
+        }
+      ]
+    },
+    {
+      "id": "poi.4842468485402580",
+      "type": "Feature",
+      "place_type": [
+        "poi"
+      ],
+      "relevance": 1,
+      "properties": {
+        "landmark": true,
+        "tel": "(202) 667-4446",
+        "category": "education, elementary, highschool, high school, middle school, primary school, school, secondary school",
+        "address": "3600 Georgia Ave NW"
+      },
+      "text": "E.l. Haynes Public Charter School",
+      "place_name": "E.l. Haynes Public Charter School, 3600 Georgia Ave NW, Washington, District of Columbia 20010, United States",
+      "center": [
+        -77.024212,
+        38.934243
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.024212,
+          38.934243
+        ]
+      },
+      "context": [
+        {
+          "id": "neighborhood.294602",
+          "text": "Columbia Heights"
+        },
+        {
+          "id": "postcode.8184585446353980",
+          "text": "20010"
+        },
+        {
+          "id": "place.7673410831246050",
+          "wikidata": "Q61",
+          "text": "Washington"
+        },
+        {
+          "id": "region.3403",
+          "short_code": "US-DC",
+          "wikidata": "Q61",
+          "text": "District of Columbia"
+        },
+        {
+          "id": "country.3145",
+          "short_code": "us",
+          "wikidata": "Q30",
+          "text": "United States"
+        }
+      ]
+    },
+    {
+      "id": "poi.18453976681581820",
+      "type": "Feature",
+      "place_type": [
+        "poi"
+      ],
+      "relevance": 0.5,
+      "properties": {
+        "landmark": true,
+        "tel": "(202) 562-1214",
+        "category": "education, elementary, highschool, high school, middle school, primary school, school, secondary school",
+        "address": "908 Wahler Pl SE"
+      },
+      "text": "Achievement Prep Academy",
+      "place_name": "Achievement Prep Academy, 908 Wahler Pl SE, Washington, District of Columbia 20032, United States",
+      "center": [
+        -76.992269,
+        38.8341
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.992269,
+          38.8341
+        ]
+      },
+      "context": [
+        {
+          "id": "neighborhood.295380",
+          "text": "Washington Highlands"
+        },
+        {
+          "id": "postcode.1630415507093520",
+          "text": "20032"
+        },
+        {
+          "id": "place.7673410831246050",
+          "wikidata": "Q61",
+          "text": "Washington"
+        },
+        {
+          "id": "region.3403",
+          "short_code": "US-DC",
+          "wikidata": "Q61",
+          "text": "District of Columbia"
+        },
+        {
+          "id": "country.3145",
+          "short_code": "us",
+          "wikidata": "Q30",
+          "text": "United States"
+        }
+      ]
+    },
+    {
+      "id": "address.6927754978162400",
+      "type": "Feature",
+      "place_type": [
+        "address"
+      ],
+      "relevance": 0.875,
+      "properties": {
+        "address": "330 21st Street NE Washington, DC 20002"
+      },
+      "text": "21st Street Northeast",
+      "place_name": "330 21st Street Northeast, Washington, District of Columbia 20002, United States",
+      "matching_place_name": "330 21st Street Northeast, Washington, DC 20002, United States",
+      "center": [
+        -76.975585,
+        38.894603
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.975585,
+          38.894603
+        ]
+      },
+      "address": "330 21st Street NE Washington, DC 20002",
+      "text": "AppleTree Early Learning Oklahoma Avenue campus",
+      "context": [
+        {
+          "id": "neighborhood.34016",
+          "text": "Kingman Park"
+        },
+        {
+          "id": "postcode.8356485856998370",
+          "text": "20002"
+        },
+        {
+          "id": "place.7673410831246050",
+          "wikidata": "Q61",
+          "text": "Washington"
+        },
+        {
+          "id": "region.3403",
+          "short_code": "US-DC",
+          "wikidata": "Q61",
+          "text": "District of Columbia"
+        },
+        {
+          "id": "country.3145",
+          "short_code": "us",
+          "wikidata": "Q30",
+          "text": "United States"
+        }
+      ]
+    },
+    {
+      "id": "address.7158173045743568",
+      "type": "Feature",
+      "place_type": [
+        "address"
+      ],
+      "relevance": 0.875,
+      "properties": {
+        "address" : "2011 Savannah Street SE Washington, DC 20020"
+      },
+      "text": "AppleTree Early Learning Public Charter School Parklands campus",
+      "place_name": "2011 Savannah Street Southeast, Washington, District of Columbia 20020, United States",
+      "matching_place_name": "2011 Savannah Street Southeast, Washington, DC 20020, United States",
+      "center": [
+        -76.974765,
+        38.846547
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.974765,
+          38.846547
+        ]
+      },
+      "address": "2011",
+      "context": [
+        {
+          "id": "neighborhood.293235",
+          "text": "Shipley Terrace"
+        },
+        {
+          "id": "postcode.6770579024751860",
+          "text": "20020"
+        },
+        {
+          "id": "place.7673410831246050",
+          "wikidata": "Q61",
+          "text": "Washington"
+        },
+        {
+          "id": "region.3403",
+          "short_code": "US-DC",
+          "wikidata": "Q61",
+          "text": "District of Columbia"
+        },
+        {
+          "id": "country.3145",
+          "short_code": "us",
+          "wikidata": "Q30",
+          "text": "United States"
+        }
+      ]
+    },
+    {
+      "id": "address.7158173045743568",
+      "type": "Feature",
+      "place_type": [
+        "address"
+      ],
+      "relevance": 0.875,
+      "properties": {
+        "address" : "2011 Savannah Street SE Washington, DC 20020"
+      },
+      "text": "AppleTree Early Learning Douglas Knoll",
+      "place_name": "2011 Savannah Street Southeast, Washington, District of Columbia 20020, United States",
+      "matching_place_name": "2011 Savannah Street Southeast, Washington, DC 20020, United States",
+      "center": [
+        -76.974765,
+        38.846547
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.974765,
+          38.846547
+        ]
+      },
+      "address": "2011",
+      "context": [
+        {
+          "id": "neighborhood.293235",
+          "text": "Shipley Terrace"
+        },
+        {
+          "id": "postcode.6770579024751860",
+          "text": "20020"
+        },
+        {
+          "id": "place.7673410831246050",
+          "wikidata": "Q61",
+          "text": "Washington"
+        },
+        {
+          "id": "region.3403",
+          "short_code": "US-DC",
+          "wikidata": "Q61",
+          "text": "District of Columbia"
+        },
+        {
+          "id": "country.3145",
+          "short_code": "us",
+          "wikidata": "Q30",
+          "text": "United States"
+        }
+      ]
+    },
+    {
+      "id": "address.6657233191898712",
+      "type": "Feature",
+      "place_type": [
+        "address"
+      ],
+      "relevance": 0.875,
+      "properties": {
+        "address": "2335 Raynolds Place SE Washington, DC 20020"
+      },
+      "text": "AppleTree Public Charter School @ Rocketship Public Charter School",
+      "place_name": "2335 Raynolds Place Southeast, Washington, District of Columbia 20020, United States",
+      "matching_place_name": "2335 Raynolds Place Southeast, Washington, DC 20020, United States",
+      "center": [
+        -76.97457,
+        38.855803
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.97457,
+          38.855803
+        ]
+      },
+      "address": "2335",
+      "context": [
+        {
+          "id": "neighborhood.293717",
+          "text": "Woodlands"
+        },
+        {
+          "id": "postcode.6770579024751860",
+          "text": "20020"
+        },
+        {
+          "id": "place.7673410831246050",
+          "wikidata": "Q61",
+          "text": "Washington"
+        },
+        {
+          "id": "region.3403",
+          "short_code": "US-DC",
+          "wikidata": "Q61",
+          "text": "District of Columbia"
+        },
+        {
+          "id": "country.3145",
+          "short_code": "us",
+          "wikidata": "Q30",
+          "text": "United States"
+        }
+      ]
+    },
+    {
+      "id": "address.622896892571216",
+      "type": "Feature",
+      "place_type": [
+        "address"
+      ],
+      "relevance": 0.875,
+      "properties": {
+        "address": "138 12th Street NE Washington, DC 20002"
+      },
+      "text": "AppleTree Early Learning Lincoln Park",
+      "place_name": "138 12th Street Northeast, Washington, District of Columbia 20002, United States",
+      "matching_text": "12th Street",
+      "matching_place_name": "138 12th Street, Washington, District of Columbia 20002, United States",
+      "center": [
+        -76.990538,
+        38.891521
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.990538,
+          38.891521
+        ]
+      },
+      "address": "138",
+      "context": [
+        {
+          "id": "neighborhood.294527",
+          "text": "Capitol Hill"
+        },
+        {
+          "id": "postcode.8356485856998370",
+          "text": "20002"
+        },
+        {
+          "id": "place.7673410831246050",
+          "wikidata": "Q61",
+          "text": "Washington"
+        },
+        {
+          "id": "region.3403",
+          "short_code": "US-DC",
+          "wikidata": "Q61",
+          "text": "District of Columbia"
+        },
+        {
+          "id": "country.3145",
+          "short_code": "us",
+          "wikidata": "Q30",
+          "text": "United States"
+        }
+      ]
+    },
+    {
+      "id": "poi.19870375389291540",
+      "type": "Feature",
+      "place_type": [
+        "poi"
+      ],
+      "relevance": 1,
+      "properties": {
+        "landmark": true,
+        "tel": "(202) 698-3818",
+        "category": "education, elementary, highschool, high school, middle school, primary school, school, secondary school",
+        "address": "1150 5th St SE"
+      },
+      "text": "Van Ness Elementary School",
+      "place_name": "Van Ness Elementary School, 1150 5th St SE, Washington, District of Columbia 20003, United States",
+      "center": [
+        -76.999351,
+        38.87695
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.999351,
+          38.87695
+        ]
+      },
+      "context": [
+        {
+          "id": "neighborhood.291771",
+          "text": "Navy Yard"
+        },
+        {
+          "id": "postcode.17841741868898840",
+          "text": "20003"
+        },
+        {
+          "id": "place.7673410831246050",
+          "wikidata": "Q61",
+          "text": "Washington"
+        },
+        {
+          "id": "region.3403",
+          "short_code": "US-DC",
+          "wikidata": "Q61",
+          "text": "District of Columbia"
+        },
+        {
+          "id": "country.3145",
+          "short_code": "us",
+          "wikidata": "Q30",
+          "text": "United States"
+        }
+      ]
+    },
+    {
+      "id": "address.980609713225090",
+      "type": "Feature",
+      "place_type": [
+        "address"
+      ],
+      "relevance": 0.875,
+      "properties": {
+        "address": "500 19th St NE, Washington, DC 20002"
+      },
+      "text": "Monument Academy Public Charter School",
+      "place_name": "500 19th Street Northeast, Washington, District of Columbia 20002, United States",
+      "matching_place_name": "500 19th Street Northeast, Washington, DC 20002, United States",
+      "center": [
+        -76.977559,
+        38.896721
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.977559,
+          38.896721
+        ]
+      },
+      "address": "500",
+      "context": [
+        {
+          "id": "neighborhood.34016",
+          "text": "Kingman Park"
+        },
+        {
+          "id": "postcode.8356485856998370",
+          "text": "20002"
+        },
+        {
+          "id": "place.7673410831246050",
+          "wikidata": "Q61",
+          "text": "Washington"
+        },
+        {
+          "id": "region.3403",
+          "short_code": "US-DC",
+          "wikidata": "Q61",
+          "text": "District of Columbia"
+        },
+        {
+          "id": "country.3145",
+          "short_code": "us",
+          "wikidata": "Q30",
+          "text": "United States"
+        }
+      ]
+    },
+    {
+      "id": "poi.18726686611238150",
+      "type": "Feature",
+      "place_type": [
+        "poi"
+      ],
+      "relevance": 1,
+      "properties": {
+        "landmark": true,
+        "tel": "(202) 832-7679",
+        "category": "education, elementary, highschool, high school, middle school, primary school, school, secondary school",
+        "address": "900 Varnum St NE"
+      },
+      "text": "Washington Jesuit Academy",
+      "place_name": "Washington Jesuit Academy, 900 Varnum St NE, Washington, District of Columbia 20017, United States",
+      "center": [
+        -76.993633,
+        38.943306
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.993633,
+          38.943306
+        ]
+      },
+      "context": [
+        {
+          "id": "neighborhood.294887",
+          "text": "Michigan Park"
+        },
+        {
+          "id": "postcode.11905339110399390",
+          "text": "20017"
+        },
+        {
+          "id": "place.7673410831246050",
+          "wikidata": "Q61",
+          "text": "Washington"
+        },
+        {
+          "id": "region.3403",
+          "short_code": "US-DC",
+          "wikidata": "Q61",
+          "text": "District of Columbia"
+        },
+        {
+          "id": "country.3145",
+          "short_code": "us",
+          "wikidata": "Q30",
+          "text": "United States"
+        }
+      ]
+    },
+    {
+      "id": "address.2257050456994562",
+      "type": "Feature",
+      "place_type": [
+        "address"
+      ],
+      "relevance": 0.875,
+      "properties": {
+        "address": "4801 Benning Road SE, Washington, D.C. 20019"
+      },
+      "text": "Leap Academy",
+      "text2": "KIPP DC Benning Campus",
+      "place_name": "4801 Benning Road Southeast, Washington, District of Columbia 20019, United States",
+      "matching_place_name": "4801 Benning Road Southeast, Washington, DC 20019, United States",
+      "center": [
+        -76.934396,
+        38.882635
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.934396,
+          38.882635
+        ]
+      },
+      "address": "4801",
+      "context": [
+        {
+          "id": "neighborhood.291460",
+          "text": "Benning Ridge"
+        },
+        {
+          "id": "postcode.13975797421339580",
+          "text": "20019"
+        },
+        {
+          "id": "place.7673410831246050",
+          "wikidata": "Q61",
+          "text": "Washington"
+        },
+        {
+          "id": "region.3403",
+          "short_code": "US-DC",
+          "wikidata": "Q61",
+          "text": "District of Columbia"
+        },
+        {
+          "id": "country.3145",
+          "short_code": "us",
+          "wikidata": "Q30",
+          "text": "United States"
+        }
+      ]
+    },
+    {
+      "id": "address.22570504569945624",
+      "type": "Feature",
+      "place_type": [
+        "address"
+      ],
+      "relevance": 0.875,
+      "properties": {
+        "address": "4801 Benning Road SE, Washington, D.C. 20019"
+      },
+      "text": "Promise Academy",
+      "text2": "KIPP DC Benning Campus",
+      "place_name": "4801 Benning Road Southeast, Washington, District of Columbia 20019, United States",
+      "matching_place_name": "4801 Benning Road Southeast, Washington, DC 20019, United States",
+      "center": [
+        -76.934396,
+        38.882635
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.934396,
+          38.882635
+        ]
+      },
+      "address": "4801",
+      "context": [
+        {
+          "id": "neighborhood.291460",
+          "text": "Benning Ridge"
+        },
+        {
+          "id": "postcode.13975797421339580",
+          "text": "20019"
+        },
+        {
+          "id": "place.7673410831246050",
+          "wikidata": "Q61",
+          "text": "Washington"
+        },
+        {
+          "id": "region.3403",
+          "short_code": "US-DC",
+          "wikidata": "Q61",
+          "text": "District of Columbia"
+        },
+        {
+          "id": "country.3145",
+          "short_code": "us",
+          "wikidata": "Q30",
+          "text": "United States"
+        }
+      ]
+    },
+    {
+      "id": "address.22570504569945682",
+      "type": "Feature",
+      "place_type": [
+        "address"
+      ],
+      "relevance": 0.875,
+      "properties": {
+        "address": "4801 Benning Road SE, Washington, D.C. 20019"
+      },
+      "text": "Key Academy",
+      "text2": "KIPP DC Benning Campus",
+      "place_name": "4801 Benning Road Southeast, Washington, District of Columbia 20019, United States",
+      "matching_place_name": "4801 Benning Road Southeast, Washington, DC 20019, United States",
+      "center": [
+        -76.934396,
+        38.882635
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.934396,
+          38.882635
+        ]
+      },
+      "address": "4801",
+      "context": [
+        {
+          "id": "neighborhood.291460",
+          "text": "Benning Ridge"
+        },
+        {
+          "id": "postcode.13975797421339580",
+          "text": "20019"
+        },
+        {
+          "id": "place.7673410831246050",
+          "wikidata": "Q61",
+          "text": "Washington"
+        },
+        {
+          "id": "region.3403",
+          "short_code": "US-DC",
+          "wikidata": "Q61",
+          "text": "District of Columbia"
+        },
+        {
+          "id": "country.3145",
+          "short_code": "us",
+          "wikidata": "Q30",
+          "text": "United States"
+        }
+      ]
+    },
+    {
+      "id": "address.625076681994122",
+      "type": "Feature",
+      "place_type": [
+        "address"
+      ],
+      "relevance": 0.875,
+      "properties": {
+        "address": "2600 Douglass Rd SE, Washington, DC 20020"
+      },
+      "text": "Discover Academy",
+      "text2": "KIPP DC Douglass Campus",
+      "place_name": "2600 Douglass Road SE, Washington, District of Columbia 20020, United States",
+      "matching_text": "Douglass Road",
+      "matching_place_name": "2600 Douglass Road, Washington, District of Columbia 20020, United States",
+      "center": [
+        -76.988051,
+        38.85663
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.988051,
+          38.85663
+        ]
+      },
+      "address": "2600",
+      "context": [
+        {
+          "id": "neighborhood.295838",
+          "text": "Buena Vista"
+        },
+        {
+          "id": "postcode.6770579024751860",
+          "text": "20020"
+        },
+        {
+          "id": "place.7673410831246050",
+          "wikidata": "Q61",
+          "text": "Washington"
+        },
+        {
+          "id": "region.3403",
+          "short_code": "US-DC",
+          "wikidata": "Q61",
+          "text": "District of Columbia"
+        },
+        {
+          "id": "country.3145",
+          "short_code": "us",
+          "wikidata": "Q30",
+          "text": "United States"
+        }
+      ]
+    },
+    {
+      "id": "address.62507668199433122",
+      "type": "Feature",
+      "place_type": [
+        "address"
+      ],
+      "relevance": 0.875,
+      "properties": {
+        "address": "2600 Douglass Rd SE, Washington, DC 20020"
+      },
+      "text": "Heights Academy",
+      "text2": "KIPP DC Douglass Campus",
+      "place_name": "2600 Douglass Road SE, Washington, District of Columbia 20020, United States",
+      "matching_text": "Douglass Road",
+      "matching_place_name": "2600 Douglass Road, Washington, District of Columbia 20020, United States",
+      "center": [
+        -76.988051,
+        38.85663
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.988051,
+          38.85663
+        ]
+      },
+      "address": "2600",
+      "context": [
+        {
+          "id": "neighborhood.295838",
+          "text": "Buena Vista"
+        },
+        {
+          "id": "postcode.6770579024751860",
+          "text": "20020"
+        },
+        {
+          "id": "place.7673410831246050",
+          "wikidata": "Q61",
+          "text": "Washington"
+        },
+        {
+          "id": "region.3403",
+          "short_code": "US-DC",
+          "wikidata": "Q61",
+          "text": "District of Columbia"
+        },
+        {
+          "id": "country.3145",
+          "short_code": "us",
+          "wikidata": "Q30",
+          "text": "United States"
+        }
+      ]
+    },
+    {
+      "id": "address.62507668133994122",
+      "type": "Feature",
+      "place_type": [
+        "address"
+      ],
+      "relevance": 0.875,
+      "properties": {
+        "address": "2600 Douglass Rd SE, Washington, DC 20020"
+      },
+      "text": "Aim Academy",
+      "text2": "KIPP DC Douglass Campus",
+      "place_name": "2600 Douglass Road SE, Washington, District of Columbia 20020, United States",
+      "matching_text": "Douglass Road",
+      "matching_place_name": "2600 Douglass Road, Washington, District of Columbia 20020, United States",
+      "center": [
+        -76.988051,
+        38.85663
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.988051,
+          38.85663
+        ]
+      },
+      "address": "2600",
+      "context": [
+        {
+          "id": "neighborhood.295838",
+          "text": "Buena Vista"
+        },
+        {
+          "id": "postcode.6770579024751860",
+          "text": "20020"
+        },
+        {
+          "id": "place.7673410831246050",
+          "wikidata": "Q61",
+          "text": "Washington"
+        },
+        {
+          "id": "region.3403",
+          "short_code": "US-DC",
+          "wikidata": "Q61",
+          "text": "District of Columbia"
+        },
+        {
+          "id": "country.3145",
+          "short_code": "us",
+          "wikidata": "Q30",
+          "text": "United States"
+        }
+      ]
+    },
+    {
+      "id": "address.625037668133994122",
+      "type": "Feature",
+      "place_type": [
+        "address"
+      ],
+      "relevance": 0.875,
+      "properties": {
+        "address": "2600 Douglass Rd SE, Washington, DC 20020"
+      },
+      "text": "The Learning Center",
+      "text2": "KIPP DC Douglass Campus",
+      "place_name": "2600 Douglass Road SE, Washington, District of Columbia 20020, United States",
+      "matching_text": "Douglass Road",
+      "matching_place_name": "2600 Douglass Road, Washington, District of Columbia 20020, United States",
+      "center": [
+        -76.988051,
+        38.85663
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.988051,
+          38.85663
+        ]
+      },
+      "address": "2600",
+      "context": [
+        {
+          "id": "neighborhood.295838",
+          "text": "Buena Vista"
+        },
+        {
+          "id": "postcode.6770579024751860",
+          "text": "20020"
+        },
+        {
+          "id": "place.7673410831246050",
+          "wikidata": "Q61",
+          "text": "Washington"
+        },
+        {
+          "id": "region.3403",
+          "short_code": "US-DC",
+          "wikidata": "Q61",
+          "text": "District of Columbia"
+        },
+        {
+          "id": "country.3145",
+          "short_code": "us",
+          "wikidata": "Q30",
+          "text": "United States"
+        }
+      ]
+    },
+    {
+      "id": "address.2206065781312396",
+      "type": "Feature",
+      "place_type": [
+        "address"
+      ],
+      "relevance": 0.875,
+      "properties": {
+        "address": "421 P St NW, Washington, DC 20001"
+      },
+      "text": "Grow Academy",
+      "text2": "KIPP DC Shaw Campus",
+      "place_name": "421 P Street Northwest, Washington, District of Columbia 20001, United States",
+      "matching_text": "P Street",
+      "matching_place_name": "421 P Street, Washington, District of Columbia 20001, United States",
+      "center": [
+        -77.01812,
+        38.909894
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.01812,
+          38.909894
+        ]
+      },
+      "address": "421",
+      "context": [
+        {
+          "id": "neighborhood.296449",
+          "text": "Shaw"
+        },
+        {
+          "id": "postcode.17502531659389280",
+          "text": "20001"
+        },
+        {
+          "id": "place.7673410831246050",
+          "wikidata": "Q61",
+          "text": "Washington"
+        },
+        {
+          "id": "region.3403",
+          "short_code": "US-DC",
+          "wikidata": "Q61",
+          "text": "District of Columbia"
+        },
+        {
+          "id": "country.3145",
+          "short_code": "us",
+          "wikidata": "Q30",
+          "text": "United States"
+        }
+      ]
+    },
+    {
+      "id": "address.2206065781312396",
+      "type": "Feature",
+      "place_type": [
+        "address"
+      ],
+      "relevance": 0.875,
+      "properties": {
+        "address": "421 P St NW, Washington, DC 20001"
+      },
+      "text": "Lead Academy",
+      "text2": "KIPP DC Shaw Campus",
+      "place_name": "421 P Street Northwest, Washington, District of Columbia 20001, United States",
+      "matching_text": "P Street",
+      "matching_place_name": "421 P Street, Washington, District of Columbia 20001, United States",
+      "center": [
+        -77.01812,
+        38.909894
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.01812,
+          38.909894
+        ]
+      },
+      "address": "421",
+      "context": [
+        {
+          "id": "neighborhood.296449",
+          "text": "Shaw"
+        },
+        {
+          "id": "postcode.17502531659389280",
+          "text": "20001"
+        },
+        {
+          "id": "place.7673410831246050",
+          "wikidata": "Q61",
+          "text": "Washington"
+        },
+        {
+          "id": "region.3403",
+          "short_code": "US-DC",
+          "wikidata": "Q61",
+          "text": "District of Columbia"
+        },
+        {
+          "id": "country.3145",
+          "short_code": "us",
+          "wikidata": "Q30",
+          "text": "United States"
+        }
+      ]
+    },
+    {
+      "id": "address.2206065781312396",
+      "type": "Feature",
+      "place_type": [
+        "address"
+      ],
+      "relevance": 0.875,
+      "properties": {
+        "address": "421 P St NW, Washington, DC 20001"
+      },
+      "text": "Will Academy",
+      "text2": "KIPP DC Shaw Campus",
+      "place_name": "421 P Street Northwest, Washington, District of Columbia 20001, United States",
+      "matching_text": "P Street",
+      "matching_place_name": "421 P Street, Washington, District of Columbia 20001, United States",
+      "center": [
+        -77.01812,
+        38.909894
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.01812,
+          38.909894
+        ]
+      },
+      "address": "421",
+      "context": [
+        {
+          "id": "neighborhood.296449",
+          "text": "Shaw"
+        },
+        {
+          "id": "postcode.17502531659389280",
+          "text": "20001"
+        },
+        {
+          "id": "place.7673410831246050",
+          "wikidata": "Q61",
+          "text": "Washington"
+        },
+        {
+          "id": "region.3403",
+          "short_code": "US-DC",
+          "wikidata": "Q61",
+          "text": "District of Columbia"
+        },
+        {
+          "id": "country.3145",
+          "short_code": "us",
+          "wikidata": "Q30",
+          "text": "United States"
+        }
+      ]
+    },
+    {
+      "id": "address.6558908720493018",
+      "type": "Feature",
+      "place_type": [
+        "address"
+      ],
+      "relevance": 0.875,
+      "properties": {
+        "address": "1405 Brentwood Pkwy NE, Washington, DC 20002"
+      },
+      "text": "KIPP College Prep",
+      "text2": "KIPP DC Shaw Campus",
+      "place_name": "1405 Brentwood Parkway Northeast, Washington, District of Columbia 20002, United States",
+      "matching_place_name": "1405 Brentwood Parkway Northeast, Washington, DC 20002, United States",
+      "center": [
+        -76.993585,
+        38.909606
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.993585,
+          38.909606
+        ]
+      },
+      "address": "1405",
+      "context": [
+        {
+          "id": "neighborhood.295839",
+          "text": "Gallaudet"
+        },
+        {
+          "id": "postcode.8356485856998370",
+          "text": "20002"
+        },
+        {
+          "id": "place.7673410831246050",
+          "wikidata": "Q61",
+          "text": "Washington"
+        },
+        {
+          "id": "region.3403",
+          "short_code": "US-DC",
+          "wikidata": "Q61",
+          "text": "District of Columbia"
+        },
+        {
+          "id": "country.3145",
+          "short_code": "us",
+          "wikidata": "Q30",
+          "text": "United States"
+        }
+      ]
+    },
+    {
+      "id": "address.655890338720493018",
+      "type": "Feature",
+      "place_type": [
+        "address"
+      ],
+      "relevance": 0.875,
+      "properties": {
+        "address": "1405 Brentwood Pkwy NE, Washington, DC 20002"
+      },
+      "text": "KIPP Through College",
+      "text2": "KIPP DC Shaw Campus",
+      "place_name": "1405 Brentwood Parkway Northeast, Washington, District of Columbia 20002, United States",
+      "matching_place_name": "1405 Brentwood Parkway Northeast, Washington, DC 20002, United States",
+      "center": [
+        -76.993585,
+        38.909606
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.993585,
+          38.909606
+        ]
+      },
+      "address": "1405",
+      "context": [
+        {
+          "id": "neighborhood.295839",
+          "text": "Gallaudet"
+        },
+        {
+          "id": "postcode.8356485856998370",
+          "text": "20002"
+        },
+        {
+          "id": "place.7673410831246050",
+          "wikidata": "Q61",
+          "text": "Washington"
+        },
+        {
+          "id": "region.3403",
+          "short_code": "US-DC",
+          "wikidata": "Q61",
+          "text": "District of Columbia"
+        },
+        {
+          "id": "country.3145",
+          "short_code": "us",
+          "wikidata": "Q30",
+          "text": "United States"
+        }
+      ]
+    },
+    {
+      "id": "address.8533328787565002",
+      "type": "Feature",
+      "place_type": [
+        "address"
+      ],
+      "relevance": 0.875,
+      "properties": {
+        "address": "1375 Mt Olivet Rd NE, Washington, DC 20002"
+      },
+      "text": "Connect Academy",
+      "text2": "KIPP DC Webb Campus",
+      "place_name": "1375 Mount Olivet Road Northeast, Washington, District of Columbia 20002, United States",
+      "matching_place_name": "1375 Mount Olivet Road Northeast, Washington, DC 20002, United States",
+      "center": [
+        -76.981138,
+        38.908081
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.981138,
+          38.908081
+        ]
+      },
+      "address": "1375",
+      "context": [
+        {
+          "id": "neighborhood.295692",
+          "text": "Trinidad"
+        },
+        {
+          "id": "postcode.8356485856998370",
+          "text": "20002"
+        },
+        {
+          "id": "place.7673410831246050",
+          "wikidata": "Q61",
+          "text": "Washington"
+        },
+        {
+          "id": "region.3403",
+          "short_code": "US-DC",
+          "wikidata": "Q61",
+          "text": "District of Columbia"
+        },
+        {
+          "id": "country.3145",
+          "short_code": "us",
+          "wikidata": "Q30",
+          "text": "United States"
+        }
+      ]
+    },
+    {
+      "id": "address.8533328787565002",
+      "type": "Feature",
+      "place_type": [
+        "address"
+      ],
+      "relevance": 0.875,
+      "properties": {
+        "address": "1375 Mt Olivet Rd NE, Washington, DC 20002"
+      },
+      "text": "Spring Academy",
+      "text2": "KIPP DC Webb Campus",
+      "place_name": "1375 Mount Olivet Road Northeast, Washington, District of Columbia 20002, United States",
+      "matching_place_name": "1375 Mount Olivet Road Northeast, Washington, DC 20002, United States",
+      "center": [
+        -76.981138,
+        38.908081
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.981138,
+          38.908081
+        ]
+      },
+      "address": "1375",
+      "context": [
+        {
+          "id": "neighborhood.295692",
+          "text": "Trinidad"
+        },
+        {
+          "id": "postcode.8356485856998370",
+          "text": "20002"
+        },
+        {
+          "id": "place.7673410831246050",
+          "wikidata": "Q61",
+          "text": "Washington"
+        },
+        {
+          "id": "region.3403",
+          "short_code": "US-DC",
+          "wikidata": "Q61",
+          "text": "District of Columbia"
+        },
+        {
+          "id": "country.3145",
+          "short_code": "us",
+          "wikidata": "Q30",
+          "text": "United States"
+        }
+      ]
+    },
+    {
+      "id": "address.8533328787565002",
+      "type": "Feature",
+      "place_type": [
+        "address"
+      ],
+      "relevance": 0.875,
+      "properties": {
+        "address": "1375 Mt Olivet Rd NE, Washington, DC 20002"
+      },
+      "text": "Northeast Academy",
+      "text2": "KIPP DC Webb Campus",
+      "place_name": "1375 Mount Olivet Road Northeast, Washington, District of Columbia 20002, United States",
+      "matching_place_name": "1375 Mount Olivet Road Northeast, Washington, DC 20002, United States",
+      "center": [
+        -76.981138,
+        38.908081
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.981138,
+          38.908081
+        ]
+      },
+      "address": "1375",
+      "context": [
+        {
+          "id": "neighborhood.295692",
+          "text": "Trinidad"
+        },
+        {
+          "id": "postcode.8356485856998370",
+          "text": "20002"
+        },
+        {
+          "id": "place.7673410831246050",
+          "wikidata": "Q61",
+          "text": "Washington"
+        },
+        {
+          "id": "region.3403",
+          "short_code": "US-DC",
+          "wikidata": "Q61",
+          "text": "District of Columbia"
+        },
+        {
+          "id": "country.3145",
+          "short_code": "us",
+          "wikidata": "Q30",
+          "text": "United States"
+        }
+      ]
+    },
+    {
+      "id": "address.8531113150209640",
+      "type": "Feature",
+      "place_type": [
+        "address"
+      ],
+      "relevance": 0.875,
+      "properties": {
+        "address": "5300 Blaine St NE, Washington, DC 20019"
+      },
+      "text": "Arts & Technology Academy",
+      "text2": "KIPP DC Smilow Campus",
+      "place_name": "5300 Blaine Street Northeast, Washington, District of Columbia 20019, United States",
+      "matching_place_name": "5300 Blaine Street Northeast, Washington, DC 20019, United States",
+      "center": [
+        -76.924647,
+        38.891956
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.924647,
+          38.891956
+        ]
+      },
+      "address": "5300",
+      "context": [
+        {
+          "id": "neighborhood.294273",
+          "text": "Lincoln Heights"
+        },
+        {
+          "id": "postcode.13975797421339580",
+          "text": "20019"
+        },
+        {
+          "id": "place.7673410831246050",
+          "wikidata": "Q61",
+          "text": "Washington"
+        },
+        {
+          "id": "region.3403",
+          "short_code": "US-DC",
+          "wikidata": "Q61",
+          "text": "District of Columbia"
+        },
+        {
+          "id": "country.3145",
+          "short_code": "us",
+          "wikidata": "Q30",
+          "text": "United States"
+        }
+      ]
+    },
+    {
+      "id": "address.8531113150209640",
+      "type": "Feature",
+      "place_type": [
+        "address"
+      ],
+      "relevance": 0.875,
+      "properties": {
+        "address": "5300 Blaine St NE, Washington, DC 20019"
+      },
+      "text": "Quest Academy",
+      "text2": "KIPP DC Smilow Campus",
+      "place_name": "5300 Blaine Street Northeast, Washington, District of Columbia 20019, United States",
+      "matching_place_name": "5300 Blaine Street Northeast, Washington, DC 20019, United States",
+      "center": [
+        -76.924647,
+        38.891956
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.924647,
+          38.891956
+        ]
+      },
+      "address": "5300",
+      "context": [
+        {
+          "id": "neighborhood.294273",
+          "text": "Lincoln Heights"
+        },
+        {
+          "id": "postcode.13975797421339580",
+          "text": "20019"
+        },
+        {
+          "id": "place.7673410831246050",
+          "wikidata": "Q61",
+          "text": "Washington"
+        },
+        {
+          "id": "region.3403",
+          "short_code": "US-DC",
+          "wikidata": "Q61",
+          "text": "District of Columbia"
+        },
+        {
+          "id": "country.3145",
+          "short_code": "us",
+          "wikidata": "Q30",
+          "text": "United States"
+        }
+      ]
+    },
+    {
+      "id": "address.8531113150209640",
+      "type": "Feature",
+      "place_type": [
+        "address"
+      ],
+      "relevance": 0.875,
+      "properties": {
+        "address": "5300 Blaine St NE, Washington, DC 20019"
+      },
+      "text": "Valor Academy",
+      "text2": "KIPP DC Smilow Campus",
+      "place_name": "5300 Blaine Street Northeast, Washington, District of Columbia 20019, United States",
+      "matching_place_name": "5300 Blaine Street Northeast, Washington, DC 20019, United States",
+      "center": [
+        -76.924647,
+        38.891956
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.924647,
+          38.891956
+        ]
+      },
+      "address": "5300",
+      "context": [
+        {
+          "id": "neighborhood.294273",
+          "text": "Lincoln Heights"
+        },
+        {
+          "id": "postcode.13975797421339580",
+          "text": "20019"
+        },
+        {
+          "id": "place.7673410831246050",
+          "wikidata": "Q61",
+          "text": "Washington"
+        },
+        {
+          "id": "region.3403",
+          "short_code": "US-DC",
+          "wikidata": "Q61",
+          "text": "District of Columbia"
+        },
+        {
+          "id": "country.3145",
+          "short_code": "us",
+          "wikidata": "Q30",
+          "text": "United States"
+        }
+      ]
+    }
   ]
 }
