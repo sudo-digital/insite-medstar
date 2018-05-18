@@ -2,7 +2,7 @@ import React from 'react';
 import mapboxgl from 'mapbox-gl';
 import locations from '../../data/schools.json'
 import OfficeLocation from './OfficeLocation'
-import schools from '../../data/sweetgreen.geojson'
+import schools from '../../data/geoschools.json'
 
 class HomeMap extends React.Component {
 
@@ -11,7 +11,7 @@ class HomeMap extends React.Component {
     let map = new mapboxgl.Map({
       container: 'locations',
       style: 'mapbox://styles/mapbox/light-v9',
-      center: [-77.034084, 38.909671],
+      center: [-76.9939, 38.8622],
       zoom: 14
     });
 
@@ -32,18 +32,14 @@ class HomeMap extends React.Component {
   }
 
   renderLocations = () => {
-    let eachLocation = locations.map((office) => {
-      return office
-    })
-
+    const s = schools.features;
     return (
-      eachLocation.map((office) => {
+      s.map((so) => {
         return (
           <OfficeLocation
-            key={office.name}
-            office={office.name}
-            office2={office.name2? office.name2 : null}
-            address={office.address} />
+            key={so.id}
+            name={so.text}
+            address={so.properties.address} />
         );
       })
     )
@@ -51,7 +47,7 @@ class HomeMap extends React.Component {
 
   render() {
     return (
-      <div className='container'>
+      <div className='container'>  
         <div className='row top-xs'>
           <div className='col-md-8 col-xs-12'>
             <div id='locations' className='map' />

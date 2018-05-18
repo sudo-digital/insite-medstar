@@ -1,0 +1,60 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "poi.13987977244726630",
+      "type": "Feature",
+      "place_type": [
+        "poi"
+      ],
+      "relevance": 1,
+      "properties": {
+        "landmark": true,
+        "wikidata": "Q7799282",
+        "tel": "(202) 563-6862",
+        "category": "education, elementary, highschool, high school, middle school, primary school, school, secondary school",
+        "address": "2427 Martin Luther King Jr Ave SE"
+      },
+      "text": "Thurgood Marshall Academy",
+      "place_name": "Thurgood Marshall Academy, 2427 Martin Luther King Jr Ave SE, Washington, District of Columbia 20020, United States",
+      "center": [
+        -76.9939,
+        38.8622
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9939,
+          38.8622
+        ]
+      },
+      "context": [
+        {
+          "id": "neighborhood.295838",
+          "text": "Buena Vista"
+        },
+        {
+          "id": "postcode.6770579024751860",
+          "text": "20020"
+        },
+        {
+          "id": "place.7673410831246050",
+          "wikidata": "Q61",
+          "text": "Washington"
+        },
+        {
+          "id": "region.3403",
+          "short_code": "US-DC",
+          "wikidata": "Q61",
+          "text": "District of Columbia"
+        },
+        {
+          "id": "country.3145",
+          "short_code": "us",
+          "wikidata": "Q30",
+          "text": "United States"
+        }
+      ]
+    }    
+  ]
+}
