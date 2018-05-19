@@ -58,7 +58,7 @@ class App extends Component {
                   <div className='row top-xs'>
                     <div className='col-md-3 col-xs-12'>
                       <img
-                        src='/images/logo/csw-logo-light.svg'
+                        src='/images/logo/csw-logo-nomark-light.svg'
                         className='logo'
                         alt='Center for Wellbeing Logo' />
                     </div>
