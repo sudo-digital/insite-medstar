@@ -3,6 +3,11 @@ import React from 'react';
 class Modal extends React.Component {
 
   render() {
+    const {name, bio, body} = this.props
+    const renderName = name? <h4>{name}</h4> : null
+    const renderBio = bio? <p>{bio}</p> : null
+    const renderBody = body? <div>{body}</div> : null
+
     return (
       <div className='modal'>
         <div className='container modal-container'>
@@ -16,8 +21,9 @@ class Modal extends React.Component {
                     alt='close' />
                 </a>
                 <div className='modal-body'>
-                  <h4>{this.props.name}</h4>
-                  <p className='small'>{this.props.bio}</p>
+                  {renderName}
+                  {renderBio}
+                  {renderBody}
                 </div>
               </div>
             </div>

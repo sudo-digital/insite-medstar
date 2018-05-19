@@ -2,21 +2,22 @@ import React from 'react';
 
 class OfficeLocation extends React.Component {
 
-  handleClick = (newCoordinates) => {
-    this.props.fly(newCoordinates)
+  handleClick = (name, name2, address, coordinates) => {
+    this.props.fly(name, name2, address, coordinates)
   }
 
   render() {
+    const { name, name2, address, coordinates } = this.props
     return (
-      <div className='flex top map-location' onClick={() => this.handleClick(this.props.coordinates)}>
+      <div className='flex top map-location' onClick={() => this.handleClick(name, name2, address, coordinates)}>
         <img
           src='/images/icons/pin-purple.svg'
           className='icon-sm'
           alt='Map Pin'/>
         <div>
-          <p className='small m-b-half'><b>{this.props.name}</b></p>
-          <p className='xs m-b-half'><b>{this.props.name2? this.props.name2 : null}</b></p>
-          <p className='xs m-b-0'>{this.props.address}</p>
+          <p className='small m-b-half'><b>{name}</b></p>
+          <p className='xs m-b-half'><b>{name2? name2 : null}</b></p>
+          <p className='xs m-b-0'>{address}</p>
         </div>
       </div>
     )
