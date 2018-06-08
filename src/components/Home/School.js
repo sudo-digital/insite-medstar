@@ -1,6 +1,6 @@
 import React from 'react';
 
-class OfficeLocation extends React.Component {
+class School extends React.Component {
 
   handleClick = (name, name2, address, coordinates) => {
     this.props.fly(name, name2, address, coordinates)
@@ -24,4 +24,4 @@ class OfficeLocation extends React.Component {
   }
 }
 
-export default OfficeLocation;
+export default School;

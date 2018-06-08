@@ -20,7 +20,7 @@ class HomeHero extends React.Component {
 
   renderModal = () => {
     const form = (
-      <form action="https://formspree.io/paul@sudodigital.com" method='POST'>
+      <form className='p-a-2' action="https://formspree.io/aaron@insitesolutions.org" method='POST'>
         <div className='row'>
           <div className='col-md-6 col-xs-12'>
             <div className='form-item'>
@@ -69,7 +69,7 @@ class HomeHero extends React.Component {
           <div className='pad-container'>
             <div className='row'>
               <div className='col-xs-12'>
-                <h2 className='type-white'>The Center for School Wellbeing</h2>
+                <h2 className='type-white'>MedStar Georgetown WISE Center.</h2>
                 <h4 className='type-white'>MedStar Georgetown University Hospital</h4>
                 <br />
               </div>

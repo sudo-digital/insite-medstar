@@ -8,13 +8,12 @@ class Quote extends React.Component {
 
         <div className='col-md-2 col-xs-8'>
           <img
-            src='/images/quote-placeholder.png'
+            src={ '/images/quotes/quote-' + this.props.id + '.png' }
             className='full'
             alt='quote' />
         </div>
 
         <div className='col-md-3 col-xs-12'>
-          <h4 className='m-b-0 type-purple'>{this.props.name}</h4>
           <p className='small'>{this.props.title}<br/>{this.props.location}</p>
         </div>
 

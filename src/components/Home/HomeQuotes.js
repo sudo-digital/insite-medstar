@@ -20,22 +20,22 @@ class HomeQuotes extends React.Component {
               <Slider {...settings}>
 
                 <Quote
-                  name={'Michelle Smith'}
-                  title={'Director of Schools'}
+                  id={1}
+                  title={'School Leader'}
                   location={'Washington, DC'}
-                  quote='“The families we serve no longer have to be placed on a three- to six-month waiting list to get the mental health services their child needs to be successful in school and life. Our work on behalf of children is much more effective because of our partnership with InSite Solutions."' />
+                  quote='“As a result of our work with The MedStar Georgetown WISE Center, our school has turned students who have presented severe behavior challenges into the successful students the school and their families know they can be."' />
 
                 <Quote
-                  name={'Michelle Smith'}
-                  title={'Director of Schools'}
+                  id={2}
+                  title={'School Leader'}
                   location={'Washington, DC'}
-                  quote='“The families we serve no longer have to be placed on a three- to six-month waiting list to get the mental health services their child needs to be successful in school and life. Our work on behalf of children is much more effective because of our partnership with InSite Solutions."' />
+                  quote='“The WISE Center meets weekly with me, my vice principals, and our school social worker to provide ongoing advisement around school, classroom, and individual student behavioral health needs. The advice and training they provide is invaluable, has improved confidence among school’s faculty, and has strengthened the emotional and academic success of our students.”' />
 
                 <Quote
-                  name={'Michelle Smith'}
-                  title={'Director of Schools'}
+                  id={3}
+                  title={'School Leader'}
                   location={'Washington, DC'}
-                  quote='“The families we serve no longer have to be placed on a three- to six-month waiting list to get the mental health services their child needs to be successful in school and life. Our work on behalf of children is much more effective because of our partnership with InSite Solutions."' />
+                  quote='“Since collaborating with The MedStar Georgetown WISE Center, I have seen teachers handling classroom difficulties more effectively, parents being more open to mental health support for their children and themselves, and students feeling happier and better prepared to learn.”' />
 
               </Slider>
             </div>

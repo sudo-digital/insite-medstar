@@ -21,11 +21,18 @@ class App extends Component {
                     <img
                       src='/images/logo/csw-logo-light.svg'
                       className='logo'
-                      alt='Center for Wellbeing Logo'
+                      alt='WISE Logo'
                       />
                   </NavLink>
                 </div>
-                <div className='col-md-9 col-xs-12 end-xs'>
+                <div className='col-md-3 col-xs-12'>
+                  <img
+                    src='/images/medstar-logo.png'
+                    className='medstar'
+                    alt='Medstar Health'
+                    />
+                </div>
+                <div className='col-md-6 col-xs-12 end-xs'>
                   <nav className='center-text-xs right-text-md'>
                     <NavLink
                       exact to='/'>Home
@@ -56,7 +63,7 @@ class App extends Component {
                 <div className='pad-container-sm'>
 
                   <div className='row top-xs'>
-                    <div className='col-md-3 col-xs-12'>
+                    <div className='col-md-offset-3 col-md-3 col-xs-12'>
                       <img
                         src='/images/logo/csw-logo-nomark-light.svg'
                         className='logo'
@@ -68,41 +75,6 @@ class App extends Component {
                       <Link to="/team">Team</Link>
                       <Link to="/careers">Hiring! Join our team</Link>
                       <Link to="/conctact">Contact</Link>
-                    </div>
-
-                    <div className='col-md-3 col-xs-12'>
-                      <a
-                        href='https://www.facebook.com/'
-                        target='_blank'
-                        rel='noopener noreferrer'>Facebook
-                      </a>
-                      <a
-                        href='https://twitter.com/'
-                        target='_blank'
-                        rel='noopener noreferrer'>Twitter
-                      </a>
-                      <a
-                        href='https://www.linkedin.com/'
-                        target='_blank'
-                        rel='noopener noreferrer'>LinkedIn
-                      </a>
-                    </div>
-
-                    <div className='col-md-3 col-xs-12'>
-                      <a
-                        href='https://www.medstarhealth.org/'
-                        target='_blank'
-                        rel='noopener noreferrer'>
-                        <img
-                          src='/images/medstar-logo.png'
-                          alt='medstar logo'
-                          className='medstar' />
-                      </a>
-                      <a
-                        href='https://www.medstarhealth.org/mhs/our-services/behavioral-health/'
-                        target='_blank'
-                        rel='noopener noreferrer'>MedStar Psychiatry
-                      </a>
                     </div>
 
                   </div>

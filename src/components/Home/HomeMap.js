@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactMapboxGl, { GeoJSONLayer, Popup } from "react-mapbox-gl";
-import OfficeLocation from './OfficeLocation'
+import School from './School'
 import schools from '../../data/geoschools.json'
 
 class HomeMap extends React.Component {
@@ -11,8 +11,7 @@ class HomeMap extends React.Component {
       name: 'Thurgood Marshall Academy',
       name2: '',
       address: '2427 Martin Luther King Jr Ave SE, Washington, DC 20020',
-      coordinates: [-76.9939, 38.8622],
-      zoom: [14]
+      coordinates: [-76.9939, 38.8622]
     };
   }
 
@@ -21,8 +20,7 @@ class HomeMap extends React.Component {
       name: name,
       name2: name2,
       address: address,
-      coordinates: coordinates,
-      zoom: [16]
+      coordinates: coordinates
     })
   }
 
@@ -31,7 +29,7 @@ class HomeMap extends React.Component {
     return (
       s.map((so) => {
         return (
-          <OfficeLocation
+          <School
             key={so.id}
             name={so.text}
             name2={so.text2}
@@ -56,7 +54,7 @@ class HomeMap extends React.Component {
             <Map
               style='mapbox://styles/mapbox/light-v9'
               center={coordinates}
-              zoom={zoom}
+              zoom={[12]}
               className='map'
               movingMethod='flyTo'
               flyToOptions={{ speed: 0.8 }}>
