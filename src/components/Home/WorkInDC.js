@@ -1,4 +1,6 @@
 import React from 'react';
+import "animate.css/animate.min.css";
+import ScrollAnimation from 'react-animate-on-scroll';
 
 class WorkInDC extends React.Component {
 
@@ -63,10 +65,10 @@ class WorkInDC extends React.Component {
         <div className='container'>
           <div className='pad-container'>
             <div className='row'>
-              <div className='col-xs-12 center-text-xs'>
+              <ScrollAnimation className='col-xs-12 center-text-xs' animateIn='fadeIn'>
                 <h3 className='type-purple type-700 m-b-half'>Our Work in DC</h3>
                 <p>Our team provides multi-tieredsupport to DC schools through five primary services.</p>
-              </div>
+              </ScrollAnimation>
             </div>
             <div className='space-3'/>
             <div className='row our-work-toggle top-xs'>

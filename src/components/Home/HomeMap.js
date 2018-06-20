@@ -42,7 +42,7 @@ class HomeMap extends React.Component {
   }
 
   render() {
-    const { name, name2, address, coordinates, zoom } = this.state
+    const { name, name2, address, coordinates } = this.state
     const Map = ReactMapboxGl({
       accessToken: 'pk.eyJ1Ijoic3Vkb2RpZ2l0YWwiLCJhIjoiY2pnNTdmN25xNzRpbjJ3bnY0MHR2eHdvZyJ9.-XVfhFTGnfiQHMCIqZd9ng'
     });

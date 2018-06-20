@@ -1,5 +1,7 @@
 import React from 'react';
 import Modal from '../Modal'
+import "animate.css/animate.min.css";
+import ScrollAnimation from 'react-animate-on-scroll';
 
 class HomeHero extends React.Component {
 
@@ -68,15 +70,15 @@ class HomeHero extends React.Component {
         <div className='container'>
           <div className='pad-container'>
             <div className='row'>
-              <div className='col-xs-12'>
+              <ScrollAnimation className='col-xs-12' animateIn='fadeInUp'>
                 <h2 className='type-white'>MedStar Georgetown WISE Center.</h2>
                 <h4 className='type-white'>MedStar Georgetown University Hospital</h4>
                 <br />
-              </div>
-              <div className='col-md-8 col-xs-12'>
+              </ScrollAnimation>
+              <ScrollAnimation className='col-md-8 col-xs-12' animateIn='fadeInUp' delay={1000}>
                 <h3 className='type-white'>Supporting schools with comprehensive approaches for mental wellness.</h3>
                 <a onClick={this.openModal} className='btn-default btn-tertiary'>PARTNER WITH US</a>
-              </div>
+              </ScrollAnimation>
             </div>
           </div>
         </div>

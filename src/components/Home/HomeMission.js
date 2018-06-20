@@ -1,4 +1,6 @@
 import React from 'react';
+import "animate.css/animate.min.css";
+import ScrollAnimation from 'react-animate-on-scroll';
 
 class HomeMission extends React.Component {
 
@@ -7,13 +9,13 @@ class HomeMission extends React.Component {
       <div className='container'>
         <div className='pad-container-top'>
           <div className='row middle-xs'>
-            <div className='col-md-7'>
+            <ScrollAnimation className='col-md-7' animateIn='fadeInUp'>
               <div className='top-line'/>
               <h2 className='type-purple'>Our Mission</h2>
               <p>
                 We operate at the intersection of research and practice to develop innovative approaches that link together rigorous academics with mental wellness to improve academic and mental health outcomes.
               </p>
-            </div>
+            </ScrollAnimation>
             <div className='col-md-5 col-xs-12'>
               <img
                 src='/images/mission-girl.png'

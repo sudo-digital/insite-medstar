@@ -63,9 +63,9 @@ class App extends Component {
                 <div className='pad-container-sm'>
 
                   <div className='row top-xs'>
-                    <div className='col-md-offset-3 col-md-3 col-xs-12'>
+                    <div className='col-md-offset-2 col-md-4 col-xs-12 m-b-1-xs'>
                       <img
-                        src='/images/logo/csw-logo-nomark-light.svg'
+                        src='/images/logo/csw-logo-light.svg'
                         className='logo'
                         alt='Center for Wellbeing Logo' />
                     </div>
