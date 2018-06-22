@@ -1,4 +1,6 @@
 import React from 'react';
+import "animate.css/animate.min.css";
+import ScrollAnimation from 'react-animate-on-scroll';
 
 class Modal extends React.Component {
 
@@ -10,7 +12,7 @@ class Modal extends React.Component {
 
     return (
       <div className='modal'>
-        <div className='container modal-container'>
+        <ScrollAnimation className='container modal-container' animateIn='fadeInUp' delay={300}>
           <div className='row'>
             <div className='col-xs-12'>
               <div className='modal-content'>
@@ -28,7 +30,7 @@ class Modal extends React.Component {
               </div>
             </div>
           </div>
-        </div>
+        </ScrollAnimation>
       </div>
     )
   }

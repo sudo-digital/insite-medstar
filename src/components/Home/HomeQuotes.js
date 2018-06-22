@@ -1,6 +1,8 @@
 import React from 'react';
 import Slider from 'react-slick';
 import Quote from './Quote'
+import "animate.css/animate.min.css";
+import ScrollAnimation from 'react-animate-on-scroll';
 
 class HomeQuotes extends React.Component {
 
@@ -16,7 +18,7 @@ class HomeQuotes extends React.Component {
       <div className='container'>
         <div className='pad-container'>
           <div className='row middle-xs'>
-            <div className='col-xs-12 relative'>
+            <ScrollAnimation className='col-xs-12 relative' animateIn='fadeIn'>
               <Slider {...settings}>
 
                 <Quote
@@ -38,7 +40,7 @@ class HomeQuotes extends React.Component {
                   quote='“Since collaborating with The MedStar Georgetown WISE Center, I have seen teachers handling classroom difficulties more effectively, parents being more open to mental health support for their children and themselves, and students feeling happier and better prepared to learn.”' />
 
               </Slider>
-            </div>
+            </ScrollAnimation>
           </div>
         </div>
       </div>

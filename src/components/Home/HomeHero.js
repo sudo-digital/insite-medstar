@@ -61,11 +61,9 @@ class HomeHero extends React.Component {
     return (
       <div className='home-hero'>
         { this.renderModal() }
-        <img
-          className='img-bg'
-          src='/images/placeholder-bg.png'
-          alt='Home Hero'
-          />
+        <video className='img-bg' loop autoPlay muted>
+          <source src='/images/wise-video-bg.mp4' type='video/mp4' />
+        </video>
         <div className='overlay' />
         <div className='container'>
           <div className='pad-container'>
