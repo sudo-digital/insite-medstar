@@ -22,19 +22,20 @@ class OurWork extends React.Component {
             <div className='pad-container-sm'>
               <div className='row center-text-xs'>
                 <div className='col-xs-12'>
-                  <h6>how we do this</h6>
+                  <h6 className='h6-lg'>how we do this</h6>
+                  <div className='space-2'/>
                 </div>
                 <div className='col-xs'>
                   <img
                     src='/images/icons/develop.svg'
-                    className='icon-lg m-b-1 m-x-auto'
+                    className='icon-xl m-b-1 m-x-auto'
                     alt='develop icon' />
                   <h4>Develop and refine transformational<br/> mental health solutions.</h4>
                 </div>
                 <div className='col-xs'>
                   <img
                     src='/images/icons/deploy.svg'
-                    className='icon-lg m-b-1 m-x-auto'
+                    className='icon-xl m-b-1 m-x-auto'
                     alt='deploy icon' />
                   <h4>Deploy effective solutions <br/>within schools.</h4>
                 </div>
