@@ -18,16 +18,16 @@ class CallToAction extends React.Component {
     let headline;
     switch(section) {
       case 0:
-        headline = 'Schools are not equipped with developmental expertise for mental wellness, which contributes to low academic outcomes.'
+        headline = 'Most schools are not equipped with expertise to support student mental wellbeing across all tiers, which can contribute to lower academic success school wide.'
         break;
       case 1:
-        headline = 'Tier 3 counseling and medication management provide meaningful support but do not address the complete challenge.'
+        headline = 'School- and community-based counseling and medication management provide meaningful support but do not prevent or fully address the growing challenge.'
         break;
       case 2:
-        headline = 'We work with schools to develop aligned, whole school approaches to mental wellness to improve academic outcomes.'
+        headline = 'Comprehensive, aligned, whole-school approaches to mental wellbeing on all levels.'
         break;
       default:
-        headline = 'Schools are not equipped with developmental expertise for mental wellness, which contributes to low academic outcomes.'
+        headline = 'Most schools are not equipped with expertise to support student mental wellbeing across all tiers, which can contribute to lower academic success school wide.'
     }
     this.setState({
       section: section,
@@ -61,7 +61,7 @@ class CallToAction extends React.Component {
               <h6
                 onClick={ () =>this.toggleSection(1) }
                 className={this.state.section === 1? 'active' : null}>
-                tier 3 counseling
+                Co-Located Mental Health Care
               </h6>
             </div>
             <div className='col-md-4 col-xs-12'>

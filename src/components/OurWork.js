@@ -11,8 +11,8 @@ class OurWork extends React.Component {
             <div className='row'>
               <div className='col-xs-12'>
                 <h2>Our work</h2>
-                <p>We support schools to implement aligned and comprehensive whole-school approaches for mental wellness.</p>
                 <p>We operate at the intersection of research and practice to develop innovative approaches that link together rigorous academics with mental wellness to improve academic and mental health outcomes</p>
+                <p>We then support schools to implement aligned and comprehensive whole-school approaches for mental wellness.</p>
               </div>
             </div>
           </div>

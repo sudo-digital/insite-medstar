@@ -10,28 +10,28 @@ class OurWorkSeciton extends React.Component {
 
     switch(c) {
       case 0:
-        c = 'Students enter school with trauma and ACEs.'
-        s = 'School culture and systems are not optimized for mental health.'
-        t = 'Teachers experience secondary trauma and may not be equipped with supportive practices.'
-        o = 'Low academic outcomes and unmet mental health needs.'
+        c = 'Many students face stress and trauma that impact their learning.'
+        s = 'School systems are not equipped to mitigate these challenges.'
+        t = 'Teachers experience secondary trauma and burnout.'
+        o = 'Lower academic outcomes and growing, unmet mental health needs.'
         break;
       case 1:
-        c = 'Students in need receive counseling or psychiatry support.'
-        s = 'Leaders receive coaching; one-off programs are implemented.'
-        t = 'Some trained in self-care or equipped for trauma sensitive pedagogy.'
-        o = 'Low academic outcomes and partially met mental health needs.'
+        c = 'Some high needs students receive support out of class but often feel marginalized and to blame.'
+        s = 'Schools receive periodic updates on progress but do not regularly collaborate to create environmental change for the student.'
+        t = 'Teachers receive little to no information that helps them best support the student’s needs in the classroom.'
+        o = 'Unmet academic potential and partially unmet mental health needs.'
         break;
       case 2:
-        c = 'Support all students through aligned, multi-tiered behavioral and SEL approaches.'
-        s = 'Identify opportunities to improve school culture and systems.'
-        t = 'Provide teachers skills for self-care and for developmentally responsive pedagogy.'
-        o = 'Improved student academic outcomes + mental wellness.'
+        c = 'Students benefit from prevention, early intervention, and responsive best practices in their school environment.'
+        s = 'School leaders receive regular support to enhance school practices for all students.'
+        t = 'Teachers experience increased efficacy, feel supported, and more effectively manage their students.'
+        o = 'Improved mental wellbeing and outcomes for all.'
         break;
       default:
-        c = 'Students enter school with trauma and ACEs.'
-        s = 'School culture and systems are not optimized for mental health.'
-        t = 'Teachers experience secondary trauma and may not be equipped with supportive practices.'
-        o = 'Low academic outcomes and unmet mental health needs.'
+        c = 'Many students face stress and trauma that impact their learning.'
+        s = 'School systems are not equipped to mitigate these challenges.'
+        t = 'Teachers experience secondary trauma and burnout.'
+        o = 'Lower academic outcomes and growing, unmet mental health needs.'
 
     }
     return {

@@ -8,48 +8,48 @@ class WorkInDC extends React.Component {
     super(props);
     this.state = {
       active: 0,
-      title: 'Direct mental health service',
+      title: 'Mental health treatment services',
       section: 'Clinical psychotherapy and medication management (if needed); Clinical psychologist and doctoral externs provide psychotherapy to students in both general education and special education; psychiatrists provide psychodiagnostic and medication management support.'
     };
   }
 
   clickToggle = (section) => {
-    const directMentalHealth = 'Clinical psychotherapy and medication management (if needed); Clinical psychologist and doctoral externs provide psychotherapy to students in both general education and special education; psychiatrists provide psychodiagnostic and medication management support.'
+    const mentalHealthTreatment = 'Our team of highly-qualified child clinical psychologists, child psychiatrists, and doctoral trainees provide diagnostic evaluations, psychotherapy, and medication management for students and families in the school setting to improve accessibility.'
 
-    const behaviorCoaching = 'For students with the greatest emotional and behavioral needs, a clinical psychologist observes the student in class for an hour each week to understand success of supports and interventions; observation data is used to provide coaching support to leaders and the teacher.'
+    const classroomCoaching = 'Classroom staff and instructional coaching teams receive coaching and capacity building for integrating trauma-sensitive and mindful teaching practices into the classroom to support universal prevention and student-specific intervention'
 
-    const capacityBuilding = 'Clinical psychologists meet with school leadership to provide consultation on the students with the highest levels of emotional and behavioral needs; review and refine school wide behavioral health protocols and assessment strategies.'
+    const consultationSchoolLeaders = 'Our team engages in ongoing consultation with school leadership and support staff to fully address the needs of students with emotional and behavioral challenges, to increase communication and collaboration, and to enhance school-wide behavioral health policies and practices.'
 
-    const teacherTrain = 'In partnership with nationally recognized teacher training programs, CAPD leads training in self-care and trauma informed pedagogy for teachers entering the field.'
+    const professionalDevTraining = 'School staff receive foundational evidence-based pedagogy and concrete skill acquisition around the neurobiological impacts of stress and trauma, as well as relational and responsive strategies that reduce classroom behavioral issues, to increase staff’s feelings of efficacy and confidence.'
 
-    const cityWide = 'CAPD participates in several DC-wide initiatives that bring together expertise and best practices from various stakeholder groups, and improve access to services for schools and families, to help the District address its urgent mental health need.'
+    const teacherWellbeing = 'Our team is equally as committed to taking care of the mental wellbeing of adults, so they can best support their students. We lead the citywide and school-based initiatives to decrease teacher burnout and turnover through school wellness programming, self-care trainings, and individual staff support.'
 
     let currentSection;
     let currentTitle;
     switch(section) {
       case 0:
-        currentTitle = 'Direct mental health service';
-        currentSection = directMentalHealth;
+        currentTitle = 'Mental health treatment services';
+        currentSection = mentalHealthTreatment;
         break;
       case 1:
-        currentTitle = 'Behavioral coaching with classroom teachers';
-        currentSection = behaviorCoaching;
+        currentTitle = 'Professional development training';
+        currentSection = professionalDevTraining;
         break;
       case 2:
-        currentTitle = 'Capacity building with school leadership and support staff';
-        currentSection = capacityBuilding;
+        currentTitle = 'Classroom Coaching';
+        currentSection = classroomCoaching;
         break;
       case 3:
-        currentTitle = 'New teacher training';
-        currentSection = capacityBuilding;
+        currentTitle = 'Consultation with school leaders and support staff';
+        currentSection = consultationSchoolLeaders;
         break;
       case 4:
-        currentTitle = 'Citywide collaboratives';
-        currentSection = teacherTrain;
+        currentTitle = 'Teacher wellbeing initiatives';
+        currentSection = teacherWellbeing;
         break;
       default:
-        currentTitle = 'Direct mental health service';
-        currentSection = cityWide;
+      currentTitle = 'Mental health treatment services';
+      currentSection = mentalHealthTreatment;
     }
 
     this.setState({
@@ -67,7 +67,7 @@ class WorkInDC extends React.Component {
             <div className='row'>
               <ScrollAnimation className='col-xs-12 center-text-xs' animateIn='fadeIn'>
                 <h3 className='type-purple type-700 m-b-half'>Our Work in DC</h3>
-                <p>Our team provides multi-tieredsupport to DC schools through five primary services.</p>
+                <p>Our team provides multi-tiered support to DC schools through five primary services.</p>
               </ScrollAnimation>
             </div>
             <div className='space-3'/>
@@ -84,37 +84,7 @@ class WorkInDC extends React.Component {
                     className='icon-sm'
                     alt='sun icon'
                     />
-                  <p>Direct mental health service</p>
-                </div>
-
-                <div
-                  onClick={ () =>this.clickToggle(1) }
-                  className={this.state.active === 1?
-                    'toggle-switch flex middle active'
-                    : 'toggle-switch flex middle'}>
-                  <img
-                    src={this.state.active === 1?
-                      '/images/icons/users-purple.svg'
-                      : '/images/icons/users-gray.svg'}
-                    className='icon-sm'
-                    alt='users icon'
-                    />
-                  <p>Behavioral coaching with classroom teachers</p>
-                </div>
-
-                <div
-                  onClick={ () =>this.clickToggle(2) }
-                  className={this.state.active === 2?
-                    'toggle-switch flex middle active'
-                    : 'toggle-switch flex middle'}>
-                  <img
-                    src={this.state.active === 2?
-                      '/images/icons/stack-purple.svg'
-                      : '/images/icons/stack-gray.svg'}
-                    className='icon-sm'
-                    alt='stack icon'
-                    />
-                  <p>Capacity building with school leadership and support staff</p>
+                  <p>Mental health treatment services</p>
                 </div>
 
                 <div
@@ -129,7 +99,37 @@ class WorkInDC extends React.Component {
                     className='icon-sm'
                     alt='pin icon'
                     />
-                  <p>New teacher training</p>
+                  <p>Professional development training</p>
+                </div>
+
+                <div
+                  onClick={ () =>this.clickToggle(1) }
+                  className={this.state.active === 1?
+                    'toggle-switch flex middle active'
+                    : 'toggle-switch flex middle'}>
+                  <img
+                    src={this.state.active === 1?
+                      '/images/icons/users-purple.svg'
+                      : '/images/icons/users-gray.svg'}
+                    className='icon-sm'
+                    alt='users icon'
+                    />
+                  <p>Classroom Coaching</p>
+                </div>
+
+                <div
+                  onClick={ () =>this.clickToggle(2) }
+                  className={this.state.active === 2?
+                    'toggle-switch flex middle active'
+                    : 'toggle-switch flex middle'}>
+                  <img
+                    src={this.state.active === 2?
+                      '/images/icons/stack-purple.svg'
+                      : '/images/icons/stack-gray.svg'}
+                    className='icon-sm'
+                    alt='stack icon'
+                    />
+                  <p>Consultation with school leaders and support staff</p>
                 </div>
 
                 <div
@@ -144,7 +144,7 @@ class WorkInDC extends React.Component {
                     className='icon-sm'
                     alt='share icon'
                     />
-                  <p>Citywide collaboratives</p>
+                  <p>Teacher wellbeing initiatives</p>
                 </div>
               </div>
 
