@@ -14,7 +14,7 @@ class CallToAction extends React.Component {
     };
   }
 
-  toggleSection = (section) => {
+    toggleSection = (section) => {
     let headline;
     switch(section) {
       case 0:
