@@ -3,13 +3,13 @@
     "id": 1,
     "name": "Aaron Rakow, PhD",
     "img": "aaron-rakow.png",
-    "bio": "Dr. Aaron Rakow is the Executive Director of the WISE Center. Much of Dr. Rakow’s professional background focuses on improving access to empirically supported mental health treatments via training and dissemination efforts within school systems and primary care offices.  Dr. Rakow has previously been involved in the successful launch of a statewide mental health training and dissemination effort with the Departments of Health and Mental Health in the State of Vermont. In addition to his role at InSite Solutions, Dr. Rakow is also a faculty member within the Department of Psychiatry at MedStar Georgetown University Hospital. Collectively, Dr. Rakow has fifteen years of experience working within the behavioral health field including at the National Institutes of Mental Health, Children's National Health System, The Medical University of South Carolina and the University of Vermont. Dr. Rakow is a Child Psychologist in Washington, DC."
+    "bio": "Dr. Aaron Rakow is the Director of Operations of the WISE Center. Much of Dr. Rakow’s professional background focuses on improving access to empirically supported mental health treatments via training and dissemination efforts within school systems and primary care offices.  Dr. Rakow has previously been involved in the successful launch of a statewide mental health training and dissemination effort with the Departments of Health and Mental Health in the State of Vermont. In addition to his role at InSite Solutions, Dr. Rakow is also a faculty member within the Department of Psychiatry at MedStar Georgetown University Hospital. Collectively, Dr. Rakow has fifteen years of experience working within the behavioral health field including at the National Institutes of Mental Health, Children's National Health System, The Medical University of South Carolina and the University of Vermont. Dr. Rakow is a Child Psychologist in Washington, DC."
   },
   {
     "id": 2,
     "name": "Megan McCormick, PhD",
     "img": "megan-mcc.png",
-    "bio": "Dr. McCormick is the Director of Operations of the WISE Center. Her interests include large-scale program development and implementation aimed at improving public health outcomes for youth. She has worked extensively within community-based organizations on improving public health causes and advocating for youth mental health issues within the Washington DC metro area. Her research background has focused on psychological factors that impact health outcomes, such as pain management and medication adherence, as well as the design, implementation, and evaluation of behavioral interventions to improve access to mental healthcare in primary healthcare settings and prevent negative medical outcomes in pediatric chronic illness populations. In addition to her role at InSite Solutions, Dr. McCormick is also a faculty member within the Department of Psychiatry at MedStar Georgetown University Hospital. Dr. McCormick is a Child Psychologist in Washington, DC."
+    "bio": "Dr. McCormick is the Director of Programs of the WISE Center. Her interests include large-scale program development and implementation aimed at improving public health outcomes for youth. She has worked extensively within community-based organizations on improving public health causes and advocating for youth mental health issues within the Washington DC metro area. Her research background has focused on psychological factors that impact health outcomes, such as pain management and medication adherence, as well as the design, implementation, and evaluation of behavioral interventions to improve access to mental healthcare in primary healthcare settings and prevent negative medical outcomes in pediatric chronic illness populations. In addition to her role at InSite Solutions, Dr. McCormick is also a faculty member within the Department of Psychiatry at MedStar Georgetown University Hospital. Dr. McCormick is a Child Psychologist in Washington, DC."
   },
   {
     "id": 3,
@@ -64,5 +64,29 @@
     "name": "Neal Horen, PhD",
     "img": "neal-horen.png",
     "bio": "Dr. Horen is a clinical psychologist who has focused on community-based work for the last fifteen years.  He is Director of the Early Childhood Division and Co-director of Training and Technical Assistance for the Georgetown University Center for Child and Human.   Dr. Horen is the lead for mental health on the Head Start National Center on Early Childhood Health and Wellness, the lead for Georgetown on the Home Visiting TA Center-HV-ImpACT, the lead for early childhood systems of care for the TA Network, the Director of the Project LAUNCH TA Center,  and the TA Director of the Center of Excellence for Infant and Early Childhood Mental Health Consultation.  Dr. Horen has worked closely with numerous states, tribes, territories and communities in supporting their development of systems of care for young children and their families.  In addition, Dr. Horen continues to spend time working in direct clinical care including development of social skills interventions for young children and is director of the HOYA clinic which offers therapeutic and assessment services for young children and families.  Dr. Horen’s primary interest is in early childhood mental health and he has lectured extensively on infant and early childhood mental health, challenging behaviors in young children, social skills development,  as well as the impact of trauma on child development.   He is the proud father of four children, 18, 17,17 and 2."
+  },
+  {
+    "id": 12,
+    "name": "Myriam Paul",
+    "img": "myriam-paul.png",
+    "bio": "Myriam Paul is the Grants and Contracts Manager for WISE Center and the Division of child and adolescent psychology. Her responsibilities are to coordinate all aspects of the Child Division grants and contracts activities, supervise staff members, and serve as the administrative contact for the Child Division providers. Myriam has a BS in Finance and Accounting and an MS in Project Management, both from Northeastern University. She has over 10 years’ experience in accounting and grants management in hospital and University settings, including Boston Medical Center, MIT, Kaiser Permanente and GUMC."
+  },
+  {
+    "id": 13,
+    "name": "Kylan Foster",
+    "img": "kylan-foster.png",
+    "bio": "Kylan Foster is the Administrative Assistant to the WISE Center. Kylan received her B.A. in English from Howard University in Washington D.C.  She joined the Wise center in 2019 to provide administrative support and to coordinate patient care.  Kylan was drawn to this role by a genuine belief in the community-focused work of Wise Center care providers and the desire to extend exceptional, personalized service to families."
+  },
+  {
+    "id": 14,
+    "name": "Kristine Goins, MD",
+    "img": "kristine-goins.png",
+    "bio": "Kristine Goins, MD is a board-certified adult, child and adolescent psychiatrist with clinical and teaching interests in community and school-based mental health, as well as, integrative psychiatry. Dr. Goins completed her adult psychiatry residency at Emory University and served as chief fellow during her child and adolescent psychiatry fellowship at Yale Child Study Center. She currently serves on faculty at MedStar Georgetown University Hospital."
+  },
+  {
+    "id": 15,
+    "name": "Brenda Terry-Leonard, PhD",
+    "img": "brenda-terry-leonard.png",
+    "bio": "Brenda Terry-Leonard, Ph.D., is a Psychologist who earned her doctorate from Howard University.  She has extensive experience providing clinical services to children and families across the developmental spectrum.  She has practiced in a range of settings including a public school, a private full day special education placement, out-patient mental health centers, and a residential facility.  She has also served at local universities as an adjunct faculty providing instruction for a child and adolescent mental hygiene course and as a clinical coordinator for practicum and internship students.  As a Clinical Psychologist with the Center for Wellbeing in School Environments (WISE), she provides Early Childhood Mental Health Consultation (ECMHC) at various Apple Tree Early Learning Public Charter Schools.  In addition, she is a collaborator with the Early Childhood Innovation Network (ECIN)."
   }
 ]
