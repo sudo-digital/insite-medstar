@@ -66,7 +66,7 @@ class Team extends React.Component {
           <div className='row'>
             <div className='col-xs-12'>
               <h2>Our team</h2>
-              <p>The clinical team includes 11 additional pediatric psychiatrists and five additional child psychologists with expertise in school based mental health strategies and solutions.</p>
+              <p>The clinical team includes pediatric psychiatrists and child psychologists with expertise in school based mental health strategies and solutions.</p>
             </div>
           </div>
           <div className='space-3' />
