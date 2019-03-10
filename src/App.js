@@ -4,6 +4,7 @@ import Home from './components/Home';
 import OurWork from './components/OurWork';
 import Team from './components/Team';
 import Contact from './components/Contact';
+import './app.css'
 
 class App extends Component {
 
@@ -72,7 +73,7 @@ class App extends Component {
 
                     <div className='col-md-3 col-xs-12'>
                       <Link to="/our-work">Our Work</Link>
-                      <Link to="/team">Team</Link>                      
+                      <Link to="/team">Team</Link>
                       <Link to="/conctact">Contact</Link>
                     </div>
 
