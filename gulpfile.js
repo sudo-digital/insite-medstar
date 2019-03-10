@@ -33,4 +33,4 @@ gulp.task('watch', function() {
 });
 
 gulp.task('default', ['sass','images','watch']);
-gulp.task('production', ['sass','images',]);
+gulp.task('production', ['sass','images']);
