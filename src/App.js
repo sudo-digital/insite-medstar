@@ -4,7 +4,7 @@ import Home from './components/Home';
 import OurWork from './components/OurWork';
 import Team from './components/Team';
 import Contact from './components/Contact';
-import './app.css';
+import './sass/app.sass';
 import './mapbox.css';
 
 class App extends Component {

@@ -5,14 +5,14 @@
   "dependencies": {
     "animate.css": "^3.6.1",
     "aos": "^2.3.0",
-    "gulp": "^3.9.1",
     "mapbox-gl": "^0.44.2",
+    "node-sass": "^4.11.0",
     "react": "^16.3.2",
     "react-animate-on-scroll": "^2.1.5",
     "react-dom": "^16.3.2",
     "react-mapbox-gl": "^3.8.0",
     "react-router-dom": "^4.2.2",
-    "react-scripts": "1.1.4",
+    "react-scripts": "2.1.8",
     "react-slick": "^0.23.1"
   },
   "engines": {
@@ -20,7 +20,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && gulp production",
+    "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
@@ -29,10 +29,12 @@
   },
   "devDependencies": {
     "browser-sync": "^2.23.6",
-    "gulp-autoprefixer": "^5.0.0",
-    "gulp-notify": "^3.2.0",
-    "gulp-sass": "^4.0.1",
-    "gulp-watch": "^5.0.0",
     "modularscale-sass": "^3.0.5"
-  }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }

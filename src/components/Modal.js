@@ -1,6 +1,5 @@
 import React from 'react';
 import "animate.css/animate.min.css";
-import ScrollAnimation from 'react-animate-on-scroll';
 
 class Modal extends React.Component {
 
