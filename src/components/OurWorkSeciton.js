@@ -13,7 +13,7 @@ class OurWorkSeciton extends React.Component {
         c = 'Many students face stress and trauma that impact their learning.'
         s = 'School systems are not equipped to mitigate these challenges.'
         t = 'Teachers experience secondary trauma and burnout.'
-        o = 'Lower academic outcomes and growing, unmet mental health needs.'
+        o = 'Lower academic outcomes and growing unmet mental health needs.'
         break;
       case 1:
         c = 'Some high needs students receive support out of class but often feel marginalized and to blame.'

@@ -10,7 +10,7 @@ class CallToAction extends React.Component {
       child: 0,
       school: 0,
       teacher: 0,
-      headline: 'Schools are not equipped with developmental expertise for mental wellness, which contributes to low academic outcomes.'
+      headline: 'The mental health needs of DC students are outweighing the existing developmental expertise and mental health resources in schools. The most prepared schools and teachers are not meeting their full potential due to the overwhelming mental health and developmental needs of the student population.'
     };
   }
 
@@ -18,16 +18,16 @@ class CallToAction extends React.Component {
     let headline;
     switch(section) {
       case 0:
-        headline = 'Most schools are not equipped with expertise to support student mental wellbeing across all tiers, which can contribute to lower academic success school wide.'
+        headline = 'The mental health needs of DC students are outweighing the existing developmental expertise and mental health resources in schools. The most prepared schools and teachers are not meeting their full potential due to the overwhelming mental health and developmental needs of the student population.'
         break;
       case 1:
         headline = 'School- and community-based counseling and medication management provide meaningful support but do not prevent or fully address the growing challenge.'
         break;
       case 2:
-        headline = 'Comprehensive, aligned, whole-school approaches to mental wellbeing on all levels.'
+        headline = 'Following best practices in both educational and child psychology, we promote a collaborative, systems-based approach to mental well-being that builds capacity across the school setting.'
         break;
       default:
-        headline = 'Most schools are not equipped with expertise to support student mental wellbeing across all tiers, which can contribute to lower academic success school wide.'
+        headline = 'The mental health needs of DC students are outweighing the existing developmental expertise and mental health resources in schools. The most prepared schools and teachers are not meeting their full potential due to the overwhelming mental health and developmental needs of the student population.'
     }
     this.setState({
       section: section,
@@ -45,7 +45,7 @@ class CallToAction extends React.Component {
           <div className='row'>
             <div className='col-xs-12'>
               <div className='top-line'/>
-              <h2 className='type-purple'>Our call to action</h2>
+              <h2 className='type-purple'>Our Call To Action</h2>
             </div>
           </div>
           <div className='space-2' />

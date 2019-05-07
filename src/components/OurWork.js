@@ -10,9 +10,8 @@ class OurWork extends React.Component {
           <div className='pad-container-sm'>
             <div className='row'>
               <div className='col-xs-12'>
-                <h2>Our work</h2>
-                <p>We operate at the intersection of research and practice to develop innovative approaches that link together rigorous academics with mental wellness to improve academic and mental health outcomes</p>
-                <p>We then support schools to implement aligned and comprehensive whole-school approaches for mental wellness.</p>
+                <h2>Our Work</h2>
+                <p>We aim to reduce mental health and educational disparities in Washington DC by bringing innovative best practices within the school walls of our city. Through a unique combination of consultation, student and family mental health services, and classroom coaching we create change on both individual and school-wide levels to help schools and students reach their full potential.</p>
               </div>
             </div>
           </div>

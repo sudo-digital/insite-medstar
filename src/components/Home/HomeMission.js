@@ -12,7 +12,7 @@ class HomeMission extends React.Component {
             <ScrollAnimation className='col-md-7' animateIn='fadeInUp'>
               <div className='top-line'/>
               <h2 className='type-purple'>Our Mission</h2>
-              <p>We operate at the intersection of research and practice to develop innovative approaches that link together rigorous academics with mental wellness to improve academic and mental health outcomes for students, families, and schools.</p>
+              <p>As a multidisciplinary, multi-cultural team of mental health professionals, we operate at the intersection of research and best practices to develop innovative, culturally appropriate approaches that meet the unique needs of the District of Columbia’s students, families, and schools. Our program links rigorous academics with mental wellness to promote improvements in both academic and mental health outcomes in our community.</p>
             </ScrollAnimation>
             <div className='col-md-5 col-xs-12'>
               <img

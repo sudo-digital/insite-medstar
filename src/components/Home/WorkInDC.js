@@ -16,23 +16,23 @@ class WorkInDC extends React.Component {
   clickToggle = (section) => {
     const mentalHealthTreatment = 'Our team of highly-qualified child clinical psychologists, child psychiatrists, and doctoral trainees provide diagnostic evaluations, psychotherapy, and medication management for students and families in the school setting to improve accessibility.'
 
-    const classroomCoaching = 'Classroom staff and instructional coaching teams receive coaching and capacity building for integrating trauma-sensitive and mindful teaching practices into the classroom to support universal prevention and student-specific intervention'
+    const professionalDevTraining = 'School staff receives foundational evidence-based pedagogy and concrete skill acquisition around the neurobiological impacts of stress and trauma, as well as relational and responsive strategies that reduce classroom behavioral issues, to increase staff’s feelings of efficacy and confidence.'
 
-    const consultationSchoolLeaders = 'Our team engages in ongoing consultation with school leadership and support staff to fully address the needs of students with emotional and behavioral challenges, to increase communication and collaboration, and to enhance school-wide behavioral health policies and practices.'
+    const classroomCoaching = 'Capacity building for teachers in integrating universal classroom-wide trauma-sensitive instructional approaches and individualized behavioral strategies for children with individual emotional and behavioral health needs.'
 
-    const professionalDevTraining = 'School staff receive foundational evidence-based pedagogy and concrete skill acquisition around the neurobiological impacts of stress and trauma, as well as relational and responsive strategies that reduce classroom behavioral issues, to increase staff’s feelings of efficacy and confidence.'
+    const consultationSchoolLeaders = 'Our team consults with school leadership and mental health team to ensure that mental health treatment services, classroom coaching, and professional development are uniquely tailored to fit the school’s culture, strengths, and needs. Consultation is provided for school-wide efforts related to culture change, policy development, and crisis support.'
 
-    const teacherWellbeing = 'Our team is equally as committed to taking care of the mental wellbeing of adults, so they can best support their students. We lead the citywide and school-based initiatives to decrease teacher burnout and turnover through school wellness programming, self-care trainings, and individual staff support.'
+    const teacherWellbeing = 'Our team is equally as committed to taking care of the mental wellbeing of adults, so they can best support their students. We lead the citywide and school-based initiatives to decrease teacher burnout and turnover through school wellness programming, self-care training, and individual staff support.'
 
     let currentSection;
     let currentTitle;
     switch(section) {
       case 0:
-        currentTitle = 'Mental health treatment services';
+        currentTitle = 'Mental Health Treatment Services';
         currentSection = mentalHealthTreatment;
         break;
       case 1:
-        currentTitle = 'Professional development training';
+        currentTitle = 'Professional Development Training';
         currentSection = professionalDevTraining;
         break;
       case 2:
@@ -40,11 +40,11 @@ class WorkInDC extends React.Component {
         currentSection = classroomCoaching;
         break;
       case 3:
-        currentTitle = 'Consultation with school leaders and support staff';
+        currentTitle = 'Consultation With School Leaders & Support Staff';
         currentSection = consultationSchoolLeaders;
         break;
       case 4:
-        currentTitle = 'Teacher wellbeing initiatives';
+        currentTitle = 'Teacher Wellbeing Initiatives';
         currentSection = teacherWellbeing;
         break;
       default:
@@ -66,7 +66,7 @@ class WorkInDC extends React.Component {
           <div className='pad-container'>
             <div className='row'>
               <ScrollAnimation className='col-xs-12 center-text-xs' animateIn='fadeIn'>
-                <h3 className='type-purple type-700 m-b-half'>Our Work in DC</h3>
+                <h3 className='type-purple type-700 m-b-half'>Our Work in DC Schools</h3>
                 <p>Our team provides multi-tiered support to DC schools through five primary services.</p>
               </ScrollAnimation>
             </div>
@@ -84,22 +84,7 @@ class WorkInDC extends React.Component {
                     className='icon-sm'
                     alt='sun icon'
                     />
-                  <p>Mental health treatment services</p>
-                </div>
-
-                <div
-                  onClick={ () =>this.clickToggle(3) }
-                  className={this.state.active === 3?
-                    'toggle-switch flex middle active'
-                    : 'toggle-switch flex middle'}>
-                  <img
-                    src={this.state.active === 3?
-                      '/images/icons/pin-purple.svg'
-                      : '/images/icons/pin-gray.svg'}
-                    className='icon-sm'
-                    alt='pin icon'
-                    />
-                  <p>Professional development training</p>
+                  <p>Mental Health Treatment Services</p>
                 </div>
 
                 <div
@@ -109,12 +94,12 @@ class WorkInDC extends React.Component {
                     : 'toggle-switch flex middle'}>
                   <img
                     src={this.state.active === 1?
-                      '/images/icons/users-purple.svg'
-                      : '/images/icons/users-gray.svg'}
+                      '/images/icons/pin-purple.svg'
+                      : '/images/icons/pin-gray.svg'}
                     className='icon-sm'
-                    alt='users icon'
+                    alt='pin icon'
                     />
-                  <p>Classroom Coaching</p>
+                  <p>Professional Development Training</p>
                 </div>
 
                 <div
@@ -124,6 +109,21 @@ class WorkInDC extends React.Component {
                     : 'toggle-switch flex middle'}>
                   <img
                     src={this.state.active === 2?
+                      '/images/icons/users-purple.svg'
+                      : '/images/icons/users-gray.svg'}
+                    className='icon-sm'
+                    alt='users icon'
+                    />
+                  <p>Classroom Coaching</p>
+                </div>
+
+                <div
+                  onClick={ () =>this.clickToggle(3) }
+                  className={this.state.active === 3?
+                    'toggle-switch flex middle active'
+                    : 'toggle-switch flex middle'}>
+                  <img
+                    src={this.state.active === 3?
                       '/images/icons/stack-purple.svg'
                       : '/images/icons/stack-gray.svg'}
                     className='icon-sm'
