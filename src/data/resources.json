@@ -1,0 +1,110 @@
+{
+  "resources": {
+    "parents": [
+      {
+        "id": 1,
+        "name": "Center for Effective Parenting",
+        "link": "http://parenting-ed.org/"
+      },
+      {
+        "id": 2,
+        "name": "American Psychological Association",
+        "link": "http://www.apa.org/topics/index.aspx"
+      },
+      {
+        "id": 4,
+        "name": "National Alliance on Mental Health",
+        "link": "https://www.nami.org/"
+      },
+      {
+        "id": 5,
+        "name": "Child Mind Institute",
+        "link": "http://www.childmind.org/"
+      }
+    ],
+    "kids": [
+      {
+        "id": 6,
+        "name": "Kids Health",
+        "link": "http://kidshealth.org/kid/"
+      },
+      {
+        "id": 7,
+        "name": "Teens Health",
+        "link": "http://kidshealth.org/teen/"
+      },
+      {
+        "id": 8,
+        "name": "Teen Internet Safety",
+        "link": "http://www.nsteens.org/"
+      }
+    ],
+    "topics": [
+      {
+        "id": 9,
+        "name": "Anxiety/Fears",
+        "link": "http://depts.washington.edu/hcsats/PDF/factsheets/Anxiety%20Information%202011.pdf"
+      },
+
+      {
+        "id": 10,
+        "name": "Depression/Bipolar Disorder",
+        "link": "http://www.thebalancedmind.org/"
+      },
+
+      {
+        "id": 11,
+        "name": "Learning Difficulties",
+        "link": "http://www.helpguide.org"
+      },
+
+      {
+        "id": 12,
+        "name": "Suicidality",
+        "link": "http://kidshealth.org/parent/emotions/behavior/suicide.html#cat146"
+      },
+
+      {
+        "id": 13,
+        "name": "ADHD",
+        "link": "http://www.chadd.org/Understanding-ADHD/Parents-Caregivers-of-Children-with-ADHD.aspx"
+      },
+
+      {
+        "id": 14,
+        "name": "Autism",
+        "link": "http://dcautismparents.org/"
+      },
+
+      {
+        "id": 15,
+        "name": "Developmental Milestones",
+        "link": "http://www.cdc.gov/ncbddd/actearly/milestones/"
+      },
+
+      {
+        "id": 16,
+        "name": "Helping Children Cope with Violence and Disasters",
+        "link": "http://www.nimh.nih.gov/health/publications/helping-children-and-adolescents-cope-with-violence-and-disasters-parents/index.shtml"
+        },
+
+      {
+        "id": 17,
+        "name": "Trauma",
+        "link": "http://depts.washington.edu/hcsats/PDF/factsheets/Trauma_and_Posttraumatic_Stress_Information_Sheet_Kids_and_Teens.pdf"
+        },
+
+      {
+        "id": 18,
+        "name": "Clinical Resources",
+        "link": "http://depts.washington.edu/hcsats/resources.html"
+      },
+
+      {
+        "id": 19,
+        "name": "Legal Advice & Advocacy",
+        "link": "http://www.childrenslawcenter.org/"
+      }
+    ]
+  }
+}

@@ -43,7 +43,7 @@ class HomeHero extends React.Component {
             </div>
           </div>
           <div className='col-xs-12 end-xs'>
-            <div className='form-item'>
+            <div className='form-item m-b-0'>
               <input className='m-b-0' type='submit' name='Submit' />
             </div>
           </div>
@@ -69,7 +69,7 @@ class HomeHero extends React.Component {
           <div className='pad-container'>
             <div className='row'>
               <ScrollAnimation className='col-xs-12' animateIn='fadeInUp'>
-                <h2 className='type-white'>MedStar Georgetown WISE Center.</h2>
+                <h2 className='type-white'>MedStar Georgetown WISE Center</h2>
                 <h4 className='type-white'>MedStar Georgetown University Hospital</h4>
                 <br />
               </ScrollAnimation>

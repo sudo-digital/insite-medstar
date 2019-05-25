@@ -9,7 +9,7 @@ class Contact extends React.Component {
           <div className='row'>
             <div className='col-md-10 col-md-offset-1 col-xs-12'>
               <h2>Contact us</h2>
-              <p>Fill out the form below and we'll get back to you soon.</p>
+              <p>Please fill out the form below, and we'll get back to you soon.</p>
             </div>
           </div>
           <div className='space-2' />

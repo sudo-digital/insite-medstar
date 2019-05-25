@@ -1,0 +1,42 @@
+header, footer
+  background: $primary-pop
+  padding: ms(0) 0
+  img.logo
+    max-width: ms(11)
+    margin-left: auto
+    margin-right: auto
+    margin-bottom: ms(0)
+    +target(md)
+      margin: 0
+  img.medstar
+    width: 100%
+    max-width: ms(10)
+    margin-left: auto
+    margin-right: auto
+    margin-bottom: ms(0)
+    +target(md)
+      margin: 0
+  nav
+    a
+      color: $white
+      opacity: 0.8
+      margin-bottom: ms(0)
+      border-bottom: 2px solid transparent
+      transition: all 300ms
+      display: block
+
+      +target(md)
+        display: initial
+        margin-left: ms(0)
+        margin-bottom: 0
+      &:hover
+        border-bottom: 2px solid $white
+      &:first-child
+        margin-left: 0
+      &.active
+        opacity: 1
+        font-weight: 700
+.sub-footer
+  padding: ms(7)
+  +target(md)
+    padding: 0
