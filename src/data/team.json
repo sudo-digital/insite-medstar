@@ -73,9 +73,9 @@
   },
   {
     "id": 13,
-    "name": "Kylan Foster",
-    "img": "kylan-foster.png",
-    "bio": "Kylan Foster is the Administrative Assistant to the WISE Center. Kylan received her B.A. in English from Howard University in Washington D.C.  She joined the Wise center in 2019 to provide administrative support and to coordinate patient care.  Kylan was drawn to this role by a genuine belief in the community-focused work of Wise Center care providers and the desire to extend exceptional, personalized service to families."
+    "name": "Aubrey Harrison",
+    "img": "aubrey-harrison.png",
+    "bio": "Aubrey Harrison is currently pursuing his Ph.D. in Clinical Psychology at The George Washington University. His research interests include the experience and effects of racism on minority youth, community violence exposure, and the development and implementation of culturally relevant prevention and intervention programs for urban minority youth. Aubrey obtained his Bachelor of Science in Psychology from Loyola University of Chicago and his Master of Arts in Clinical Psychology from George Washington University. A significant portion of his clinical work has been focused on providing therapy to youth and families of color. Prior to joining MedStar Wise, Aubrey worked with Children’s National Medical Center, the Alexandria Department of Community and Human Services, KIPP DC Public Charter Schools, and served as adjunct faculty for Georgetown University."
   },
   {
     "id": 14,
@@ -88,5 +88,29 @@
     "name": "Brenda Terry-Leonard, PhD",
     "img": "brenda-terry-leonard.png",
     "bio": "Brenda Terry-Leonard, Ph.D., is a Psychologist who earned her doctorate from Howard University.  She has extensive experience providing clinical services to children and families across the developmental spectrum.  She has practiced in a range of settings including a public school, a private full day special education placement, out-patient mental health centers, and a residential facility.  She has also served at local universities as an adjunct faculty providing instruction for a child and adolescent mental hygiene course and as a clinical coordinator for practicum and internship students.  As a Clinical Psychologist with the Center for Wellbeing in School Environments (WISE), she provides Early Childhood Mental Health Consultation (ECMHC) at various Apple Tree Early Learning Public Charter Schools.  In addition, she is a collaborator with the Early Childhood Innovation Network (ECIN)."
+  },
+  {
+    "id": 16,
+    "name": "Megan Polanin, PhD",
+    "img": "megan-polanin.png",
+    "bio": "Dr. Polanin is a Licensed Clinical Psychologist at the WISE Center at MedStar Georgetown University Hospital. She has extensive experience working with urban youth in school and community mental health settings. Dr. Polanin is particularly interested in systems-level and preventative approaches to care, promoting cultural acceptance in children, and integrating mindfulness practices in the classroom. She has a strong interest in advocacy work focused on the mental health and well-being of underserved children and families as well as utilizing psychological science to address social justice issues. Dr. Polanin received her doctoral degree in Counseling Psychology at Loyola University Chicago and completed postdoctoral training at the Kennedy Krieger Institute at Johns Hopkins University School of Medicine."
+  },
+  {
+    "id": 17,
+    "name": "Anna Jesseman LICSW",
+    "img": "wise-placeholder.png",
+    "bio": " "
+  },
+  {
+    "id": 18,
+    "name": "Michael Brachfeld PhD",
+    "img": "wise-placeholder.png",
+    "bio": " "
+  },
+  {
+    "id": 19,
+    "name": "Jordan Smith",
+    "img": "wise-placeholder.png",
+    "bio": " "
   }
 ]
