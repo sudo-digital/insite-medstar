@@ -57,6 +57,222 @@
       ]
     },
     {
+        "id": "address.1637793699156662",
+        "type": "Feature",
+        "place_type": [
+            "poi"
+        ],
+        "relevance": 1,
+        "properties": {
+            "accuracy": "rooftop",
+            "address": "2701 Naylor Road Southeast, Washington, DC 20020, United States"
+        },
+        "text": "Stanton Elementary School",
+        "place_name": "Stanton Elementary School 2701 Naylor Road Southeast, Washington, District of Columbia 20020, United States",
+        "matching_place_name": "2701 Naylor Road Southeast, Washington, DC 20020, United States",
+        "center": [
+            -76.968492,
+            38.85928
+        ],
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -76.968492,
+                38.85928
+            ]
+        },
+        "address": "2701",
+        "context": [
+            {
+                "id": "neighborhood.296316",
+                "text": "Skyland"
+            },
+            {
+                "id": "postcode.6770579024751860",
+                "text": "20020"
+            },
+            {
+                "id": "place.7673410831246050",
+                "wikidata": "Q61",
+                "text": "Washington"
+            },
+            {
+                "id": "region.1753213251667470",
+                "short_code": "US-DC",
+                "wikidata": "Q3551781",
+                "text": "District of Columbia"
+            },
+            {
+                "id": "country.9053006287256050",
+                "short_code": "us",
+                "wikidata": "Q30",
+                "text": "United States"
+            }
+        ]
+    },
+    {
+        "id": "address.8779383664817888",
+        "type": "Feature",
+        "place_type": [
+            "poi"
+        ],
+        "relevance": 1,
+        "properties": {
+            "accuracy": "rooftop",
+            "address": "3301 Wheeler Road Southeast, Washington, District of Columbia 20032, United States"
+        },
+        "text": "KIPP DC Somerset College Preparatory",
+        "place_name": "KIPP DC Somerset College Preparatory 3301 Wheeler Road Southeast, Washington, District of Columbia 20032, United States",
+        "matching_place_name": "3301 Wheeler Road Southeast, Washington, DC 20032, United States",
+        "center": [
+            -76.994103,
+            38.841527
+        ],
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -76.994103,
+                38.841527
+            ]
+        },
+        "address": "3301",
+        "context": [
+            {
+                "id": "neighborhood.292070",
+                "text": "Congress Heights"
+            },
+            {
+                "id": "postcode.1630415507093520",
+                "text": "20032"
+            },
+            {
+                "id": "place.7673410831246050",
+                "wikidata": "Q61",
+                "text": "Washington"
+            },
+            {
+                "id": "region.1753213251667470",
+                "short_code": "US-DC",
+                "wikidata": "Q3551781",
+                "text": "District of Columbia"
+            },
+            {
+                "id": "country.9053006287256050",
+                "short_code": "us",
+                "wikidata": "Q30",
+                "text": "United States"
+            }
+        ]
+    },
+    {
+        "id": "address.713700029445384",
+        "type": "Feature",
+        "place_type": [
+            "poi"
+        ],
+        "relevance": 1,
+        "properties": {
+            "accuracy": "rooftop",
+            "address": "30 P Street Northwest, Washington, District of Columbia 20001, United States"
+        },
+        "text": "Mundo Verde",
+        "place_name": "Mundo Verde 30 P Street Northwest, Washington, District of Columbia 20001, United States",
+        "matching_place_name": "30 P Street Northwest, Washington, DC 20001, United States",
+        "center": [
+            -77.010313,
+            38.909413
+        ],
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -77.010313,
+                38.909413
+            ]
+        },
+        "address": "30",
+        "context": [
+            {
+                "id": "neighborhood.295640",
+                "text": "Truxton Circle"
+            },
+            {
+                "id": "postcode.17502531659389280",
+                "text": "20001"
+            },
+            {
+                "id": "place.7673410831246050",
+                "wikidata": "Q61",
+                "text": "Washington"
+            },
+            {
+                "id": "region.1753213251667470",
+                "short_code": "US-DC",
+                "wikidata": "Q3551781",
+                "text": "District of Columbia"
+            },
+            {
+                "id": "country.9053006287256050",
+                "short_code": "us",
+                "wikidata": "Q30",
+                "text": "United States"
+            }
+        ]
+    },
+    {
+        "id": "address.5035816073923116",
+        "type": "Feature",
+        "place_type": [
+            "address"
+        ],
+        "relevance": 1,
+        "properties": {
+            "accuracy": "parcel",
+            "address": "1805 7th Street Northwest, Washington, District of Columbia 20001, United States"
+        },
+        "text": "Statesmen Academy",
+        "place_name": "Statesmen Academy 1805 7th Street Northwest, Washington, District of Columbia 20001, United States",
+        "matching_place_name": "1805 7th Street Northwest, Washington, DC 20001, United States",
+        "center": [
+            -77.021711,
+            38.9143
+        ],
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -77.021711,
+                38.9143
+            ]
+        },
+        "address": "1805",
+        "context": [
+            {
+                "id": "neighborhood.296449",
+                "text": "Shaw"
+            },
+            {
+                "id": "postcode.17502531659389280",
+                "text": "20001"
+            },
+            {
+                "id": "place.7673410831246050",
+                "wikidata": "Q61",
+                "text": "Washington"
+            },
+            {
+                "id": "region.1753213251667470",
+                "short_code": "US-DC",
+                "wikidata": "Q3551781",
+                "text": "District of Columbia"
+            },
+            {
+                "id": "country.9053006287256050",
+                "short_code": "us",
+                "wikidata": "Q30",
+                "text": "United States"
+            }
+        ]
+    },
+    {
       "id": "poi.666447918694200",
       "type": "Feature",
       "place_type": [
@@ -80,114 +296,6 @@
         "coordinates": [
           -77.003332,
           38.823959
-        ]
-      },
-      "context": [
-        {
-          "id": "neighborhood.295380",
-          "text": "Washington Highlands"
-        },
-        {
-          "id": "postcode.1630415507093520",
-          "text": "20032"
-        },
-        {
-          "id": "place.7673410831246050",
-          "wikidata": "Q61",
-          "text": "Washington"
-        },
-        {
-          "id": "region.3403",
-          "short_code": "US-DC",
-          "wikidata": "Q61",
-          "text": "District of Columbia"
-        },
-        {
-          "id": "country.3145",
-          "short_code": "us",
-          "wikidata": "Q30",
-          "text": "United States"
-        }
-      ]
-    },
-    {
-      "id": "poi.4842468485402580",
-      "type": "Feature",
-      "place_type": [
-        "poi"
-      ],
-      "relevance": 1,
-      "properties": {
-        "landmark": true,
-        "tel": "(202) 667-4446",
-        "category": "education, elementary, highschool, high school, middle school, primary school, school, secondary school",
-        "address": "3600 Georgia Ave NW"
-      },
-      "text": "E.l. Haynes Public Charter School",
-      "place_name": "E.l. Haynes Public Charter School, 3600 Georgia Ave NW, Washington, District of Columbia 20010, United States",
-      "center": [
-        -77.024212,
-        38.934243
-      ],
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -77.024212,
-          38.934243
-        ]
-      },
-      "context": [
-        {
-          "id": "neighborhood.294602",
-          "text": "Columbia Heights"
-        },
-        {
-          "id": "postcode.8184585446353980",
-          "text": "20010"
-        },
-        {
-          "id": "place.7673410831246050",
-          "wikidata": "Q61",
-          "text": "Washington"
-        },
-        {
-          "id": "region.3403",
-          "short_code": "US-DC",
-          "wikidata": "Q61",
-          "text": "District of Columbia"
-        },
-        {
-          "id": "country.3145",
-          "short_code": "us",
-          "wikidata": "Q30",
-          "text": "United States"
-        }
-      ]
-    },
-    {
-      "id": "poi.18453976681581820",
-      "type": "Feature",
-      "place_type": [
-        "poi"
-      ],
-      "relevance": 0.5,
-      "properties": {
-        "landmark": true,
-        "tel": "(202) 562-1214",
-        "category": "education, elementary, highschool, high school, middle school, primary school, school, secondary school",
-        "address": "908 Wahler Pl SE"
-      },
-      "text": "Achievement Prep Academy",
-      "place_name": "Achievement Prep Academy, 908 Wahler Pl SE, Washington, District of Columbia 20032, United States",
-      "center": [
-        -76.992269,
-        38.8341
-      ],
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -76.992269,
-          38.8341
         ]
       },
       "context": [
@@ -465,167 +573,6 @@
         {
           "id": "postcode.8356485856998370",
           "text": "20002"
-        },
-        {
-          "id": "place.7673410831246050",
-          "wikidata": "Q61",
-          "text": "Washington"
-        },
-        {
-          "id": "region.3403",
-          "short_code": "US-DC",
-          "wikidata": "Q61",
-          "text": "District of Columbia"
-        },
-        {
-          "id": "country.3145",
-          "short_code": "us",
-          "wikidata": "Q30",
-          "text": "United States"
-        }
-      ]
-    },
-    {
-      "id": "poi.19870375389291540",
-      "type": "Feature",
-      "place_type": [
-        "poi"
-      ],
-      "relevance": 1,
-      "properties": {
-        "landmark": true,
-        "tel": "(202) 698-3818",
-        "category": "education, elementary, highschool, high school, middle school, primary school, school, secondary school",
-        "address": "1150 5th St SE"
-      },
-      "text": "Van Ness Elementary School",
-      "place_name": "Van Ness Elementary School, 1150 5th St SE, Washington, District of Columbia 20003, United States",
-      "center": [
-        -76.999351,
-        38.87695
-      ],
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -76.999351,
-          38.87695
-        ]
-      },
-      "context": [
-        {
-          "id": "neighborhood.291771",
-          "text": "Navy Yard"
-        },
-        {
-          "id": "postcode.17841741868898840",
-          "text": "20003"
-        },
-        {
-          "id": "place.7673410831246050",
-          "wikidata": "Q61",
-          "text": "Washington"
-        },
-        {
-          "id": "region.3403",
-          "short_code": "US-DC",
-          "wikidata": "Q61",
-          "text": "District of Columbia"
-        },
-        {
-          "id": "country.3145",
-          "short_code": "us",
-          "wikidata": "Q30",
-          "text": "United States"
-        }
-      ]
-    },
-    {
-      "id": "address.980609713225090",
-      "type": "Feature",
-      "place_type": [
-        "address"
-      ],
-      "relevance": 0.875,
-      "properties": {
-        "address": "500 19th St NE, Washington, DC 20002"
-      },
-      "text": "Monument Academy Public Charter School",
-      "place_name": "500 19th Street Northeast, Washington, District of Columbia 20002, United States",
-      "matching_place_name": "500 19th Street Northeast, Washington, DC 20002, United States",
-      "center": [
-        -76.977559,
-        38.896721
-      ],
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -76.977559,
-          38.896721
-        ]
-      },
-      "address": "500",
-      "context": [
-        {
-          "id": "neighborhood.34016",
-          "text": "Kingman Park"
-        },
-        {
-          "id": "postcode.8356485856998370",
-          "text": "20002"
-        },
-        {
-          "id": "place.7673410831246050",
-          "wikidata": "Q61",
-          "text": "Washington"
-        },
-        {
-          "id": "region.3403",
-          "short_code": "US-DC",
-          "wikidata": "Q61",
-          "text": "District of Columbia"
-        },
-        {
-          "id": "country.3145",
-          "short_code": "us",
-          "wikidata": "Q30",
-          "text": "United States"
-        }
-      ]
-    },
-    {
-      "id": "poi.18726686611238150",
-      "type": "Feature",
-      "place_type": [
-        "poi"
-      ],
-      "relevance": 1,
-      "properties": {
-        "landmark": true,
-        "tel": "(202) 832-7679",
-        "category": "education, elementary, highschool, high school, middle school, primary school, school, secondary school",
-        "address": "900 Varnum St NE"
-      },
-      "text": "Washington Jesuit Academy",
-      "place_name": "Washington Jesuit Academy, 900 Varnum St NE, Washington, District of Columbia 20017, United States",
-      "center": [
-        -76.993633,
-        38.943306
-      ],
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -76.993633,
-          38.943306
-        ]
-      },
-      "context": [
-        {
-          "id": "neighborhood.294887",
-          "text": "Michigan Park"
-        },
-        {
-          "id": "postcode.11905339110399390",
-          "text": "20017"
         },
         {
           "id": "place.7673410831246050",
