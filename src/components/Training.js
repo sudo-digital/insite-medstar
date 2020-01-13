@@ -40,39 +40,34 @@ class Training extends React.Component {
           <div className='pad-container-sm'>
             <div className='row between-xs center-text-xs bottom-xs'>
               <div className='col-xs'>
-                <img
+                <a href='#program' className='link'><img
                   src='/images/icons/program.svg'
                   className='icon-lg m-x-auto m-b-1'
-                  />
-                <a href='#program' className='link'>Program Details</a>
+                  />Program Details</a>
               </div>
               <div className='col-xs'>
-                <img
+                <a href='#qualifications' className='link'><img
                   src='/images/icons/qualifications.svg'
                   className='icon-lg m-x-auto m-b-1'
-                  />
-                <a href='#qualifications' className='link'>Qualifications</a>
+                  />Qualifications</a>
               </div>
               <div className='col-xs'>
-                <img
+                <a href='#application' className='link'><img
                   src='/images/icons/app-deadline.svg'
                   className='icon-lg m-x-auto m-b-1'
-                  />
-                <a href='#application' className='link'>App Deadline</a>
+                  />App Deadline</a>
               </div>
               <div className='col-xs'>
-                <img
+                <a href='#location' className='link'><img
                   src='/images/icons/location.svg'
                   className='icon-lg m-x-auto m-b-1'
-                  />
-                <a href='#location' className='link'>Location</a>
+                  />Location</a>
               </div>
               <div className='col-xs'>
-                <img
+                <a href='#contact' className='link'><img
                   src='/images/icons/contact.svg'
                   className='icon-lg m-x-auto m-b-1'
-                  />
-                <a href='#contact' className='link'>Contact</a>
+                  />Contact</a>
               </div>
             </div>
 
