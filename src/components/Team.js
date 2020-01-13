@@ -62,7 +62,7 @@ class Team extends React.Component {
     return (
       <div className='container'>
         { this.renderModal() }
-        <div className='pad-container'>
+        <div className='pad-container-sm'>
           <div className='row'>
             <div className='col-xs-12'>
               <h2>Our Team</h2>

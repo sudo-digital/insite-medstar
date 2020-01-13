@@ -7,7 +7,7 @@ class Training extends React.Component {
       <div className='training'>
 
         <div className='container'>
-          <div className='pad-container-xs'>
+          <div className='pad-container-sm'>
             <div className='row'>
               <div className='col-xs-12'>
                 <h2>Training</h2>
@@ -39,31 +39,31 @@ class Training extends React.Component {
         <div className='container'>
           <div className='pad-container-sm'>
             <div className='row between-xs center-text-xs bottom-xs'>
-              <div className='col-xs'>
+              <div className='col-md col-xs-12 m-b-xs-2'>
                 <a href='#program' className='link'><img
                   src='/images/icons/program.svg'
                   className='icon-lg m-x-auto m-b-1'
                   />Program Details</a>
               </div>
-              <div className='col-xs'>
+              <div className='col-md col-xs-12 m-b-xs-2'>
                 <a href='#qualifications' className='link'><img
                   src='/images/icons/qualifications.svg'
                   className='icon-lg m-x-auto m-b-1'
                   />Qualifications</a>
               </div>
-              <div className='col-xs'>
+              <div className='col-md col-xs-12 m-b-xs-2'>
                 <a href='#application' className='link'><img
                   src='/images/icons/app-deadline.svg'
                   className='icon-lg m-x-auto m-b-1'
                   />App Deadline</a>
               </div>
-              <div className='col-xs'>
+              <div className='col-md col-xs-12 m-b-xs-2'>
                 <a href='#location' className='link'><img
                   src='/images/icons/location.svg'
                   className='icon-lg m-x-auto m-b-1'
                   />Location</a>
               </div>
-              <div className='col-xs'>
+              <div className='col-md col-xs-12 m-b-xs-2'>
                 <a href='#contact' className='link'><img
                   src='/images/icons/contact.svg'
                   className='icon-lg m-x-auto m-b-1'
