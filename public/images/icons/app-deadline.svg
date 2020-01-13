@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="23px" viewBox="0 0 24 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>app-deadline</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Artboard" transform="translate(-98.000000, -13.000000)">
+            <g id="app-deadline" transform="translate(99.000000, 13.000000)">
+                <polygon id="Fill-99" fill="#FFFFFF" points="6.9517 22.5 0.4997 16.048 0.4997 6.952 6.9517 0.5 16.0487 0.5 22.4997 6.952 22.4997 16.048 16.0487 22.5"></polygon>
+                <polygon id="Fill-239" fill-opacity="0.200000018" fill="#3F51B5" points="3.7227 19.2705 6.9517 22.4995 16.0487 22.4995 22.4997 16.0485 22.4997 6.9515 19.2707 3.7225"></polygon>
+                <line x1="5.1357" y1="17.8643" x2="6.5497" y2="16.4503" id="Stroke-458" stroke="#3F51B5"></line>
+                <line x1="11.5" y1="20.5" x2="11.5" y2="18.5" id="Stroke-459" stroke="#3F51B5"></line>
+                <line x1="17.8638" y1="17.8643" x2="16.4488" y2="16.4503" id="Stroke-460" stroke="#3F51B5"></line>
+                <line x1="5.1357" y1="5.1367" x2="6.5497" y2="6.5507" id="Stroke-461" stroke="#3F51B5"></line>
+                <line x1="2.5" y1="11.5" x2="4.5" y2="11.5" id="Stroke-462" stroke="#3F51B5"></line>
+                <line x1="20.5" y1="11.5" x2="18.5" y2="11.5" id="Stroke-463" stroke="#3F51B5"></line>
+                <line x1="17.8638" y1="5.1367" x2="16.4488" y2="6.5507" id="Stroke-464" stroke="#3F51B5"></line>
+                <polyline id="Stroke-465" stroke="#3F51B5" points="11.5 3.5 11.5 11.5 15.5 11.5"></polyline>
+                <polygon id="Stroke-466" stroke="#3F51B5" points="6.9517 22.5 0.4997 16.048 0.4997 6.952 6.9517 0.5 16.0487 0.5 22.4997 6.952 22.4997 16.048 16.0487 22.5"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

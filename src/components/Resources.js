@@ -12,7 +12,7 @@ class Resources extends React.Component {
           >
           <a
             target='_blank'
-            rel="noopener noreferrer"
+            rel='noopener noreferrer'
             className='resource-link large'
             href={r.link}>{r.name}
           </a>

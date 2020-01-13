@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, NavLink } from 'react-router-dom';
 import Home from './components/Home';
 import OurWork from './components/OurWork';
 import Team from './components/Team';
+import Training from './components/Training';
 import Resources from './components/Resources';
 import Contact from './components/Contact';
 import './sass/app.sass';
@@ -49,6 +50,10 @@ class App extends Component {
                       activeClassName='active'>Team
                     </NavLink>
                     <NavLink
+                      to='/training'
+                      activeClassName='active'>Training
+                    </NavLink>
+                    <NavLink
                       to='/resources'
                       activeClassName='active'>Resources
                     </NavLink>
@@ -64,6 +69,7 @@ class App extends Component {
           <Route exact path={'/'} component={Home} />
           <Route exact path={'/our-work'} component={OurWork} />
           <Route exact path={'/team'} component={Team} />
+          <Route exact path={'/training'} component={Training} />
           <Route exact path={'/resources'} component={Resources} />
           <Route exact path={'/contact'} component={Contact} />
           <footer>
