@@ -108,6 +108,10 @@ class App extends Component {
                         activeClassName='active'>Team
                       </NavLink>
                       <NavLink
+                        to='/training'
+                        activeClassName='active'>Training
+                      </NavLink>
+                      <NavLink
                         to='/resources'
                         activeClassName='active'>Resources
                       </NavLink>

@@ -88,7 +88,7 @@ class Training extends React.Component {
 
                 <p id='qualifications'><b>Qualifications</b><br/>Applicants should be doctoral externs in Clinical, Counseling, or School Psychology entering their 3rd year or higher and have experience delivering psychotherapy. Preference is given to applicants with experience working with children, as well as those with experience in schools or other multidisciplinary settings.</p>
 
-                <p id='application'><b>Application Deadline</b><br/>February 15th or before. Offers are extended on a rolling basis; however, externs are not required to accept or decline offers until Consortium Match Day.</p>
+                <p id='application'><b>Application Deadline</b><br/>January 31st or before. Offers are extended on a rolling basis; however, externs are not required to accept or decline offers until Consortium Match Day.</p>
 
                 <p id='location'><b>Location for MedStar Georgetown WISE Center track</b><br/>DC public and public charter schools partnering with the WISE Center for mental health consultation and support and MGUH Department of Psychiatry, located at <a href='https://goo.gl/maps/N9bS2rY6cL4uS7AR9' className='link' target='_blank' rel='noopener noreferrer'>2115 Wisconsin Ave NW, Washington, DC 20007</a>.</p>
 
