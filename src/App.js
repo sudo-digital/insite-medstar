@@ -6,6 +6,8 @@ import Team from './components/Team';
 import Training from './components/Training';
 import Resources from './components/Resources';
 import Contact from './components/Contact';
+import Banner from './components/Banner';
+import Covid from './components/Covid';
 import './sass/app.sass';
 import './mapbox.css';
 
@@ -18,7 +20,7 @@ class App extends Component {
           <header>
             <div className='container'>
               <div className='row middle-xs'>
-                <div className='col-md-3 col-xs-12'>
+                <div className='col-md-3 col-sm-12 col-xs-12'>
                   <NavLink
                     to='/'
                     activeClassName='active'>
@@ -29,14 +31,14 @@ class App extends Component {
                       />
                   </NavLink>
                 </div>
-                <div className='col-md-3 col-xs-12'>
+                <div className='col-md-2 col-sm-12 col-xs-12'>
                   <img
                     src='/images/medstar-logo.png'
                     className='medstar'
                     alt='Medstar Health'
                     />
                 </div>
-                <div className='col-md-6 col-xs-12 end-xs'>
+                <div className='col-md-7 col-xs-12 end-xs'>
                   <nav className='center-text-xs right-text-md'>
                     <NavLink
                       exact to='/'>Home
@@ -58,6 +60,10 @@ class App extends Component {
                       activeClassName='active'>Resources
                     </NavLink>
                     <NavLink
+                      to='/covid-19'
+                      activeClassName='active'>COVID-19
+                    </NavLink>
+                    <NavLink
                       to='/contact'
                       activeClassName='active'>Contact
                     </NavLink>
@@ -66,6 +72,8 @@ class App extends Component {
               </div>
             </div>
           </header>
+          <Banner />
+          <Route exact path={'/covid-19'} component={Covid}/>
           <Route exact path={'/'} component={Home} />
           <Route exact path={'/our-work'} component={OurWork} />
           <Route exact path={'/team'} component={Team} />
@@ -87,14 +95,14 @@ class App extends Component {
                         />
                     </NavLink>
                   </div>
-                  <div className='col-md-3 col-xs-12'>
+                  <div className='col-md-2 col-xs-12'>
                     <img
                       src='/images/medstar-logo.png'
                       className='medstar'
                       alt='Medstar Health'
                       />
                   </div>
-                  <div className='col-md-6 col-xs-12 end-xs'>
+                  <div className='col-md-7 col-xs-12 end-xs'>
                     <nav className='center-text-xs right-text-md'>
                       <NavLink
                         exact to='/'>Home
@@ -114,6 +122,10 @@ class App extends Component {
                       <NavLink
                         to='/resources'
                         activeClassName='active'>Resources
+                      </NavLink>
+                      <NavLink
+                        to='/covid-19'
+                        activeClassName='active'>COVID-19
                       </NavLink>
                       <NavLink
                         to='/contact'
