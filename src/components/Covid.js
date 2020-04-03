@@ -137,7 +137,7 @@ class Covid extends React.Component {
               <div className='col-md-2 col-xs-12'>
                 <img
                   src={this.state.img}
-                  className='full covid-section-img'
+                  className='full covid-section-img mini-phone'
                   alt='Parents'
                   />
               </div>

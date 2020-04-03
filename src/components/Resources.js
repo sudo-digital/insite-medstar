@@ -36,7 +36,7 @@ class Resources extends React.Component {
               <div className='col-md-4 m-b-2 col-xs-12'>
                 <img
                   src='/images/resources/resources-parents.png'
-                  className='full'
+                  className='full mini-phone'
                   alt='Parents'
                   />
               </div>
@@ -48,7 +48,7 @@ class Resources extends React.Component {
               <div className='col-md-4 m-b-2 col-xs-12'>
                 <img
                   src='/images/resources/resources-teens.png'
-                  className='full'
+                  className='full mini-phone'
                   alt='Parents'
                   />
               </div>
@@ -60,7 +60,7 @@ class Resources extends React.Component {
               <div className='col-md-4 m-b-2 col-xs-12'>
                 <img
                   src='/images/resources/resources-educators.png'
-                  className='full'
+                  className='full mini-phone'
                   alt='Parents'
                   />
               </div>
@@ -80,7 +80,7 @@ class Resources extends React.Component {
               <div className='col-md-4 m-b-2 col-xs-12'>
                 <img
                   src='/images/resources/resources-topics.png'
-                  className='full'
+                  className='full mini-phone'
                   alt='Parents'
                   />
               </div>

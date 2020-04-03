@@ -37,6 +37,11 @@ img
   height: auto
   &.full
     width: 100%
+    &.mini-phone
+      width: 50%
+      margin: 0 auto
+      +target(md)
+        width: 100%
   &.icon-sm
     width: ms(1)
   &.icon-md
