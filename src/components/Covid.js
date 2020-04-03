@@ -5,6 +5,7 @@ import {
   EducatorSection,
   MentalHealthProviderSection
 } from './CovidSections'
+import { Link } from 'react-router-dom';
 
 const EveryoneImg = '/images/resources/resources-everyone.png'
 const ParentsImg = '/images/resources/resources-parents.png'
@@ -67,6 +68,13 @@ class Covid extends React.Component {
                   <br/>
                     The WISE Center recognizes that the amount of information pertaining to mental health resources related to COVID-19 can be overwhelming to process. Therefore, our team has identified some of the most helpful resources pertaining to the mental health impact of COVID-19. Resources are divided into four content areas:
                 </p>
+              </div>
+              <div className='col-md-4 col-xs-12'>
+                <Link
+                  to='/contact'
+                  className='btn-default btn-tertiary'>
+                  CONNECT WITH US
+                </Link>
               </div>
             </div>
           </div>
