@@ -41,11 +41,10 @@ export const EveryoneSection = (
     <ul>
       <li>
         <a
-          target='_blank'
-          rel='noopener noreferrer'
-          className='resource-link large'
-          href='https://www.apa.org/news/apa/2020/03/newly-remote-workers'
-          >Writing your own Epidemic Story (download)
+          download
+          className='resource-link large download'
+          src='/resources/my-epidemic-story.pdf'
+          href='/resources/my-epidemic-story.pdf'><img src='/images/icons/download.svg' alt='download' />Writing your own Epidemic Story (download)
         </a>
       </li>
     </ul>
@@ -66,11 +65,10 @@ export const ParentSection = (
     </li>
     <li>
       <a
-        target='_blank'
-        rel='noopener noreferrer'
-        href=''
-        className='resource-link large'
-        >3 steps for resolving family conflict (download)
+        download
+        className='resource-link download'
+        src='/resources/3-steps-reducing-family-conflict.pdf'
+        href='/resources/3-steps-reducing-family-conflict.pdf'><img src='/images/icons/download.svg' alt='download' />3 steps for resolving family conflict (download)
       </a>
     </li>
     <li>
@@ -96,11 +94,10 @@ export const ParentSection = (
         </li>
         <li>
           <a
-            target='_blank'
-            rel='noopener noreferrer'
-            className='resource-link large'
-            href='https://www.apa.org/news/apa/2020/03/covid-19-research-findings'
-            >Creating a daily schedule (download)
+            download
+            className='resource-link download'
+            src='/resources/covid-19-daily-schedule.png'
+            href='/resources/covid-19-daily-schedule.png'><img src='/images/icons/download.svg' alt='download' />Creating a daily schedule (download)
           </a>
         </li>
       </ul>
@@ -153,20 +150,18 @@ export const ParentSection = (
     </li>
     <li>
       <a
-        target='_blank'
-        rel='noopener noreferrer'
-        className='resource-link large'
-        href=''
-        >Relationship building with your kids: Handout for Young Children (download)
+        download
+        className='resource-link download'
+        src='/resources/us-time-school-play.pdf'
+        href='/resources/us-time-school-play.pdf'><img src='/images/icons/download.svg' alt='download' />Relationship building with your kids: Handout for Young Children (download)
       </a>
     </li>
     <li>
       <a
-        target='_blank'
-        rel='noopener noreferrer'
-        className='resource-link large'
-        href=''
-        >Relationship building with your kids: Handout for Older Children (download)
+        download
+        className='resource-link download'
+        src='/resources/us-time-school-conversation.pdf'
+        href='/resources/us-time-school-conversation.pdf'><img src='/images/icons/download.svg' alt='download' />Relationship building with your kids: Handout for Older Children (download)
       </a>
     </li>
     <h4>Yoga and Meditation</h4>
@@ -245,11 +240,10 @@ export const EducatorSection = (
   <div>
     <li>
       <a
-        target='_blank'
-        rel='noopener noreferrer'
-        className='resource-link large'
-        href=''
-        >Teacher Wellbeing Workbook (download)
+        download
+        className='resource-link download'
+        src='/resources/teacher-well-being-workbook-10-28-18.pdf'
+        href='/resources/teacher-well-being-workbook-10-28-18.pdf'><img src='/images/icons/download.svg' alt='download' />Teacher Wellbeing Workbook (download)
       </a>
     </li>
   </div>
