@@ -1,4 +1,4 @@
-.banner
+.nav-banner
   display: block
   background: $tertiary-pop
   color: $white
@@ -7,3 +7,23 @@
   text-align: center
   &.active-banner
     display: none
+
+.banner
+  display: flex
+  justify-content: space-between
+  flex-direction: column
+  align-items: left
+  background: $tertiary-pop
+  color: $white
+  padding: ms(1)
+  font-weight: 600
+  img
+    display: inline-block
+    margin-right: ms(2)
+  &.active-banner
+    display: none
+  > div, b
+    color: $white
+  +target(md)
+    flex-direction: row
+    margin-right: 0

@@ -6,7 +6,7 @@ import Team from './components/Team';
 import Training from './components/Training';
 import Resources from './components/Resources';
 import Contact from './components/Contact';
-import Banner from './components/Banner';
+import NavBanner from './components/NavBanner';
 import Covid from './components/Covid';
 import './sass/app.sass';
 import './mapbox.css';
@@ -72,7 +72,7 @@ class App extends Component {
               </div>
             </div>
           </header>
-          <Banner />
+          <NavBanner />
           <Route exact path={'/covid-19'} component={Covid}/>
           <Route exact path={'/'} component={Home} />
           <Route exact path={'/our-work'} component={OurWork} />

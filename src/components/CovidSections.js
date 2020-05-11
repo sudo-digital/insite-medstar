@@ -48,6 +48,35 @@ export const EveryoneSection = (
         </a>
       </li>
     </ul>
+
+    <h4>Additional Resources For Everyone</h4>
+    <ul>
+      <li>
+        <a
+          target='_blank'
+          rel='noopener noreferrer'
+          className='resource-link large download'
+          href='http://whur.com/podcasts/daily-drum-insight-segment/covid-19-and-grieving/'>WISE's Dr. Karimah Ware speaking on stress and trauma related to COVID-19
+        </a>
+      </li>
+      <li>
+        <a
+          target='_blank'
+          rel='noopener noreferrer'
+          className='resource-link large download'
+          href='https://instructionpartners.org/resources/reentry-recovery'>Re-entry to school
+        </a>
+      </li>
+      <li>
+        <a
+          target='_blank'
+          rel='noopener noreferrer'
+          className='resource-link large download'
+          href='https://oakfnd.org/wp-content/uploads/2020/04/Working-within-the-confines-of-Covid-19.pdf'>Working within the confines of COVID-19
+        </a>
+      </li>
+    </ul>
+
   </div>
 )
 
@@ -233,6 +262,70 @@ export const ParentSection = (
       </a>
     </li>
 
+    <h4>Additional Resources For Parents</h4>
+    <ul>
+      <li>
+        <a
+        target='_blank'
+        rel='noopener noreferrer'
+        className='resource-link large'
+        href='http://piploproductions.com/trinka-and-sam-virus/'>
+        Resource to help young children and families talk about their experiences and feelings related to COVID-19
+        </a>
+      </li>
+
+      <li>
+        <a
+          download
+          className='resource-link large download'
+          src='/'
+          href='/'><img src='/images/icons/download.svg' alt='download' />
+          Resources to help young children and toddlers in the age of COVID-19
+        </a>
+      </li>
+
+      <li>
+        <a
+          download
+          className='resource-link large download'
+          src='/resources/tips-for-parents.docx'
+          href='/resources/tips-for-parents.docx'><img src='/images/icons/download.svg' alt='download' />
+          Tips for parents of infants and young children in the age of COVID-19
+        </a>
+      </li>
+
+      <li>
+        <a
+        target='_blank'
+        rel='noopener noreferrer'
+        className='resource-link large'
+        href='https://www.sheppardpratt.org/care-finder/virtual-crisis-walk-in-clinic/'>
+        Virtual Crisis Walk-In Clinic
+        </a>
+      </li>
+
+      <li>
+        <a
+          download
+          className='resource-link large download'
+          src='/resources/family-teletherapy.png'
+          href='/resources/family-teletherapy.png'><img src='/images/icons/download.svg' alt='download' />
+          Family teletherapy tips
+        </a>
+      </li>
+
+      <li>
+        <a
+          download
+          className='resource-link large download'
+          src='/'
+          href='/'><img src='/images/icons/download.svg' alt='download' />
+          Tips for promoting wellness
+        </a>
+      </li>
+    </ul>
+
+
   </div>
 )
 
@@ -244,6 +337,33 @@ export const EducatorSection = (
         className='resource-link download'
         src='/resources/teacher-well-being-workbook-10-28-18.pdf'
         href='/resources/teacher-well-being-workbook-10-28-18.pdf'><img src='/images/icons/download.svg' alt='download' />Teacher Wellbeing Workbook (download)
+      </a>
+    </li>
+    <li>
+      <a
+        target='_blank'
+        rel='noopener noreferrer'
+        className='resource-link large'
+        href='https://www.edutopia.org/article/teaching-through-pandemic-mindset-moment'
+        >Teaching through a pandemic
+      </a>
+    </li>
+    <li>
+      <a
+        target='_blank'
+        rel='noopener noreferrer'
+        className='resource-link large'
+        href='https://instructionpartners.org/resources/reentry-recovery'
+        >Re-entry to school
+      </a>
+    </li>
+    <li>
+      <a
+        target='_blank'
+        rel='noopener noreferrer'
+        className='resource-link large'
+        href='https://www.sheppardpratt.org/care-finder/virtual-crisis-walk-in-clinic/'
+        >Virtual Crisis Walk-In Clinic
       </a>
     </li>
   </div>
@@ -267,6 +387,51 @@ export const MentalHealthProviderSection = (
         className='resource-link large'
         href='https://form.jotform.com/200706064618148??fullName%5bfirst%5d=Stacey&fullName%5blast%5d=Jackson-Lampley&registrantId=*%7CREGISTRANT%7C*&email=sljackson@howard.edu&referralsource=RegEmail'
         >Ethical Supervision: Webinar on April 8
+      </a>
+    </li>
+    <li>
+      <a
+        target='_blank'
+        rel='noopener noreferrer'
+        className='resource-link large'
+        href='https://psych.ucsf.edu/coronavirus/webinars'
+        >Webinar series on how health care providers can reduce personal stress
+      </a>
+    </li>
+    <li>
+      <a
+        target='_blank'
+        rel='noopener noreferrer'
+        className='resource-link large'
+        href='https://www.apa.org/topics/covid-19/domestic-violence-child-abuse'
+        >Addressing domestic violence and child abuse in response to COVID-19
+      </a>
+    </li>
+    <li>
+      <a
+        download
+        className='resource-link large'
+        src='/resources/telehealth-tips-with-suicidal-clients.pdf'
+        href='/resources/telehealth-tips-with-suicidal-clients.pdf'
+        >Telehealth tips for suicidal patients
+      </a>
+    </li>
+    <li>
+      <a
+        target='_blank'
+        rel='noopener noreferrer'
+        className='resource-link large'
+        href='https://www.sheppardpratt.org/care-finder/virtual-crisis-walk-in-clinic/'
+        >Virtual Crisis Walk-In Clinic
+      </a>
+    </li>
+    <li>
+      <a
+        target='_blank'
+        rel='noopener noreferrer'
+        className='resource-link large'
+        href='https://telehealthfortrauma.com/resources/'
+        >Telehealth use of TF-CBT
       </a>
     </li>
   </div>
