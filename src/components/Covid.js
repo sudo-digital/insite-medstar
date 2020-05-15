@@ -157,31 +157,7 @@ class Covid extends React.Component {
             </div>
           </div>
         </div>
-
-        <div className='gray-bg'>
-          <div className='container'>
-            <div className='pad-container-xs'>
-              <div className='row'>
-                <div className='col-xs-12'>
-                  <div className='gray-container'>
-                    <p className='small'>
-                      <b>Our Clinical Response</b>
-                      <br/>
-                      The WISE Center is working in close coordination with the school systems we support to continue services for those in need. Below are the specific steps the WISE Center has taken in response to COVID-19:
-                    </p>
-                    <ul>
-                      <li className='small'>The WISE Center has partnered with Google to establish a secure and HIPAA compliant virtual platform for uninterrupted mental health service delivery and school consultation.</li>
-                      <li className='small'>WISE clinicians are providing services weekly to each student and family on the online service delivery model and related supports.</li>
-                      <li className='small'>The WISE Center is working with Georgetown University to launch a new website dedicated to the health and mental wellbeing of teachers in the face of COVID-19. This website will provide online modules based on the WISE Center’s Teacher Wellbeing Curriculum.</li>
-                    </ul>
-                    <h6>THE SUPPORT OF THE SCHOOLS WE SERVE REMAINS OUR TOP PRIORITY. PLEASE CHECK BACK ON THIS SITE REGULARLY FOR UPDATES AND ADDITIONAL SUPPORTIVE RESOURCES.</h6>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
+        
       </div>
     )
   }
