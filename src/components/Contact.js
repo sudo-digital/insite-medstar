@@ -55,6 +55,21 @@ class Contact extends React.Component {
     }
   }
 
+  renderMessage = () => {
+    if (this.state.covid) {
+      return null
+    } else {
+      return (
+        <div className='col-xs-12'>
+          <div className='form-item'>
+            <label>Message</label>
+            <textarea placeholder='Message...' name='message' rows='5' />
+          </div>
+        </div>
+      )
+    }
+  }
+
   componentDidMount() {
     let path = this.props.location.pathname;
 
@@ -64,10 +79,13 @@ class Contact extends React.Component {
   }
 
   render() {
-    const { match, location, history } = this.props;
-    const loc = location.pathname
+    const submitBtn = (
+      this.state.covid?
+      'Join Text Program':
+      'Submit Form'
+    )
     return (
-      <div className='container contact'>      
+      <div className='container contact'>
         <div className='pad-container-sm'>
           <div className='row'>
             <div className='col-md-10 col-md-offset-1 col-xs-12'>
@@ -78,7 +96,7 @@ class Contact extends React.Component {
           <div className='space-2' />
           <div className='row'>
             <div className='col-md-10 col-md-offset-1 col-xs-12'>
-              <form action="https://formspree.io/aaron@medstarwise.org" method='POST'>
+              <form action="https://formspree.io/megan@medstarwise.org" method='POST'>
                 <div className='row'>
                   <div className='col-md-6 col-xs-12'>
                     <div className='form-item'>
@@ -89,15 +107,14 @@ class Contact extends React.Component {
                   <div className='col-md-6 col-xs-12'>
                     { this.renderContactInput() }
                   </div>
-                  <div className='col-xs-12'>
-                    <div className='form-item'>
-                      <label>Message</label>
-                      <textarea placeholder='Message...' name='message' rows='5' />
-                    </div>
-                  </div>
+                  { this.renderMessage() }
                   <div className='col-xs-12 end-xs'>
                     <div className='form-item'>
-                      <input type='submit' name='Submit' />
+                      <input
+                        type='submit'
+                        name='Submit'
+                        value={submitBtn}
+                        className='btn-default' />
                     </div>
                   </div>
                 </div>
