@@ -49,24 +49,8 @@ export const EveryoneSection = (
       </li>
     </ul>
 
-    <h4>Additional Resources For Everyone</h4>
+    <h4>Tips for Remote Workers</h4>
     <ul>
-      <li>
-        <a
-          target='_blank'
-          rel='noopener noreferrer'
-          className='resource-link large download'
-          href='http://whur.com/podcasts/daily-drum-insight-segment/covid-19-and-grieving/'>WISE's Dr. Karimah Ware speaking on stress and trauma related to COVID-19
-        </a>
-      </li>
-      <li>
-        <a
-          target='_blank'
-          rel='noopener noreferrer'
-          className='resource-link large download'
-          href='https://instructionpartners.org/resources/reentry-recovery'>Re-entry to school
-        </a>
-      </li>
       <li>
         <a
           target='_blank'
@@ -77,6 +61,17 @@ export const EveryoneSection = (
       </li>
     </ul>
 
+    <h4>Additional Resources For Everyone</h4>
+    <ul>
+      <li>
+        <a
+          target='_blank'
+          rel='noopener noreferrer'
+          className='resource-link large download'
+          href='http://whur.com/podcasts/daily-drum-insight-segment/covid-19-and-grieving/'>WISE's Dr. Karimah Ware speaking on stress and trauma related to COVID-19
+        </a>
+      </li>
+    </ul>
   </div>
 )
 
@@ -112,6 +107,14 @@ export const ParentSection = (
 
     <h4>No School Survival</h4>
       <ul>
+        <li>
+          <a
+            target='_blank'
+            rel='noopener noreferrer'
+            className='resource-link large download'
+            href='https://instructionpartners.org/resources/reentry-recovery'>Re-entry to school
+          </a>
+        </li>
         <li>
           <a
             target='_blank'
@@ -167,100 +170,150 @@ export const ParentSection = (
         </a>
       </li>
     </ul>
+
     <h4>Parenting Strategies During COVID-19</h4>
-    <li>
-      <a
-        target='_blank'
-        rel='noopener noreferrer'
-        className='resource-link large'
-        href='https://www.attachmenttraumanetwork.org/wp-content/uploads/social-distancing-infographic-final.pdf'
-        >A handout on Trauma-Informed Parenting
-      </a>
-    </li>
-    <li>
-      <a
-        download
-        className='resource-link download'
-        src='/resources/us-time-school-play.pdf'
-        href='/resources/us-time-school-play.pdf'><img src='/images/icons/download.svg' alt='download' />Relationship building with your kids: Handout for Young Children (download)
-      </a>
-    </li>
-    <li>
-      <a
-        download
-        className='resource-link download'
-        src='/resources/us-time-school-conversation.pdf'
-        href='/resources/us-time-school-conversation.pdf'><img src='/images/icons/download.svg' alt='download' />Relationship building with your kids: Handout for Older Children (download)
-      </a>
-    </li>
+    <ul>
+
+      <li>
+        <a
+          target='_blank'
+          rel='noopener noreferrer'
+          className='resource-link large'
+          href='http://piploproductions.com/trinka-and-sam-virus/'
+          >Resource to help young children and families talk about their experiences and feelings related to COVID-19
+        </a>
+      </li>
+
+      <li>
+        <a
+          download
+          className='resource-link download'
+          src='/resources/us-time-school-conversation.pdf'
+          href='/resources/us-time-school-conversation.pdf'><img src='/images/icons/download.svg' alt='download' />Resources to help young children and toddlers in the age of COVID-19
+        </a>
+      </li>
+
+      <li>
+        <a
+          download
+          className='resource-link download'
+          src='/resources/us-time-school-play.pdf'
+          href='/resources/us-time-school-play.pdf'><img src='/images/icons/download.svg' alt='download' />Tips for parents of infants and young children in the age of COVID-19
+        </a>
+      </li>
+
+      <li>
+        <a
+          target='_blank'
+          rel='noopener noreferrer'
+          className='resource-link large'
+          href='https://www.sheppardpratt.org/care-finder/virtual-crisis-walk-in-clinic/'
+          >Virtual Crisis Walk-In Clinic
+        </a>
+      </li>
+
+      <li>
+        <a
+          download
+          className='resource-link download'
+          src='/resources/family-teletherapy.png'
+          href='/resources/family-teletherapy.png'><img src='/images/icons/download.svg' alt='download' />Family teletherapy tips
+        </a>
+      </li>
+
+    </ul>
+
     <h4>Yoga and Meditation</h4>
-    <li>
-      <a
-        target='_blank'
-        rel='noopener noreferrer'
-        className='resource-link large'
-        href='https://www.youtube.com/watch?v=vnR5HDfR3JI'
-        >I Am Peace – Youtube Story Book for kids
-      </a>
-    </li>
-    <li>
-      <a
-        target='_blank'
-        rel='noopener noreferrer'
-        className='resource-link large'
-        href='https://www.youtube.com/user/yogawithadriene'
-        >Yoga with Adrienne - YouTube
-      </a>
-    </li>
-    <li>
-      <a
-        target='_blank'
-        rel='noopener noreferrer'
-        className='resource-link large'
-        href='https://mindfulnessexercises.com/free-online-mindfulness-courses/28-day-mindfulness-challenge/'
-        >Easy 28-Day Mindfulness Challenge For Adults
-      </a>
-    </li>
+    <ul>
+      <li>
+        <a
+          target='_blank'
+          rel='noopener noreferrer'
+          className='resource-link large'
+          href='https://www.youtube.com/watch?v=vnR5HDfR3JI'
+          >I Am Peace – Youtube Story Book for kids
+        </a>
+      </li>
+      <li>
+        <a
+          target='_blank'
+          rel='noopener noreferrer'
+          className='resource-link large'
+          href='https://www.youtube.com/user/yogawithadriene'
+          >Yoga with Adrienne - YouTube
+        </a>
+      </li>
+      <li>
+        <a
+          target='_blank'
+          rel='noopener noreferrer'
+          className='resource-link large'
+          href='https://mindfulnessexercises.com/free-online-mindfulness-courses/28-day-mindfulness-challenge/'
+          >Easy 28-Day Mindfulness Challenge For Adults
+        </a>
+      </li>
+      <li>
+        <a
+          download
+          className='resource-link download'
+          src='/resources/tips-for-promoting-wellness.pdf'
+          href='/resources/tips-for-promoting-wellness.pdf'><img src='/images/icons/download.svg' alt='download' />Tips for promoting wellness
+        </a>
+      </li>
+    </ul>
 
     <h4>Family Games</h4>
-    <li>Play school: teaching the stuffed animals, etc.</li>
-    <li>Make comic books.</li>
-    <li>Old game/new rules: use a board game you have and make up new rules; can be a collaborative activity for siblings.</li>
-    <li>Create "make me laugh!" videos -- usually this is one kid filming the other kid as they try and make each other laugh. And then the rewatch the videos and launch all over again.</li>
-    <li>Coziest bed ever: make the other person the most cozy, cuddly bed ever, in a non-bed spot. Often results in napping :)</li>
-    <li>Art project: watch Bob Ross online videos on how to paint and paint along with him</li>
-    <li>Make a marble/small run: take all paper towel rolls, toilet paper rolls, and other cardboard type items and tape them to the wall to make a maze</li>
-    <li>Improvisation games</li>
-    <li>World of Dance (Based on the tv series): Kids choose a song, make up a dance, and rehearse it (costumes encouraged!). After 5-20 minutes of prep, each child performs their piece for the audience/judges. After all performances have ended, judges confer, and “lock in their scores. All contestants receive feedback on performance aspects, such as facial expressions, choreography, musicality, and technical skills. Each contestant is given a score, and the one with the highest total wins the round.</li>
+    <ul>
+
+        <li>Play school: teaching the stuffed animals, etc.</li>
+
+        <li>Make comic books.</li>
+
+        <li>Old game/new rules: use a board game you have and make up new rules; can be a collaborative activity for siblings.</li>
+
+        <li>Create "make me laugh!" videos -- usually this is one kid filming the other kid as they try and make each other laugh. And then the rewatch the videos and launch all over again.</li>
+
+        <li>Coziest bed ever: make the other person the most cozy, cuddly bed ever, in a non-bed spot. Often results in napping :)</li>
+
+        <li>Art project: watch Bob Ross online videos on how to paint and paint along with him</li>
+
+        <li>Make a marble/small run: take all paper towel rolls, toilet paper rolls, and other cardboard type items and tape them to the wall to make a maze</li>
+
+        <li>Improvisation games</li>
+
+        <li>World of Dance (Based on the tv series): Kids choose a song, make up a dance, and rehearse it (costumes encouraged!). After 5-20 minutes of prep, each child performs their piece for the audience/judges. After all performances have ended, judges confer, and “lock in their scores. All contestants receive feedback on performance aspects, such as facial expressions, choreography, musicality, and technical skills. Each contestant is given a score, and the one with the highest total wins the round.</li>
+    </ul>
 
     <h4>Movement Breaks</h4>
-    <li>
-      <a
-        target='_blank'
-        rel='noopener noreferrer'
-        className='resource-link large'
-        href='https://www.cosmickids.com/'
-        >Cosmic Kids Yoga
-      </a>
-    </li>
-    <li>
-      <a
-        target='_blank'
-        rel='noopener noreferrer'
-        className='resource-link large'
-        href='https://www.gonoodle.com/'
-        >Go Noodle
-      </a>
-    </li>
-    <li>
-      <a
-        target='_blank'
-        rel='noopener noreferrer'
-        className='resource-link large'
-        href='https://app.sworkit.com/collections/kids-workouts?fbclid=IwAR3Suipp6twIbPV9HhyRm7P_NzndX6iFTIewvW1cSial0bcC4HZ2Gh2qrPc'
-        >Sworkit Kid Workouts
-      </a>
-    </li>
+    <ul>
+      <li>
+        <a
+          target='_blank'
+          rel='noopener noreferrer'
+          className='resource-link large'
+          href='https://www.cosmickids.com/'
+          >Cosmic Kids Yoga
+        </a>
+      </li>
+      <li>
+        <a
+          target='_blank'
+          rel='noopener noreferrer'
+          className='resource-link large'
+          href='https://www.gonoodle.com/'
+          >Go Noodle
+        </a>
+      </li>
+      <li>
+        <a
+          target='_blank'
+          rel='noopener noreferrer'
+          className='resource-link large'
+          href='https://app.sworkit.com/collections/kids-workouts?fbclid=IwAR3Suipp6twIbPV9HhyRm7P_NzndX6iFTIewvW1cSial0bcC4HZ2Gh2qrPc'
+          >Sworkit Kid Workouts
+        </a>
+      </li>
+    </ul>
 
     <h4>Additional Resources For Parents</h4>
     <ul>
@@ -324,8 +377,6 @@ export const ParentSection = (
         </a>
       </li>
     </ul>
-
-
   </div>
 )
 
@@ -410,10 +461,10 @@ export const MentalHealthProviderSection = (
     <li>
       <a
         download
-        className='resource-link large'
+        className='resource-link large download'
         src='/resources/telehealth-tips-with-suicidal-clients.pdf'
         href='/resources/telehealth-tips-with-suicidal-clients.pdf'
-        >Telehealth tips for suicidal patients
+        ><img src='/images/icons/download.svg' alt='download' />Telehealth tips for suicidal patients
       </a>
     </li>
     <li>

@@ -15,14 +15,15 @@
   align-items: left
   background: $tertiary-pop
   color: $white
-  padding: ms(1)
+  padding: ms(0)
   font-weight: 600
   img
-    display: inline-block
-    margin-bottom: ms(1)
+    margin: 0 auto 1rem auto
+    +target(md)
+      margin-bottom: 0
   &.active-banner
     display: none
-  > div, b
+  *
     color: $white
   +target(md)
     flex-direction: row

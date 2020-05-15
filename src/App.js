@@ -63,7 +63,7 @@ class App extends Component {
                       to='/covid-19'
                       activeClassName='active'>COVID-19
                     </NavLink>
-                    <NavLink
+                    <NavLink                      
                       to='/contact'
                       activeClassName='active'>Contact
                     </NavLink>
