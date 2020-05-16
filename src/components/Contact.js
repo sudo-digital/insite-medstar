@@ -37,33 +37,50 @@ class Contact extends React.Component {
     }
   }
 
-  renderContactInput = () => {
+  renderFormInputs = () => {
     if (this.state.covid) {
       return (
-        <div className='form-item'>
-          <label>Phone Number</label>
-          <input type='tel' placeholder='Phone number...' name='phone' />
+        <div className='row'>
+          <div className='col-md-4 col-xs-12'>
+            <div className='form-item'>
+              <label>Name</label>
+              <input type='text' placeholder='John Smith' name='name' />
+            </div>
+          </div>
+          <div className='col-md-4 col-xs-12'>
+            <div className='form-item'>
+              <label>Phone Number</label>
+              <input type='tel' placeholder='Phone number...' name='phone' />
+            </div>
+          </div>
+          <div className='col-md-4 col-xs-12'>
+            <div className='form-item'>
+              <label>Email</label>
+              <input type='text' placeholder='john@email.com' name='email' />
+            </div>
+          </div>
         </div>
       )
     } else {
       return (
-        <div className='form-item'>
-          <label>Email</label>
-          <input type='text' placeholder='john@email.com' name='email' />
-        </div>
-      )
-    }
-  }
-
-  renderMessage = () => {
-    if (this.state.covid) {
-      return null
-    } else {
-      return (
-        <div className='col-xs-12'>
-          <div className='form-item'>
-            <label>Message</label>
-            <textarea placeholder='Message...' name='message' rows='5' />
+        <div className='row'>
+          <div className='col-md-4 col-xs-12'>
+            <div className='form-item'>
+              <label>Name</label>
+              <input type='text' placeholder='John Smith' name='name' />
+            </div>
+          </div>
+          <div className='col-md-4 col-xs-12'>
+            <div className='form-item'>
+              <label>Email</label>
+              <input type='text' placeholder='john@email.com' name='email' />
+            </div>
+          </div>
+          <div className='col-xs-12'>
+            <div className='form-item'>
+              <label>Message</label>
+              <textarea placeholder='Message...' name='message' rows='5' />
+            </div>
           </div>
         </div>
       )
@@ -96,18 +113,10 @@ class Contact extends React.Component {
           <div className='space-2' />
           <div className='row'>
             <div className='col-md-10 col-md-offset-1 col-xs-12'>
+
               <form action="https://formspree.io/megan@medstarwise.org" method='POST'>
+                { this.renderFormInputs() }
                 <div className='row'>
-                  <div className='col-md-6 col-xs-12'>
-                    <div className='form-item'>
-                      <label>Name</label>
-                      <input type='text' placeholder='John Smith' name='name' />
-                    </div>
-                  </div>
-                  <div className='col-md-6 col-xs-12'>
-                    { this.renderContactInput() }
-                  </div>
-                  { this.renderMessage() }
                   <div className='col-xs-12 end-xs'>
                     <div className='form-item'>
                       <input
@@ -119,6 +128,7 @@ class Contact extends React.Component {
                   </div>
                 </div>
               </form>
+
             </div>
           </div>
         </div>
