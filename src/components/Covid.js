@@ -52,6 +52,39 @@ class Covid extends React.Component {
           copyOne="Click here for WISE's weekly Wellbeing Text Program."
           copyTwo='This free service provides you with a weekly text that includes brief, supportive tips and resources to help support you and those you care for.'/>
 
+        <div className='container'>
+          <div className='pad-container-xs'>
+            <div className='row'>
+              <div className='col-xs-12'>
+                <h3>COVID-19 Resources</h3>
+                <p>In response to the onset of COVID-19 in the United States, the WISE Center has developed a multipronged approach to address the central needs:</p>
+                <ol>
+                  <li>Via this webpage, the creation of a feedback platform from which families and schools can reach out to the WISE Center for support.</li>
+                  <li>Adult Wellbeing Video Series Coming Soon...</li>
+                  <li>The creation of a clearinghouse of carefully screened resources outlining the most effective mental health responses related to COVID-19.</li>
+                </ol>
+              </div>
+            </div>
+
+            <div className='row'>
+              <div className='col-xs-12'>
+                <p>
+                  <b>Keeping You Informed</b>
+                  <br/>
+                    The WISE Center recognizes that the amount of information pertaining to mental health resources related to COVID-19 can be overwhelming to process. Therefore, our team has identified some of the most helpful resources pertaining to the mental health impact of COVID-19. Resources are divided into four content areas:
+                </p>
+              </div>
+              <div className='col-md-4 col-xs-12'>
+                <Link
+                  to='/contact'
+                  className='btn-default btn-tertiary'>
+                  CONNECT WITH US
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div className='container full sticky'>
           <div className='covid-sticky-section'>
             <div className='row center-xs middle-xs'>
@@ -105,39 +138,6 @@ class Covid extends React.Component {
 
         <div className='container'>
           <div className='pad-container-xs'>
-            <div className='row'>
-              <div className='col-xs-12'>
-                <h3>COVID-19 Resources</h3>
-                <p><b>In response to the onset of COVID-19 in the United States, the WISE Center has developed a multipronged approach to address the central needs:</b></p>
-                <ol>
-                  <li>Via this webpage, the creation of a feedback platform from which families and schools can reach out to the WISE Center for support.</li>
-                  <li>Adult Wellbeing Video Series Coming Soon...</li>
-                  <li>The creation of a clearinghouse of carefully screened resources outlining the most effective mental health responses related to COVID-19.</li>
-                </ol>
-              </div>
-            </div>
-
-            <div className='row'>
-              <div className='col-xs-12'>
-                <p>
-                  <b>Keeping You Informed</b>
-                  <br/>
-                    The WISE Center recognizes that the amount of information pertaining to mental health resources related to COVID-19 can be overwhelming to process. Therefore, our team has identified some of the most helpful resources pertaining to the mental health impact of COVID-19. Resources are divided into four content areas:
-                </p>
-              </div>
-              <div className='col-md-4 col-xs-12'>
-                <Link
-                  to='/contact'
-                  className='btn-default btn-tertiary'>
-                  CONNECT WITH US
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className='container'>
-          <div className='pad-container-xs'>
             <div className='row middle-xs m-b-2'>
               <div className='col-md-2 col-xs-12'>
                 <img
@@ -157,7 +157,7 @@ class Covid extends React.Component {
             </div>
           </div>
         </div>
-        
+
       </div>
     )
   }

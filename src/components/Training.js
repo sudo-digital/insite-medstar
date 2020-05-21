@@ -10,8 +10,8 @@ class Training extends React.Component {
           <div className='pad-container-sm'>
             <div className='row'>
               <div className='col-xs-12'>
-                <h2>Training</h2>
-                <h4>Externship Training in School-Based Mental Health</h4>
+                <h3>Training</h3>
+                <p>Externship Training in School-Based Mental Health</p>
               </div>
             </div>
           </div>

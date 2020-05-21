@@ -40,7 +40,7 @@ class CallToAction extends React.Component {
 
   render() {
     return (
-      <div className='container cta'>
+      <div className='container tabs'>
         <div className='pad-container-sm'>
           <div className='row'>
             <div className='col-xs-12'>

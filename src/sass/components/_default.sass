@@ -15,6 +15,13 @@ a.link
   border-bottom: 2px solid transparent
   transition: 300ms
   color: $primary-pop
+  &.icon
+    display: inline-block
+    img
+      display: inline-block
+      vertical-align: inherit
+      &.icon-right
+        margin-left: ms(-2)
   &.download
     display: inline-block
     img
@@ -131,3 +138,35 @@ img
   position: sticky
   top: 0
   background: $gray-bg
+
+a.section-link
+  display: block
+  font-weight: 700
+  padding: ms(-2)
+  background: rgba($secondary, 0.3)
+  text-align: center
+  border-radius: $border-radius
+  transition: all 300ms
+  color: $secondary-pop
+  &.icon
+    display: flex
+    align-items: center
+    justify-content: center
+    img
+      margin-right: ms(-2)
+  &:hover
+    cursor: pointer
+    background: rgba($secondary, 0.6)
+
+iframe.video
+  display: block
+  width: 100%
+  height: auto
+  min-height: ms(12)
+  border: 2px solid $primary-pop  
+  +target(md)
+    min-height: ms(10)
+
+.wrapper
+  background: $gray-bg
+  padding: ms(-2)

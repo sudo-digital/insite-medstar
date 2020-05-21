@@ -65,7 +65,7 @@ class Team extends React.Component {
         <div className='pad-container-sm'>
           <div className='row'>
             <div className='col-xs-12'>
-              <h2>Our Team</h2>
+              <h3>Our Team</h3>
               <p>Our team of highly trained psychiatrists, child psychologists, trainees, and staff are committed to providing culturally appropriate, evidence-based school-based mental health strategies and solutions. Our strength comes from our variety of individual and professional experiences which informed our collective mental health expertise.</p>
             </div>
           </div>
