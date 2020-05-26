@@ -41,13 +41,13 @@ class Resources extends React.Component {
             <div className='row center-xs m-b-2'>
               <div className='col-md-6 col-xs-12'>
                 <a href='#video' className='section-link icon'>
-                  <img src='/images/icons/link.svg' alt='link'/>
+                  <img src='/images/icons/video.svg' alt='video icon'/>
                   Video Resources
                 </a>
               </div>
               <div className='col-md-6 col-xs-12'>
                 <a href='#links' className='section-link icon'>
-                  <img src='/images/icons/video.svg' alt='video'/>
+                  <img src='/images/icons/link.svg' alt='link icon'/>
                   External Resources & Downloads
                 </a>
               </div>
