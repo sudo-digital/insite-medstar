@@ -67,7 +67,7 @@ class Resources extends React.Component {
                         target='_blank'
                         rel='noopener noreferrer'
                         href='https://www.youtube.com/channel/UCrYtnXBupknWn7nYeN6jzeA'>
-                        Visit our YouTube Channel
+                        Visit Our YouTube Channel
                         <img
                           className='icon-right'
                           src="/images/icons/external-link.svg"
