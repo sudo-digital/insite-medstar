@@ -1,5 +1,6 @@
 import React from 'react';
 import resources from '../data/resources.json'
+import Slider from 'react-slick';
 
 class Resources extends React.Component {
 
@@ -22,11 +23,46 @@ class Resources extends React.Component {
   );
 
   render() {
+
+    const settings = {
+      dots: true,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            infinite: true,
+            dots: true
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            initialSlide: 1
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
+    };
+
     return (
       <div className='resources'>
 
         <div className='container'>
-          <div className='pad-container-sm'>
+          <div className='pad-container-sm-top'>
             <div className='row'>
               <div className='col-xs-12'>
                 <h3>Resources</h3>
@@ -58,6 +94,7 @@ class Resources extends React.Component {
         <div className='gray-bg m-b-2' id='video'>
           <div className='container'>
             <div className='pad-container-xs'>
+
               <div className='row'>
                 <div className='col-xs-12'>
                   <h4>Video Resources</h4>
@@ -75,32 +112,100 @@ class Resources extends React.Component {
                       </a>
                     </p>
                 </div>
-                <div className='col-md-4 col-xs-12'>
-                  <iframe
-                    className='video m-b-1'
-                    src="https://www.youtube.com/embed/4uCmHl_mXPo"
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                    />
-                </div>
-                <div className='col-md-4 col-xs-12'>
-                  <iframe
-                    className='video m-b-1'
-                    src="https://www.youtube.com/embed/rw4BfxjDNo4"
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                    />
-                </div>
-                <div className='col-md-4 col-xs-12'>
-                  <iframe
-                    className='video m-b-1'
-                    src="https://www.youtube.com/embed/OM4Gj6AWTW0"
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                    />
+              </div>
+
+              <div className='row middle-xs grab'>
+                <div className='col-xs-12'>
+                  <Slider {...settings}>
+                    <div className='col-xs-12'>
+                      <iframe
+                        id='1'
+                        className='video m-b-1'
+                        src="https://www.youtube.com/embed/4uCmHl_mXPo"
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                        />
+                      <p>Parenting Series: Rewards and Effective Praise</p>
+                    </div>
+                    <div className='col-xs-12'>
+                      <iframe
+                        id='2'
+                        className='video m-b-1'
+                        src="https://www.youtube.com/embed/rw4BfxjDNo4"
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                        />
+                      <p>Parenting Series: Spending Special Time With Your Child</p>
+                    </div>
+                    <div className='col-xs-12'>
+                      <iframe
+                        id='3'
+                        className='video m-b-1'
+                        src="https://www.youtube.com/embed/OM4Gj6AWTW0"
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                        />
+                      <p>Educator Wellness Series: Time Management</p>
+                    </div>
+                    <div className='col-xs-12'>
+                      <iframe
+                        id='4'
+                        className='video m-b-1'
+                        src="https://www.youtube.com/embed/3VSZuNDG5fM"
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                        />
+                      <p>Educator Wellness Series: Savoring the Moment</p>
+                    </div>
+                    <div className='col-xs-12'>
+                      <iframe
+                        id='5'
+                        className='video m-b-1'
+                        src="https://www.youtube.com/embed/EEzx6ad0nm8"
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                        />
+                      <p>Removing Attention to Change Behavior</p>
+                    </div>
+                    <div className='col-xs-12'>
+                      <iframe
+                        id='6'
+                        className='video m-b-1'
+                        src="https://www.youtube.com/embed/5tFPQ99YOvg"
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                        />
+                      <p>Educator Wellness Series: Stress and Breathing</p>
+                    </div>
+                    <div className='col-xs-12'>
+                      <iframe
+                        id='7'
+                        className='video m-b-1'
+                        src="https://www.youtube.com/embed/esXA675C1a0"
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                        />
+                      <p>Educator Wellness Series: Finding Meaning and Purpose</p>
+                    </div>
+                    <div className='col-xs-12'>
+                      <iframe
+                        id='8'
+                        className='video m-b-1'
+                        src="https://www.youtube.com/embed/lVE5BV4hGTw"
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                        />
+                      <p>Educator Wellness Series: Social Wellbeing Guided Strategies</p>
+                    </div>
+                  </Slider>
                 </div>
               </div>
             </div>
