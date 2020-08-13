@@ -40,34 +40,48 @@ class Training extends React.Component {
           <div className='pad-container-sm'>
             <div className='row between-xs center-text-xs bottom-xs'>
               <div className='col-md col-xs-12 m-b-xs-2'>
-                <a href='#program' className='link'><img
-                  src='/images/icons/program.svg'
-                  className='icon-lg m-x-auto m-b-1'
-                  />Program Details</a>
+                <a href='#program' className='link'>
+                  <img
+                    alt='icon'
+                    src='/images/icons/program.svg'
+                    className='icon-lg m-x-auto m-b-1'/>
+                  Program Details
+                </a>
               </div>
               <div className='col-md col-xs-12 m-b-xs-2'>
-                <a href='#qualifications' className='link'><img
-                  src='/images/icons/qualifications.svg'
-                  className='icon-lg m-x-auto m-b-1'
-                  />Qualifications</a>
+                <a href='#qualifications' className='link'>
+                  <img
+                    alt='icon'
+                    src='/images/icons/qualifications.svg'
+                    className='icon-lg m-x-auto m-b-1'/>
+                  Qualifications
+                </a>
               </div>
               <div className='col-md col-xs-12 m-b-xs-2'>
-                <a href='#application' className='link'><img
-                  src='/images/icons/app-deadline.svg'
-                  className='icon-lg m-x-auto m-b-1'
-                  />App Deadline</a>
+                <a href='#application' className='link'>
+                  <img
+                    alt='icon'
+                    src='/images/icons/app-deadline.svg'
+                    className='icon-lg m-x-auto m-b-1'/>
+                  App Deadline
+                </a>
               </div>
               <div className='col-md col-xs-12 m-b-xs-2'>
-                <a href='#location' className='link'><img
-                  src='/images/icons/location.svg'
-                  className='icon-lg m-x-auto m-b-1'
-                  />Location</a>
+                <a href='#location' className='link'>
+                  <img
+                    alt='icon'
+                    src='/images/icons/location.svg'
+                    className='icon-lg m-x-auto m-b-1'/>
+                  Location
+                </a>
               </div>
               <div className='col-md col-xs-12 m-b-xs-2'>
-                <a href='#contact' className='link'><img
-                  src='/images/icons/contact.svg'
-                  className='icon-lg m-x-auto m-b-1'
-                  />Contact</a>
+                <a href='#contact' className='link'>
+                  <img
+                    alt='contact icon'
+                    src='/images/icons/contact.svg'
+                    className='icon-lg m-x-auto m-b-1'/>
+                Contact</a>
               </div>
             </div>
 

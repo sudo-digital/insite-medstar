@@ -386,8 +386,8 @@ export const EducatorSection = (
       <a
         download
         className='resource-link download'
-        src='/resources/teacher-well-being-workbook.docx'
-        href='/resources/teacher-well-being-workbook.docx'><img src='/images/icons/download.svg' alt='download' />Teacher Wellbeing Workbook (download)
+        src='/resources/teacher-well-being-workbook.pdf'
+        href='/resources/teacher-well-being-workbook.pdf'><img src='/images/icons/download.svg' alt='download' />Teacher Wellbeing Workbook (download)
       </a>
     </li>
     <li>

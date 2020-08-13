@@ -106,6 +106,7 @@ class Resources extends React.Component {
                         href='https://www.youtube.com/channel/UCrYtnXBupknWn7nYeN6jzeA'>
                         Visit Our YouTube Channel
                         <img
+                          alt='icon right'
                           className='icon-right'
                           src="/images/icons/external-link.svg"
                           />
@@ -119,6 +120,7 @@ class Resources extends React.Component {
                   <Slider {...settings}>
                     <div className='col-xs-12'>
                       <iframe
+                        title='video-1'
                         id='1'
                         className='video m-b-1'
                         src="https://www.youtube.com/embed/4uCmHl_mXPo"
@@ -130,6 +132,7 @@ class Resources extends React.Component {
                     </div>
                     <div className='col-xs-12'>
                       <iframe
+                        title='video-2'
                         id='2'
                         className='video m-b-1'
                         src="https://www.youtube.com/embed/rw4BfxjDNo4"
@@ -141,6 +144,7 @@ class Resources extends React.Component {
                     </div>
                     <div className='col-xs-12'>
                       <iframe
+                        title='video-3'
                         id='3'
                         className='video m-b-1'
                         src="https://www.youtube.com/embed/OM4Gj6AWTW0"
@@ -152,6 +156,7 @@ class Resources extends React.Component {
                     </div>
                     <div className='col-xs-12'>
                       <iframe
+                        title='video-4'
                         id='4'
                         className='video m-b-1'
                         src="https://www.youtube.com/embed/3VSZuNDG5fM"
@@ -163,6 +168,7 @@ class Resources extends React.Component {
                     </div>
                     <div className='col-xs-12'>
                       <iframe
+                        title='video-5'
                         id='5'
                         className='video m-b-1'
                         src="https://www.youtube.com/embed/EEzx6ad0nm8"
@@ -174,6 +180,7 @@ class Resources extends React.Component {
                     </div>
                     <div className='col-xs-12'>
                       <iframe
+                        title='video-6'
                         id='6'
                         className='video m-b-1'
                         src="https://www.youtube.com/embed/5tFPQ99YOvg"
@@ -185,6 +192,7 @@ class Resources extends React.Component {
                     </div>
                     <div className='col-xs-12'>
                       <iframe
+                        title='video-7'
                         id='7'
                         className='video m-b-1'
                         src="https://www.youtube.com/embed/esXA675C1a0"
@@ -196,6 +204,7 @@ class Resources extends React.Component {
                     </div>
                     <div className='col-xs-12'>
                       <iframe
+                        title='video-8'
                         id='8'
                         className='video m-b-1'
                         src="https://www.youtube.com/embed/lVE5BV4hGTw"
@@ -259,8 +268,8 @@ class Resources extends React.Component {
                       <a
                         download
                         className='resource-link download'
-                        src='/resources/teacher-well-being-workbook.docx'
-                        href='/resources/teacher-well-being-workbook.docx'><img src='/images/icons/download.svg' alt='download' />Teacher Well-Being Workbook
+                        src='/resources/teacher-well-being-workbook.pdf'
+                        href='/resources/teacher-well-being-workbook.pdf'><img src='/images/icons/download.svg' alt='download' />Teacher Well-Being Workbook
                       </a>
                     </div>
                 </div>
