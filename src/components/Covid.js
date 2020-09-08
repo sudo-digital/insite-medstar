@@ -60,6 +60,7 @@ class Covid extends React.Component {
                 <p>In response to the onset of COVID-19 in the United States, the WISE Center has developed a multipronged approach to address the central needs:</p>
                 <ol>
                   <li>Via this webpage, the creation of a feedback platform from which families and schools can reach out to the WISE Center for support.</li>
+                  <li>The <a className='link' target='_blank' rel='noopener noreferrer' href='https://osse.dc.gov/page/special-education-resource-hub-what-families-students-need-know-year'>Special Education Resource Hub: What Families and Students Need to Know this Year.</a> Is an OSSE sponsored service designed to ensure families of students with disabilities feel equipped and empowered to support their child, in partnership with their child’s school.</li>
                   <li>
                     <Link className='link' to='/resources'>Adult wellbeing video series</Link>
                   </li>
