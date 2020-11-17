@@ -93,7 +93,7 @@
     "id": 16,
     "name": "Megan Polanin, PhD",
     "img": "megan-polanin.png",
-    "bio": "Dr. Polanin is a Licensed Clinical Psychologist at the WISE Center at MedStar Georgetown University Hospital. She has extensive experience working with urban youth in school and community mental health settings. Dr. Polanin is particularly interested in systems-level and preventative approaches to care, promoting cultural acceptance in children, and integrating mindfulness practices in the classroom. She has a strong interest in advocacy work focused on the mental health and well-being of underserved children and families as well as utilizing psychological science to address social justice issues. Dr. Polanin received her doctoral degree in Counseling Psychology at Loyola University Chicago and completed postdoctoral training at the Kennedy Krieger Institute at Johns Hopkins University School of Medicine."
+    "bio": "Megan Polanin, PhD, is a Licensed Clinical Psychologist at the WISE Center at MedStar Georgetown University Hospital. She earned her doctoral degree in Counseling Psychology at Loyola University Chicago and completed postdoctoral training at the Kennedy Krieger Institute at Johns Hopkins University School of Medicine. Dr. Polanin has extensive experience working with children and families within schools, medical clinics, and community mental health centers. Her clinical interests focus on preventative and strengths-based approaches to mental health care and partnering with teachers to integrate trauma-informed and mindfulness practices in the classroom."
   },
   {
     "id": 17,
@@ -112,5 +112,29 @@
     "name": "J. Corey Williams, MA, MD",
     "img": "jcorey-williams.png",
     "bio": "J. Corey Williams, MA, MD is a recent graduate of the Child & Adolescent Psychiatry Fellowship Program at U. Penn-Children's Hospital of Philadelphia. He is a former Washington, DC public school teacher and received a Masters in Teaching from American University. He received an MD from Johns Hopkins School of Medicine. He completed adult psychiatric residency training at the Yale University Psychiatry Residency Program where he served on the Departmental Diversity & Inclusion Committee and received recognition for patient advocacy. He is a former APA/SAMHSA Minority Fellow where he conducted research on racial bias in physician recruitment. He is currently an attending psychiatrist in the Division of Child & Adolescent Psychiatry at Georgetown Medstar University Hospital. His research interests are focused on examining the ways in which racism shapes medical practice and developing antiracism curriculum for medical trainees."
+  },
+  {
+    "id": 20,
+    "name": "Amory Tetteh",
+    "img": "amory-tetteh.png",
+    "bio": "Amory Tetteh is the Clinical Coordinator for the WISE Center and the Family Wellbeing Program at MedStar Georgetown University Hospital. Her responsibilities include coordinating all administrative tasks across the two programs, managing program-related internal and external communications, as well as, maintaining the WISE Center’s overall mission within DC schools. She graduated from the University of Maryland, College Park with a Bachelor’s in Public Health and has 3 years of Public Health research experience specifically in Environmental Injustice & Minority Health."
+  },
+  {
+    "id": 21,
+    "name": "Jacob Swartz, MD",
+    "img": "jacob-swartz.png",
+    "bio": "Jacob Swartz, MD is a child/adolescent psychiatrist who primarily focuses on improving mental health within schools through the Wellbeing in School Environments (WISE) program and stabilizing adolescents in crisis through the adolescent inpatient program at Medstar Montgomery Medical Center. Dr. Swartz has clinical interests in mood and anxiety disorders, developmental disorders, autism spectrum disorders, trauma, substance use disorders, and global mental health. Dr. Swartz studied psychology and philosophy as an undergraduate at Georgetown University before obtaining his medical degree from Medical College of Georgia. He completed his residency and then Child Psychiatry Fellowship at Medstar Georgetown University Hospital."
+  },
+  {
+    "id": 22,
+    "name": "Elizabeth Demeusy, PhD",
+    "img": "elizabeth-demeusy.png",
+    "bio": "Elizabeth Demeusy, PhD is a Postdoctoral Fellow at the WISE Center at MedStar Georgetown University Hospital where she is actively involved in both research and clinical activities. Broadly, her research focuses on the impact of trauma and adversity on the developmental trajectory, as well as, the design, evaluation and dissemination of interventions to prevent long-term psychological maladjustment. Dr. Demeusy also has extensive experience providing evidence-based assessment and intervention to high-risk, multi-problem youth and families. Overall, she is passionate about increasing accessibility to evidence-based mental health services for vulnerable children and families. Dr. Demeusy earned her PhD in Clinical Psychology from the University of Rochester. She completed her doctoral internship training through the Child and Family Track at Denver Health Medical Center."
+  },
+  {
+    "id": 23,
+    "name": "Aronica Cotton, MD",
+    "img": "wise-placeholder.png",
+    "bio": "Aronica Cotton, MD is a double Board-Certified Adult, Child, and Adolescent Psychiatrist. She completed her adult training in the combined Massachusetts General Hospital (MGH)/McLean Hospital Adult Psychiatry Program, where she served as a chief resident. She completed her Child and Adolescent Psychiatry training in the combined University of Maryland/Sheppard Pratt Child Psychiatry Fellowship Program. Dr. Cotton is interested in integrated care between behavioral and medical services, with a special focus in rendering psychiatric care to underserved and minority populations. "
   }
 ]

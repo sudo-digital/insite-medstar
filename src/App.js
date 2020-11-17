@@ -63,7 +63,7 @@ class App extends Component {
                       to='/covid-19'
                       activeClassName='active'>COVID-19
                     </NavLink>
-                    <NavLink                      
+                    <NavLink
                       to='/contact'
                       activeClassName='active'>Contact
                     </NavLink>
@@ -95,7 +95,7 @@ class App extends Component {
                         />
                     </NavLink>
                   </div>
-                  <div className='col-md-2 col-xs-12'>
+                  <div className='col-md-2 col-xs-12 center-xs'>
                     <img
                       src='/images/medstar-logo.png'
                       className='medstar'
@@ -119,6 +119,10 @@ class App extends Component {
                         to='/training'
                         activeClassName='active'>Training
                       </NavLink>
+                      <div className='hide-mobile'>
+                        <br/>
+                        <br/>
+                      </div>
                       <NavLink
                         to='/resources'
                         activeClassName='active'>Resources
@@ -127,6 +131,12 @@ class App extends Component {
                         to='/covid-19'
                         activeClassName='active'>COVID-19
                       </NavLink>
+                      <a
+                        download
+                        src='/MedStar-Notice-of-Privacy-Practices.pdf'
+                        href='/MedStar-Notice-of-Privacy-Practices.pdf'>
+                        Privacy Policy (Download)
+                      </a>
                       <NavLink
                         to='/contact'
                         activeClassName='active'>Contact
