@@ -6,7 +6,7 @@
     "animate.css": "^3.6.1",
     "aos": "^2.3.0",
     "mapbox-gl": "^0.44.2",
-    "node-sass": "^4.11.0",
+    "node-sass": "^7.0.0",
     "react": "^16.3.2",
     "react-animate-on-scroll": "^2.1.5",
     "react-dom": "^16.3.2",
