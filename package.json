@@ -29,7 +29,7 @@
     "extends": "react-app"
   },
   "devDependencies": {
-    "browser-sync": "^2.23.6",
+    "browser-sync": "^2.29.1",
     "modularscale-sass": "^3.0.5"
   },
   "browserslist": [
